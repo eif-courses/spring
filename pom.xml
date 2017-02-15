@@ -3,12 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.wildfly.swarm.examples</groupId>
-    <artifactId>examples-spring</artifactId>
-    <version>2017.3.0-SNAPSHOT</version>
-    <relativePath>../</relativePath>
-  </parent>
+ <properties>
+    <version.wildfly.swarm>2017.2.0</version.wildfly.swarm>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
   <artifactId>example-spring-data</artifactId>
 
@@ -17,25 +18,7 @@
 
   <packaging>war</packaging>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.wildfly.swarm</groupId>
-        <artifactId>wildfly-swarm-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>package</id>
-          </execution>
-          <execution>
-            <id>start</id>
-          </execution>
-          <execution>
-            <id>stop</id>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+
 
   <dependencies>
     <dependency>
