@@ -1,6 +1,4 @@
-package com.example.service;
-
-import com.example.entity.Course;
+package com.example.realizacija;
 
 /**
  * Created by Marius on 2/15/2017.

@@ -14,9 +14,9 @@
 </head>
 <body>
 <div class="card-panel">
-    <span class="blue-text text-darken-2"><h3>Hello, ${account.fullName}!</h3><form><button class="btn waves-effect waves-light amber darken-3" type="submit" formmethod="post" formaction="/logout">Logout</button></form>
+    <span class="blue-text text-darken-2"><h3>Hello</h3><form><button class="btn waves-effect waves-light amber darken-3" type="submit" formmethod="post" formaction="/logout">Logout</button></form>
 
-    ${account.email}
+
 
 
     </span>

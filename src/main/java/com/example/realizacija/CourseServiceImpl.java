@@ -1,10 +1,5 @@
-package com.example.service;
+package com.example.realizacija;
 
-import com.example.entity.Course;
-
-import com.example.repository.CourseRepository;
-import com.example.service.CourseService;
-import com.sun.org.apache.bcel.internal.generic.LNEG;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

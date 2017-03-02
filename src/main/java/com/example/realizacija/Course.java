@@ -1,4 +1,4 @@
-package com.example.entity;
+package com.example.realizacija;
 
 import lombok.Data;
 
