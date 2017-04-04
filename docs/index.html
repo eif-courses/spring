@@ -182,7 +182,12 @@ background-color: #eceff1;
 
 
 
-      <script> $.getJSON( "tasks.json", function( data ) {
+      <script>
+
+
+
+
+          $.getJSON( "tasks.json", function( data ) {
 
           var i=0;
           $.each( data, function( key, val ) {
@@ -196,7 +201,16 @@ background-color: #eceff1;
               i++;
           });
 
-      });</script>
+      });
+
+          document.getElementById("anketaMain").onclick = function() {
+
+              document.getElementById("anketa").innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIAKaJzeI6mclsqGz24WL_NW9XCky86m6WNMrr0P6ca8oMAw/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
+
+          };
+
+
+      </script>
 
 
 
@@ -314,11 +328,7 @@ $(document).ready(function(){
 	  };
 	  
 	  
-	  document.getElementById("anketaMain").onclick = function() {
-	
-	document.getElementById("anketa").innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIAKaJzeI6mclsqGz24WL_NW9XCky86m6WNMrr0P6ca8oMAw/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
 
-	  };
 	 
  	});
 	 
