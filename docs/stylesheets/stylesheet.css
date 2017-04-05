@@ -556,6 +556,18 @@ aside a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
+aside a.button:hover {
+  display: block;
+  width: 280px;
+  height: 4em;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: grey;
+  background: transparent url(../images/github-button_hover.png) 0 0 no-repeat;
+}
+
+
 
 aside a.button2 {
   display: block;

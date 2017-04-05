@@ -169,7 +169,7 @@ background-color: #eceff1;
  border: 1px solid black;
 }
 
-#basic_h2_li{
+.basic_h2_li{
  border-bottom: 1px solid black;
  background-color: #00e676  ;
 }
@@ -182,38 +182,32 @@ background-color: #eceff1;
 
 
 
+
+
+
       <script>
+          $.getJSON( "tasks/java/tasks.json", function( data ) {
 
+              var i=0;
+              $.each( data, function( key, val ) {
 
+                  $("#Pratybos").append("<hr><button class='accordion'>" + val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id"+"=uzd"+ i+ "></ol></div>");
 
+                  $.each(val.tasks , function(k , v ) {
 
-          $.getJSON( "tasks.json", function( data ) {
-
-          var i=0;
-          $.each( data, function( key, val ) {
-
-              $("#Pratybos").append("<hr><button class='accordion'>" + val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id"+"=uzd"+ i+ "></ol></div>");
-
-              $.each(val.tasks , function(k , v ) {
-
-                  $("#uzd"+i).append("<li><a>" + v + "</a></li>");
+                      $("#uzd"+i).append("<li><a>" + v + "</a></li>");
+                  });
+                  i++;
               });
-              i++;
+
+              document.getElementById("anketaMain").onclick = function() {
+
+                  document.getElementById("anketa").innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIAKaJzeI6mclsqGz24WL_NW9XCky86m6WNMrr0P6ca8oMAw/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
+
+              };
           });
 
-      });
-
-          document.getElementById("anketaMain").onclick = function() {
-
-              document.getElementById("anketa").innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIAKaJzeI6mclsqGz24WL_NW9XCky86m6WNMrr0P6ca8oMAw/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
-
-          };
-
-
       </script>
-
-
-
 
 
 
@@ -224,41 +218,53 @@ background-color: #eceff1;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<div id="duom"></div>
+
+
+
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-
-
-
-
 
 
   <script>
 
 
 
-  
-  
-  
+
+
+
 
 $(document).ready(function(){
 
+
+
+
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
     $('ul.tabs').tabs();
 	   randomLinks();
 	    $("#examples").hide();
 	 
-	   
+
+
+	  /*
+
 	   document.getElementById("antra").onclick = function() {
 	   document.getElementById("test2").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/15pXaVdP_ACCeNYe5Sn-Jq-MnKBZmn2b_VbaMw9UmQIY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
 	     $("#examples").hide();
@@ -315,7 +321,7 @@ $(document).ready(function(){
 		 $("#examples").show();
 		
 	};
-	
+	*/
 	
 	document.getElementById("index").onclick = function() {
 	window.location.href = "index.html";
@@ -331,15 +337,15 @@ $(document).ready(function(){
 
 	 
  	});
-	 
-	
-	 
-	 
+
+
+
+
 
   </script>
 
   
-    
+
 
   
   
@@ -352,51 +358,55 @@ $(document).ready(function(){
 	
 
 <script>
-/*
-var words = ["<b>Yoda Conditions:</b> When a programmer writes the conditions for a piece of code in the opposite order for which you would expect to normally read them. (Instead of saying if(variable == constant), the code says if(constant == variable).)", 
-		"<b>Smug Report:</b> A bug report submitted by a user who thinks he or she knows everything about a system, when he or she does not.",
-		"<b>A duck:</b> A feature added for the sole purpose of drawing attention to itself from management to be removed, avoiding unnecessary other changes in a product.",
-		"<b>Refuctoring:</b> Taking a well-designed piece of code and, through a small series of changes, making it completely unmaintainable for anyone other than yourself.",
-		"<b>Heisenbug:</b> A play on \"Heisenberg,\" a principle in quantum mechanics, a Heisenbug is a bug that disappears or alters its characteristics when an attempt is made to study it.",
-		"<b>Jimmy:</b> A generalized name for a clueless or new developer.",
-		"<b> Higgs Bugson:</b> Another bug based on a physics phenomenon, a Higgs Bugson is a bug that's hypothetically predicted to exist based on other conditions, but is difficult to produce.",
-		"<b>Unicorny:</b> A feature so early in its planning stages that it might as well be imaginary.",
-		"<b>Hindenbug:</b> A catastrophic, data-destroying bug.",
-		"<b>Fear-driven development:</b> When project management adds more pressure, such as by firing engineers.",
-		"<b>Hydra:</b> A bug that, when an attempt to fix is made, introduces two new bugs. It's a bug that cannot be fixed.",
-		"<b>Common Law Feature:</b> A bug that has existed for so long that it is considered a feature.",
-		"<b>Loch Ness Monster bug:</b> A bug that has only been spotted by one person.",
-		"<b>Rubberducking:</b> Talking with other engineers to solve a problem. ",
-		"<b>Banana banana banana:</b> Placeholder text in code that hasn't been implemented yet.",
-		"<b>Reality 101 failure:</b> Creating a program that does exactly what was asked, but the problem it's trying to solve was misunderstood and the program is basically useless.",
-		"<b>Mad girlfriend bug:</b> When you see something strange is happening, but the software is telling you everything is fine.",
-		"<b>Hooker code:</b> Code that is problematic and causes application instability.",
-		"<b>Jenga code:</b> The whole program collapses once you alter a block of code."];
-
-
-function myPlayFunction() {
-    document.getElementById("game").style.WebkitAnimationPlayState = "running"; // Code for Chrome, Safari, and Opera
-    document.getElementById("game").style.animationPlayState = "running";
-}
-
-
-	function rand(items){
-    return items[~~(Math.random() * items.length)];
-}
 
 
 
-function myPauseFunction() {
-    document.getElementById("game").style.WebkitAnimationPlayState = "paused"; // Code for Chrome, Safari, and Opera
-    document.getElementById("game").style.animationPlayState = "paused";
 
-	document.getElementById("words").innerHTML =''+rand(words);
-	
+    /*
+    var words = ["<b>Yoda Conditions:</b> When a programmer writes the conditions for a piece of code in the opposite order for which you would expect to normally read them. (Instead of saying if(variable == constant), the code says if(constant == variable).)",
+            "<b>Smug Report:</b> A bug report submitted by a user who thinks he or she knows everything about a system, when he or she does not.",
+            "<b>A duck:</b> A feature added for the sole purpose of drawing attention to itself from management to be removed, avoiding unnecessary other changes in a product.",
+            "<b>Refuctoring:</b> Taking a well-designed piece of code and, through a small series of changes, making it completely unmaintainable for anyone other than yourself.",
+            "<b>Heisenbug:</b> A play on \"Heisenberg,\" a principle in quantum mechanics, a Heisenbug is a bug that disappears or alters its characteristics when an attempt is made to study it.",
+            "<b>Jimmy:</b> A generalized name for a clueless or new developer.",
+            "<b> Higgs Bugson:</b> Another bug based on a physics phenomenon, a Higgs Bugson is a bug that's hypothetically predicted to exist based on other conditions, but is difficult to produce.",
+            "<b>Unicorny:</b> A feature so early in its planning stages that it might as well be imaginary.",
+            "<b>Hindenbug:</b> A catastrophic, data-destroying bug.",
+            "<b>Fear-driven development:</b> When project management adds more pressure, such as by firing engineers.",
+            "<b>Hydra:</b> A bug that, when an attempt to fix is made, introduces two new bugs. It's a bug that cannot be fixed.",
+            "<b>Common Law Feature:</b> A bug that has existed for so long that it is considered a feature.",
+            "<b>Loch Ness Monster bug:</b> A bug that has only been spotted by one person.",
+            "<b>Rubberducking:</b> Talking with other engineers to solve a problem. ",
+            "<b>Banana banana banana:</b> Placeholder text in code that hasn't been implemented yet.",
+            "<b>Reality 101 failure:</b> Creating a program that does exactly what was asked, but the problem it's trying to solve was misunderstood and the program is basically useless.",
+            "<b>Mad girlfriend bug:</b> When you see something strange is happening, but the software is telling you everything is fine.",
+            "<b>Hooker code:</b> Code that is problematic and causes application instability.",
+            "<b>Jenga code:</b> The whole program collapses once you alter a block of code."];
 
-	
-}
 
-*/	
+    function myPlayFunction() {
+        document.getElementById("game").style.WebkitAnimationPlayState = "running"; // Code for Chrome, Safari, and Opera
+        document.getElementById("game").style.animationPlayState = "running";
+    }
+
+
+        function rand(items){
+        return items[~~(Math.random() * items.length)];
+    }
+
+
+
+    function myPauseFunction() {
+        document.getElementById("game").style.WebkitAnimationPlayState = "paused"; // Code for Chrome, Safari, and Opera
+        document.getElementById("game").style.animationPlayState = "paused";
+
+        document.getElementById("words").innerHTML =''+rand(words);
+
+
+
+    }
+
+    */
 </script>
 
 
@@ -447,51 +457,55 @@ function myPauseFunction() {
 
 
 
-<div class="row">
+<div class="row" id="slideContent">
     <div class="col s12">
 	<hr>
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab col s3 "><a id="pirma" href="#test1">1</a></li>
-        <li class="tab col s3 "><a id="antra" href="#test2"> 2</a></li>
-        <li class="tab col s3 "><a id="trecia" href="#test3">3</a></li>
-        <li class="tab col s3 "><a id="ketv" href="#test4">4</a></li>
-		
-		 <li class="tab col s3"><a id="penkt" href="#test5">5</a></li>
-        <li class="tab col s3"><a id="sest" href="#test6">6</a></li>
-        <li class="tab col s3"><a id="sept" href="#test7">7</a></li>
-        <li class="tab col s3 "><a id="astuon" href="#test8">8</a></li>
+      <ul class="tabs tabs-fixed-width" id="slideLinks">
+          <script>
 
-		 <li class="tab col s3 "><a id="devyni" href="#test9">9</a></li>
-		 <li class="tab col s3 "><a id="desimt" href="#test10">10</a></li>
-		 <li class="tab col s3 "><a id="vienuolika" href="#test11">11</a></li>
+
+
+              $.getJSON( "slides/java/slides.json", function( data ) {
+
+                  var i=1;
+                  $.each( data, function( key, val ) {
+
+                      $("#slideLinks").append('<li class="tab col s3">'+
+                          '<a id="'+val.name+'" '+ ' href="'+val.click+'">'+i+"</a></li>");
+                      $("#slideContent").append('<div id="'+val.click +'" class="col s12"></div>');
+
+
+                      $("#"+val.name).click(function() {
+                         // document.getElementById(""+val.click).innerHTML = "ddd";
+                          document.getElementById(""+val.click).innerHTML = val.href;
+                      });
+                      i++;
+                  });
+
+              });
+
+          </script>
+
 		
       </ul>
     </div>
-    <div id="test1" class="col s12">
 
-	  </div>
-    <div id="test2" class="col s12"></div>
-    <div id="test3" class="col s12"></div>
-    <div id="test4" class="col s12"></div>
-	
-	 <div id="test5" class="col s12"></div>
-    <div id="test6" class="col s12"></div>
-	 <div id="test7" class="col s12"></div>
-    <div id="test8" class="col s12"></div>
-	<div id="test9" class="col s12"></div>
-	<div id="test10" class="col s12"></div>
-		<div id="test11" class="col s12"></div>
   </div>
 
  <script>
- document.getElementById("trecia").onclick = function() {
-	   document.getElementById("test3").innerHTML ='  <hr><iframe src="https://docs.google.com/presentation/d/1Z9t3Eo74Zv1RuvcL6nk3kde8nZ0nl6dbbSl-zA3sim4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
- 
- 
+ //document.getElementById("trecia").onclick = function() {
+	//   document.getElementById("test3").innerHTML ='  <hr><iframe src="https://docs.google.com/presentation/d/1Z9t3Eo74Zv1RuvcL6nk3kde8nZ0nl6dbbSl-zA3sim4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+	  // };
 
- </script> 
-  
+
+
+
+
+    // $("#examples").load("content.html");
+
+
+
+ </script>
 
 <div class="row" id="examples">
 
@@ -502,13 +516,15 @@ function myPauseFunction() {
       <ul id="design_source_code" class="tabs tabs-fixed-width">
 
         <li class="tab col s3 "><a class="active" id="factory" href="#fact">Factory</a></li>
-		
+
       </ul>
 	  <hr>
     </div>
-    <div id="fact" class="col s12"><code data-gist-id="8731e7411d350a76e7df008fbfe428b8"></code></div> 
+    <div id="fact" class="col s12"><code data-gist-id="8731e7411d350a76e7df008fbfe428b8"></code></div>
 	<script>
-	var designPatterns = [
+
+
+        var designPatterns = [
 	{href: "c8bc153f95a79ce0d2d9ee2b5e14b51b", name: "Abstract_Factory"},
 	{href: "a0c6fdc456c6745e93cdddab5ecd099f", name: "Singleton"},
 	{href: "2c47471d72b645ee76ef7e00a8598e41", name: "Builder"},
@@ -533,16 +549,21 @@ function myPauseFunction() {
 	{href: "ab9408ee5aca76c45bd699014e5c273b", name: "Visitor"},
 	{href: "c873a680ddf2bb3da5610bd7b12dd3c1", name: "MVC"},
 	{href: "bff3c1bdfb95142d3c41c7ef175a48f6", name: "DAO"}
-	
-	];	
+
+	];
+
+
+
 	$.each(designPatterns, function(index) {
 		$("#design_source_code").append($("<li class='tab col s3'>", {}).append($("<a>"+' id='+designPatterns[index].name, { href: '#'+designPatterns[index].name}).text(designPatterns[index].name+'')));
 		var linkas = '<code data-gist-id="'+designPatterns[index].href+'"><\/code>';
 		$("#examples").append($("<div id='"+designPatterns[index].name+"' class='col s12'>", {}).html(linkas));
 	});
-	</script>
-	
-  </div>  
+
+
+    </script>
+
+  </div>
 
 </div>
 
@@ -550,7 +571,7 @@ function myPauseFunction() {
 <div id="Rezultatai" class="tabcontent">
 
 <ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
+	<li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
 
      <li class="collection-item">
 <a class="waves-effect waves-light btn light-blue darken-4" target="_blank" href ="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
@@ -568,7 +589,7 @@ function myPauseFunction() {
 
 
 <ul class="collection basic_collection">
-	<li id="basic_h2_li">
+	<li class="basic_h2_li">
 
 	<h2 class="basic_h2">PROJEKTAS</h2>
   </li>
@@ -601,7 +622,7 @@ Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis. </li>
 
 
 <ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">SVARBIOS DATOS</h2></li>
+	<li class="basic_h2_li"><h2 class="basic_h2">SVARBIOS DATOS</h2></li>
 
      <li class="collection-item">
 		
@@ -615,7 +636,7 @@ Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis. </li>
 
 
 <ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">LITERATŪROS SĄRAŠAS</h2></li>
+	<li class="basic_h2_li"><h2 class="basic_h2">LITERATŪROS SĄRAŠAS</h2></li>
 
      <li class="collection-item">
 		
@@ -660,7 +681,7 @@ Edition, 2014.
 
 
 <ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (JAVA)</h2></li>
+	<li class="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (JAVA)</h2></li>
        
 
 	   <li class="collection-item">
@@ -685,6 +706,12 @@ Atliekamos tik kompiuterinėse klasėse paskaitos metu.
  </li>
 	
 </ul>
+
+
+
+
+
+
 
 
 </div>
@@ -715,7 +742,8 @@ Atliekamos tik kompiuterinėse klasėse paskaitos metu.
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-   document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+    // TODO LIST NEED FIX
+   //document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
 
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
@@ -735,10 +763,8 @@ var acc2 = document.getElementsByClassName("accordion2");
 
 for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
-	
 			this.classList.toggle("active");
 			this.nextElementSibling.classList.toggle("show");
-
   }
 }
 
@@ -875,6 +901,8 @@ document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektroniko
     </div>
 
 	<script>
+
+
 //$( ".collection-item" ).css( "background-color", "#e1f5fe" );
 </script>
 
