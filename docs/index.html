@@ -344,10 +344,10 @@ $(document).ready(function(){
 
   </script>
 
-  
 
 
-  
+
+
   
   
   
@@ -491,6 +491,21 @@ $(document).ready(function(){
     </div>
 
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  <script>
  //document.getElementById("trecia").onclick = function() {
@@ -715,128 +730,128 @@ Atliekamos tik kompiuterinėse klasėse paskaitos metu.
 
 
 </div>
-		
-<script>
-	
-	var main = document.getElementById('main');
-	var pro = document.getElementById('Pratybos');
-	pro.style.display = "block";
-	main.className = "active";	
-	
-	
-	
-	function openCity(evt, cityName) {
-	
-	main.className = main.className.replace("active", "");
-    // Declare all variables
-    var i, tabcontent, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
 
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    // TODO LIST NEED FIX
-   //document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+            <script>
 
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// DATOS SKRIPTAS
-myDate = new Date(2016, 12, 02);
-toDate = new Date(2016, 12, 13);
+                var main = document.getElementById('main');
+                var pro = document.getElementById('Pratybos');
+                pro.style.display = "block";
+                main.className = "active";
 
 
 
-var acc = document.getElementsByClassName("accordion");
-var acc2 = document.getElementsByClassName("accordion2");
+                function openCity(evt, cityName) {
+
+                    main.className = main.className.replace("active", "");
+                    // Declare all variables
+                    var i, tabcontent, tablinks;
+
+                    // Get all elements with class="tabcontent" and hide them
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    // Get all elements with class="tablinks" and remove the class "active"
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    // TODO LIST NEED FIX
+                    //document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+
+                    // Show the current tab, and add an "active" class to the link that opened the tab
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+
+                // DATOS SKRIPTAS
+                myDate = new Date(2016, 12, 02);
+                toDate = new Date(2016, 12, 13);
 
 
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-			this.classList.toggle("active");
-			this.nextElementSibling.classList.toggle("show");
-  }
-}
-
-// Check boxas uzduotims
-$('.rectangle-list a').click(function(){
-
-		var dd = $(this).css("background-color");
-
-		if(dd == 'rgb(255, 255, 0)'){
-			$(this).css("background-color", "#ddd");
-			$(this).css("color", "black");
-		}
-		else{
-			$(this).css("background-color", "yellow");
-			$(this).css("color", "black");
-		}
-});
+                var acc = document.getElementsByClassName("accordion");
+                var acc2 = document.getElementsByClassName("accordion2");
 
 
-function randomLinks(){
 
-var sidebarLinks = document.querySelectorAll("aside a.button");
-	for(d = 0; d < sidebarLinks.length; d++)
-	{
-		var color = "#";
-for (k = 0; k < 3; k++) {
-    color += ("0" + (Math.random()*230|0).toString(16)).substr(-2);
-}
-		sidebarLinks[d].style.backgroundColor = color;	
-	}
-}
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].onclick = function(){
+                        this.classList.toggle("active");
+                        this.nextElementSibling.classList.toggle("show");
+                    }
+                }
 
-var a = moment('2017-01-16');
-var b = moment('2017-03-24');
-var c = moment('2017-01-20');
+                // Check boxas uzduotims
+                $('.rectangle-list a').click(function(){
+
+                    var dd = $(this).css("background-color");
+
+                    if(dd == 'rgb(255, 255, 0)'){
+                        $(this).css("background-color", "#ddd");
+                        $(this).css("color", "black");
+                    }
+                    else{
+                        $(this).css("background-color", "yellow");
+                        $(this).css("color", "black");
+                    }
+                });
 
 
-var penkta = moment('2017-01-20');
+                function randomLinks(){
 
-var i = 0;
+                    var sidebarLinks = document.querySelectorAll("aside a.button");
+                    for(d = 0; d < sidebarLinks.length; d++)
+                    {
+                        var color = "#";
+                        for (k = 0; k < 3; k++) {
+                            color += ("0" + (Math.random()*230|0).toString(16)).substr(-2);
+                        }
+                        sidebarLinks[d].style.backgroundColor = color;
+                    }
+                }
 
-for (i = 0; i < acc.length; i++) {
+                var a = moment('2017-01-16');
+                var b = moment('2017-03-24');
+                var c = moment('2017-01-20');
 
-	var m = moment(a); 
-		m.diff(b, 'days'); 
-		m.add(7*i, 'days');
-	
-	var d = moment(c); 
-		d.diff(b, 'days'); 
-		d.add(7*i, 'days'); // 0 1 2 3 4 
-	
-		
-	
-		if(i == 4){
-			acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> (2017-02-13 iki 2017-02-24) . "+acc[i].innerText; 
-			a = moment('2017-01-23');
-			c = moment('2017-01-27');
 
-		}
-		else{
-				acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
-		}
-		//if(i >= 5){
-			
-		//	acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
-	
-		//}
-		
-	}
-	
-</script>
+                var penkta = moment('2017-01-20');
 
+                var i = 0;
+
+                for (i = 0; i < acc.length; i++) {
+
+                    var m = moment(a);
+                    m.diff(b, 'days');
+                    m.add(7*i, 'days');
+
+                    var d = moment(c);
+                    d.diff(b, 'days');
+                    d.add(7*i, 'days'); // 0 1 2 3 4
+
+
+
+                    if(i == 4){
+                        acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> (2017-02-13 iki 2017-02-24) . "+acc[i].innerText;
+                        a = moment('2017-01-23');
+                        c = moment('2017-01-27');
+
+                    }
+                    else{
+                        acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText;
+                    }
+                    //if(i >= 5){
+
+                    //	acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText;
+
+                    //}
+
+                }
+
+            </script>
 
 
 
