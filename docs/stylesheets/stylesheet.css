@@ -551,6 +551,7 @@ aside a.button {
   height: 4em;
   padding-left: 64px;
   margin-bottom: 20px;
+  color:black;
   font-size: 21px;
   background: grey;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;

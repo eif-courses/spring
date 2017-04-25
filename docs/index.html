@@ -192,6 +192,10 @@ $(document).ready(function(){
 	window.location.href = "praktika.html";
 	  };
 
+
+
+
+
  	});
   </script>
 
@@ -215,13 +219,15 @@ $(document).ready(function(){
             <ul class="tab">
                 <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės užduotys</a></li>
                 <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a></li>
-                <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
+                <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
                 <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Eifbox</a></li>
             </ul>
             <div id="Konspektai" class="tabcontent">
                 <div class="row" id="slideContent">
                     <div class="col s12"><hr><ul class="tabs tabs-fixed-width" id="slideLinks">
+
                         <script>
+
                             $.getJSON( "slides/java/slides.json", function( data ) {
                                 var i=1;
                                 $.each( data, function( key, val ) {
@@ -234,8 +240,13 @@ $(document).ready(function(){
                                     i++;
                                 });
                             });
+
                         </script>
                     </ul>
+
+                        <div id="test1" class="col s12"><hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+
+
                     </div>
                 </div>
             </div>
@@ -448,7 +459,15 @@ Atliekamos tik kompiuterinėse klasėse paskaitos metu.
                         tablinks[i].className = tablinks[i].className.replace(" active", "");
                     }
                     // TODO LIST NEED FIX
-                    //document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+                   // document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
+
+
+
+
+
+
+
+
 
                     // Show the current tab, and add an "active" class to the link that opened the tab
                     document.getElementById(cityName).style.display = "block";
