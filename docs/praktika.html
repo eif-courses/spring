@@ -1,1094 +1,217 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
-   
-	<!-- Always force latest IE rendering engine & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Programavimas kalba Java</title>
 
-	<title>Struktūrinis programavimas</title>
-	<meta name="description" content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
-	<meta name="keywords" content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
-	<meta name="author" content="Marius Gžegoževskis">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+          content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
+    <meta name="keywords"
+          content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
+    <meta name="author" content="Marius Gžegoževskis">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-	<link rel="icon" href="favicon.ico" type="image/x-icon">  
-	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-   
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/materialize.css">
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+    <script src="javascripts/moment.min.js"></script>
 
+    <style>
+        .tabs .indicator {
+            background-color: black !important;
+        }
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        .tabs .tab a {
+            color: black;
+        }
 
+        .tabs li {
+            background-color: #eceff1;
+        }
 
-   
-	
-<style>
-.tabs .indicator { 
+        .tabs .tab a:hover, .tabs .tab a.active {
+            background-color: #00e676;
+            color: black;
+        }
 
-background-color: black !important;
+        .basic_h2 {
+            padding: 12px;
+            margin: 0px;
+        }
 
-}
+        .basic_collection {
+            border: 1px solid black;
+        }
 
+        .basic_h2_li {
+            border-bottom: 1px solid black;
+            background-color: #00e676;
+        }
+    </style>
+</head>
+<body>
+<div id="duom"></div>
+<div id="fb-root"></div>
+<script type="text/javascript" src="javascripts/main.js"></script>
+<header>
+<div class="inner">
 
-.tabs .tab a{
-    color:black;
-}
-
-.tabs li{
-
-background-color: #eceff1;
-}
-.tabs .tab a:hover,.tabs .tab a.active {
-	background-color:#00e676;
-	color:black;
-}
-.basic_h2{
-	padding:12px; 
-	margin:0px;
-	
-	
-	
-}
-.basic_collection{
- border: 1px solid black;
-}
-
-#basic_h2_li{
- border-bottom: 1px solid black;
- background-color:#eeff41;
-}
-</style>
-	
-	
-	
-  </head>
-
-  <body>
-  
-  
-    <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  
-  <script>
-
-
-$(document).ready(function(){
-    $('ul.tabs').tabs();
-	   randomLinks();
-	   
-	 
-	   
-	   document.getElementById("antra").onclick = function() {
-	   document.getElementById("test2").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/15pXaVdP_ACCeNYe5Sn-Jq-MnKBZmn2b_VbaMw9UmQIY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	   
-	   document.getElementById("trecia").onclick = function() {
-	   document.getElementById("test3").innerHTML ='  <hr><iframe src="https://docs.google.com/presentation/d/1Z9t3Eo74Zv1RuvcL6nk3kde8nZ0nl6dbbSl-zA3sim4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	   document.getElementById("ketv").onclick = function() {
-	   document.getElementById("test4").innerHTML ='  <hr>   <iframe src="https://docs.google.com/presentation/d/10hkxMoD32C-v7avdbooBRB5deCMo8ANNQZDXKqRiRbA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'; 
-	   };
-	  document.getElementById("penkt").onclick = function() {
-	   document.getElementById("test5").innerHTML ='  <hr>   <iframe src="https://docs.google.com/presentation/d/17fNkDhaTb7cwLKEuqckP89VXb3ZTR6xd5485rkNAIyw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'; 
-	   };
-	  
-	  
-	    document.getElementById("sest").onclick = function() {
-	   document.getElementById("test6").innerHTML ='  <hr>     <iframe src="https://docs.google.com/presentation/d/16ul0rzxWkFrS8tJGwRCYY4RrZKYfyFmGE8xT4pLv3Y0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'; 
-	   };
-	  
-	  document.getElementById("sept").onclick = function() {
-	   document.getElementById("test7").innerHTML ='  <hr>       <iframe src="https://docs.google.com/presentation/d/1aJzdk1qFDxp6WrdWxgW8vc_-yY0864Twi1Z3LnMoVE0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'; 
-	   };
-	   document.getElementById("astuon").onclick = function() {
-	   document.getElementById("test8").innerHTML ='  <hr>         <iframe src="https://docs.google.com/presentation/d/1rM0mo9R3HzxWp54XiygHx_CWirTUS5qpEtRHGATqCII/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'; 
-	   };
-	
-	
-	document.getElementById("index").onclick = function() {
-	window.location.href = "index.html";
-	  };
-	document.getElementById("security").onclick = function() {
-	window.location.href = "security.html";
-	  };
-	  
-	  
-	  
-	   });
-
-
-  </script>
-
-    <header>
-      <div class="inner">
-   <ul class="tabs">
-
-        <li class="tab col s3 "> <a id="index" href="index.html">Programavimas kalba java</a></li>
-        <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
-        <li class="tab col s3 "><a id="praktika" class="active">Struktūrinis programavimas</a></li>
-		<li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
-
-    </ul>
-	
-       
-		
-		
-
+        <ul class="tabs">
+            <li class="tab col s3 "><a id="index" href="index.html">Programavimas kalba java</a></li>
+            <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
+            <li class="tab col s3 "><a id="praktika" class="active">Struktūrinis programavimas</a></li>
+            <li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
+        </ul>
     </header>
 
     <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-       
-		
-	
-		
-		<ul class="tab">
-		
+        <div class="inner clearfix">
+            <section id="main-content">
+                <ul class="tab">
+                    <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
+                        užduotys</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
+                    <li><a target="_blank"
+                           href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
+                           class="tablinks">Eifbox</a></li>
+                </ul>
 
-		 <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Praktinės užduotys</a></li>
-		   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
- <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
-   <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Eifbox</a></li>
-</ul>
+                <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
+                <div id="Rezultatai" class="tabcontent">
+                    <ul class="collection basic_collection">
+                        <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
+
+                        <li class="collection-item">
+                            <a class="waves-effect waves-light btn light-blue darken-4" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
+                            <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
+                        </li>
+                    </ul>
+                </div>
 
 
 
-<div id="Konspektai" class="tabcontent">
+                <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
+                <script src="javascripts/praktines_uzduotys.js"></script>
+                <div id="Pratybos" class="tabcontent">
+                    <ul class="collection basic_collection">
+                        <li id="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (STRUKTŪRINIO PRAKTIKA)</h2></li>
+                        <li class="collection-item">
+                            Užduotys yra atliekamos praktikos metu kompiuterinėse klasėse.
+                        </li>
+                        <li class="collection-item">
+                            Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą</u></b></span> (zip formatu, pavadinimas užduoties nr. pvz: <b>1 užduotis.zip, 2 užduotis.zip</b>).
+                        </li>
+                        <li class="collection-item">
+                            <span style="color:red"><i><b>PASTABA!</b></i></span> Visos užduotys yra privalomos.
+                        </li>
+                    </ul>
 
-<div class="row">
-    <div class="col s12">
-	<hr>
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab col s3 "><a id="pirma" href="#test1">1</a></li>
-        <li class="tab col s3 "><a id="antra" href="#test2"> 2</a></li>
-        <li class="tab col s3 "><a id="trecia" href="#test3">3</a></li>
-        <li class="tab col s3 "><a id="ketv" href="#test4">4</a></li>
-		
-		 <li class="tab col s3"><a id="penkt" href="#test5">5</a></li>
-        <li class="tab col s3"><a id="sest" href="#test6">6</a></li>
-        <li class="tab col s3"><a id="sept" href="#test7">7</a></li>
-        <li class="tab col s3 "><a id="astuon" href="#test8">8</a></li>
+                    <ul id="tabs-swipe-demo" class="tabs grey lighten-3">
+                        <li class="tab col s3"><a class="active" href="#test-swipe-1">PI16A</a></li>
+                        <li class="tab col s3 disabled"><a href="#test-swipe-2">PI16B</a></li>
+                        <li class="tab col s3 disabled"><a href="#test-swipe-3">PI16C</a></li>
+                    </ul>
+                    <hr>
+                    <div id="test-swipe-1" class="col s12"></div>
+                    <div id="test-swipe-2" class="col s12"></div>
+                    <div id="test-swipe-3" class="col s12"></div>
 
-      </ul>
+                </div>
+                <script>
+                    var main = document.getElementById('main');
+                    main.className = "active";
+                    var blokas = document.getElementById("Pratybos");
+                    blokas.style.display = "block";
+                    function openCity(evt, cityName) {
+                        main.className = main.className.replace("active", "");
+                        // Declare all variables
+                        var i, tabcontent, tablinks;
+                        // Get all elements with class="tabcontent" and hide them
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        // Get all elements with class="tablinks" and remove the class "active"
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        // Show the current tab, and add an "active" class to the link that opened the tab
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+                </script>
+                <hr>
+                <p id="data_el_pastas"></p>
+                <script>
+                    data = new Date();
+                    document.getElementById("data_el_pastas").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas ' + data.getFullYear() + '. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
+                </script>
+                <hr>
+            </section>
+
+            <aside id="sidebar">
+                <p class="pavadinimas"><strong>NAUDINGOS NUORODOS</strong></p>
+
+
+                <a target="_blank" href="https://github.com/eif-courses/C-C-/tree/master/Teorija" class="button">
+
+                    <small>Teorinė medžiaga</small>
+                    TEORIJA
+                </a>
+
+                <a  target="_blank" href="https://github.com/eif-courses/C-C-/tree/master/Pavyzd%C5%BEiai" class="button">
+
+                    <small>Programų pavyzdžiai</small>
+                    PAVYZDŽIAI</a>
+
+
+                <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
+                    <small>Dokumentų talpykla</small>
+                    EIFBOX
+                </a>
+
+
+                <a target="_blank" href="https://downloads.codelite.org/" class="button">
+                    <small>Programinė įranga</small>
+                    CodeLite
+                </a>
+
+                <a target="_blank"
+                   href="https://goo.gl/forms/pJcIWZUskv92gegg2"
+                   class="button">
+                    <small>Žinių patrikrinimas</small>
+                    TESTAS
+                </a>
+
+                <a target="_blank"
+                   href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml"
+                   class="button">
+                    <small>Įkelti dokumentai</small>
+                    ŽURNALAS
+                </a>
+
+                <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/"
+                     data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                     data-hide-cover="true" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote>
+                </div>
+            </aside>
+        </div>
     </div>
-    <div id="test1" class="col s12">
-
-	  </div>
-    <div id="test2" class="col s12"></div>
-    <div id="test3" class="col s12"></div>
-    <div id="test4" class="col s12"></div>
-	
-	 <div id="test5" class="col s12"></div>
-    <div id="test6" class="col s12"></div>
-	 <div id="test7" class="col s12"></div>
-    <div id="test8" class="col s12"></div>
-	
-  </div>
-
-
-
-
-
-
+    <script type="text/javascript" async="async" defer="defer" data-cfasync="false"
+            src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
-
-
-
-<div id="Rezultatai" class="tabcontent">
-
-<ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
-
-     <li class="collection-item">
-<a class="waves-effect waves-light btn light-blue darken-4" target="_blank" href ="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml">PI16A</a>
-<a class="waves-effect waves-light btn deep-orange darken-3" target="_blank" href ="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml">PI16B</a>
-<a class="waves-effect waves-light btn green darken-3" target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml">PI16C</a>
-
-	</li>
-
-</ul>
-</div>
-
-
-
-
-
-
-
-<div id="Projektas" class="tabcontent"> 
-
-
-
-
-<ul class="collection basic_collection">
-	<li id="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (STRUKTŪRINIO PRAKTIKA)</h2></li>
-        <li class="collection-item">
-
-		
-		
-		
-
-Užduotys yra atliekamos praktikos metu kompiuterinėse klasėse. 
-
-	</li>
-
-
-
- <li class="collection-item">
- Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą</u></b></span> (zip formatu, pavadinimas užduoties nr. pvz: <b>1 užduotis.zip, 2 užduotis.zip</b>).
- </li>
- 
- <li class="collection-item">
- <span style="color:red"><i><b>PASTABA!</b></i></span> Visos užduotys yra privalomos.
- </li>
-	
-</ul>
-
-
-          
-
-<hr>
-
-	  <ul id="tabs-swipe-demo" class="tabs grey lighten-3">
-    <li class="tab col s3"><a class="active" href="#test-swipe-1">PI16A</a></li>
-    <li class="tab col s3 disabled"><a href="#test-swipe-2">PI16B</a></li>
-    <li class="tab col s3 disabled"><a href="#test-swipe-3">PI16C</a></li>
-  </ul>
-  <hr>
-  <div id="test-swipe-1" class="col s12 ">
-  <button class="accordion"> Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.
-</button>
-<div class="panel">
-
-<br/>
-
-Sukurti konsolinę programą laisvai pasirinkta programavimo aplinka: CodeLite, Dev C/C++, CodeBlocks C++ ar kt.,
-kurioje privalote įgyvendinti žemiau pateiktus <b>Exchange sort</b> ir <b>Armstrong number</b> algoritmus.
-
-<ol class="rectangle-list">	
-
-<li> <a>Realizuoti <b>Exchange sort</b> algoritmą. Pateikti tarpinius skaičiavimus, pvz: [1] - žingsnis x < y = true, [2]-žingsnis x < y = false ir t.t. kad būtų matoma kaip algoritmas veikia.</a></li>
-
-
-
-<li><a>Sukurti funkciją, kuri surastų visus Armstrong skaičius iš intervalo <b>[111..999]</b> bei nustatytų iš konsolės įvestą skaičių ar šis skaičius yra Armstrong skaičius.</a></li>
-
-<li><a>
-Taip pat privalote nubraižyti prieš tai realizuotų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemomis renkatės jūs, pvz: (http://draw.io).
-</a></li>
-
-
-
-</ol>	
-</div>
-
-<hr>
-
-
-<button class="accordion"> Struktūros, dinaminė atmintis, atsitiktinių skaičių generavimas. </button>
-<div class="panel">
-<br/>
-
-Sukurti programą, kurioje panaudotumėte struktūrų masyvą. Visi duomenys yra nuskaitomi iš klaviatūros, o rezultatai pateikiami ekrane.
-<ol class="rectangle-list">	
-
-
-<li> <a>
-         Sukurti struktūrą naudojant dinaminę atmintį, kurioje būtų nemažiau 3 laukų (fields) <b>id</b>, <b>vardas</b> kitus sugalvojate patys.
-		 Taip pat sukurtai struktūrai sugeneruoti atsitiktinius duomenis, vardas privalo būti realus, o ne raidžių kratinys.
-</a></li>
-<li > <a>Sukurti struktūrą Studentas, kuri privalo turėti šiuos parametrus: įvertinimas, vardas, kursas, šie parametrai yra nuskaitomi iš klaviatūros.
-</a></li>
-<li > <a>Realizuoti rekursyvias funkcijas: Ackermano, faktorialo ir vieną pasirinktinai.</a></li>
-
-</ol>	
-	
-</div>
-<hr>
-
-<button class="accordion"> Galvosūkis, užduotis iššūkis, olimpiadinis uždavinys.</button>
-<div class="panel">
-
-<br/>
-Duota fiksuota skaičių aibė A = <b>[1,2,3,4,5,6,7,8,9]</b>. 
-Sukurti konsolinę programą, kuri gebėtų sudėlioti operacijų <b>{*, +}</b> ženklus taip, kad gautume įvestą skaičių <b>n</b> iš konsolės. 
-
-
-<ol class="rectangle-list">	
-
-
-<li> <a>
-
-Pavyzdžiui. Įvedimas. <b>[n = <span style="color:red">80</span>]</b>, tada išvestis. <b>[1*2+3+45+6+7+8+9 = <span style="color:red">80</span>]</b>.
-
-
-</a></li>
-
-
-</ol>	
-
-
-</div>
-<hr>
-<button class="accordion">Galvosūkis, užduotis iššūkis, olimpiadinis uždavinys.</button>
-<div class="panel">
-<br/>
-Ištirti, ar duotasis skaičių rinkinys gali būti išskirstytas į
-skaičių trejetus taip, kad skaičių visuose trejetuose sandauga
-būtų vienoda.
-
-<ol class="rectangle-list">	
-
-<li> <a>
- Pavyzdžiui: Duota. <b>{1, 1, 1, 5, 5, 5, 2, 2, 2}</b> => rez. (1,5,2),
-(2,5,1), (1,2,5). 
-</a></li>
-<li> <a>
- Pavyzdžiui: Duota. <b>{1, 2, 3, 1, 1, 3, 1, 2, 6}</b> => rez. (1,1,6),
-(1,3,2), (2,3,1). 
-</a></li>
-
-
-</ol>	
-
-</div>
-<hr>
-
-<button class="accordion">Darbas su tekstiniais dokumentais.</button>
-<div class="panel">
-<br/>
-Sukurti duomenų struktūrą ją užpildyti prasmingais
-duomenimis: int, char, float (nemažiau 5 skirtingų laukų). Įrašų skaičius privalo būti nemažesnis 10.
-<ol class="rectangle-list">	
-
-<li> <a>
-
-Sukurti tekstinį dokumentą, ir funkcijas skirtas: papildyti, redaguoti, atspausdinti, atlikti
-skaičiavimus pagal skaitmeninį lauką, paiešką pagal visus laukus,
-įrašyti apdorotus duomenis į failą.
-</a></li>
-
-
-
-</ol>	
-</div>
-<hr> 
-  
-<button class="accordion">Dokumento turinio konvertavimas į XML formatą.</button>
-<div class="panel">
-
-<br/>
-Sukurti algoritmą, kuris nuskaitytų (pvz: pirmas.csv, antras.csv,
-trecias.csv ir t.t.) visus nurodytus CSV arba DATA formato
-dokumentus ir juos konvertuotų į XML formato dokumentus. a)
-Testinius dokumentus galite atsisiųsti iš šios svetainės:
-<a href="https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx"> https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx</a> - pasirinkti 5
-skirtingus CSV formato failus turinčius nemažiau 300 įrašų.
-b) Papildomai reikia pasirinkti dar 3 failus iš šios svetainės:
-<a href="https://archive.ics.uci.edu/ml/datasets.html">https://archive.ics.uci.edu/ml/datasets.html</a> – Pasirinkę data
-folder rasite, failą su data plėtiniu pvz: failas.data. 
-
-
-
-</div>  
- <hr> 
-  <button class="accordion">Google PageRank žiniatinklio reitingavimo algoritmas.</button>
-<div class="panel">
-<br/>
-Realizuoti žiniatinklio dokumentų reitingavimo algoritmą Google
-PageRank: <a href="http://pr.efactory.de/">http://pr.efactory.de/</a> - rezultatus išsaugoti
-rezultatai.txt dokumente, šioje nuorodoje Algorithm apačioje
-rasite antraštę „The Iterative Computation of PageRank” ten yra
-pavyzdys (lentelė), kurią informaciją privalote išvesti į tekstinį
-dokumentą.
-
-
-
-
-</div>  
- <hr> 
-    <button class="accordion">Duomenų tipų atpažinimas.</button>
-<div class="panel">
-<br/>
-Duotas CSV formato failas, kurio dydis 3mb – 50mb, atsisiųsti
-galite čia: <a href="http://exporter.nih.gov/crisp_catalog.aspx">http://exporter.nih.gov/crisp_catalog.aspx</a>
-Suprogramuoti algoritmą, kuris nuskaitytų CSV formato failą ir
-nustatytų kokio tipo (DATE, INT, FLOAT, CHAR, STRING, UNKNOWN)
-duomenys yra stulpelyje, bei gautąjį rezultatą išvesti į ekraną
-arba tekstinį failą. Algoritmas turi veikti ir su kitais CSV
-formato failais, turinčiais kitą informaciją.
-
-
-</div>  
- <hr> 
-    <button class="accordion">Sukurti lietuvių-anglų žodyną.</button>
-<div class="panel">
-<br/>
-Duomenų faile saugomas žodynas (žodis ir vertimas). Parašykite
-programą, kuri išverčia žodžius iš Lietuvių į Anglų kalbą ir
-atvirksčiai. Jei ieškomo žodžio nėra, atliekamas žodyno
-papildymas.
-<ol class="rectangle-list">	
-
-
-
-
-</ol>	
-</div>  
- <hr> 
-  
-<button class="accordion">Sukurti mini žaidimą.</button>
-<div class="panel">
-<br/>
-Tikslas sukurti klasikinį žaidimą arba savo unikalų.
-<ol class="rectangle-list">	
-
-<li> <a>
-Žaidimų pavyzdžiai: Taip ir ne, Kas laimės milijoną, Loterija, X/0, Atspėk žodį, Kartuvės, Viktorina...
-</a></li>
-
-
-</ol>	
-</div>  
- <hr> 
-  
-  
-  
-  
-  </div>
-  
-  
-  <div id="test-swipe-2" class="col s12">
-  
-    
-
-
-
-  <button class="accordion"> Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.
-</button>
-<div class="panel">
-
-<br/>
-
-Sukurti konsolinę programą, kurioje privalote realizuoti žemiau pateiktus algoritmus:
-
-<ol class="rectangle-list">	
-
-<li><a> Sukurti naują projektą naudojant CodeLite, Dev C++, Code Blocks C++, Netbeans IDE, CLion ar kitą jums žinoma programinė įranga</a></li>
-<li> <a>Realizuoti Exchange sort algoritmą. Sugeneruoti testinius duomenis algoritmo rezultato formavimui, taip pat pateikti tarpinius skaičiavimus: pvz: [1]-žingsnis x < y = true, [2]-žingsnis x < y = false ir t.t. kad būtų matoma kaip algoritmas veikia.</a>
-</li>
-
-<li><a>
-
-Realizuoti algortimą Armstrong number, kuris gražina sąrašą elementų su Armstrong skaičiais iš intervalo [100..999]. Taip pat funkcija privalo nustatyti vartotojo įvestą skaičių ar jis yra Armstrong skaičius. Armstrong skaičiaus yra: 13+53+33 = 153?
-</a></li>
-
-
-</ol>	
-</div>
-
-<hr>
-
-
-<button class="accordion"> Struktūros, dinaminė atmintis, atsitiktinių skaičių generavimas. </button>
-<div class="panel">
-<br/>
-
-
-<ol class="rectangle-list">	
-
-<li><a>
-a) Sukurti programą, kurioje panaudotumėte struktūrų masyvą. Visi duomenys yra nuskaitomi iš klaviatūros, o rezultatai pateikiami ekrane.   
-
-</a></li>
-
-
-<li> <a>
-         b) Sukurti struktūrą Student su dviem laukais int ID ir char skirtą vardui bet naudojant dinaminę atmintį, reikia sugeneruoti atsitiktinius duomenis: ID ir vardus, bei rezultatą išvesti ekrane.
-</a></li>
-<li > <a>c) Sukurti struktūrą studentas, kuri privalo turėti šiuos parametrus: įvertinimas, vardas, kursas, šie parametrai yra nuskaitomi iš klaviatūros. Rezultatus išvesti į ekraną.
-</a></li>
-<li > <a>d) Realizuoti 3 skirtingas rekursyvias funkcijas, bei pateikti jų rezultatus išvedant į ekraną.</a></li>
-
-</ol>	
-	
-</div>
-<hr>
-
-<button class="accordion"> Kombinatorikos uždavinys.</button>
-<div class="panel">
-
-<br/>
-Sugalvoti temą ir sukurti konsolinę programą, kurioje turi būti įgyvendinti žemiau pateikti punktai: 
-
-
-<ol class="rectangle-list">	
-
-
-<li> <a>
-Duota fiksuota skaičių aibė A = [1,2,3,4,5,6,7,8,9]. Realizuoti
-algoritmą, kuris sudėliotų operacijų ženklus *, + taip, kad
-aritmetinės išraiškos rezultatas būtu duotasis skaičius, pvz. 80,
-tada išvestis turėtų atrodyti taip: 1*2+3+45+6+7+8+9 = 80.
-
-</a></li>
-
-
-</ol>	
-
-
-</div>
-<hr>
-<button class="accordion">Kombinatorikos uždavinys.</button>
-<div class="panel">
-<br/>
-Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti punktai:
-
-<ol class="rectangle-list">	
-
-<li> <a>
-Ištirti, ar duotasis skaičių rinkinys gali būti išskirstytas į
-skaičių trejetus taip, kad skaičių visuose trejetuose sandauga
-būtų vienoda. Pavyzdžiui: {1,1,1, 5,5,5, 2, 2, 2} => (1,5,2),
-(2,5,1), (1,2,5). 
-</a></li>
-
-
-
-</ol>	
-
-</div>
-<hr>
-
-<button class="accordion">Darbas su tekstiniais dokumentais.</button>
-<div class="panel">
-<br/>
-Sukurti REST API programą naudojant spring-boot, kurioje būtų naudojama H2 ar kita duomenų bazė bei JPA technologija, skirta susieti Java objektus su duomenų baze.
-<ol class="rectangle-list">	
-
-<li> <a>
-Sukurti duomenų struktūrą KOLEGIJA ją užpildyti prasmingais
-duomenimis: int, char, float (Nemažiau 5 skirtingų laukų). Įrašyti
-duomenis į failą, nuskaityti duomenis iš failo. Vykdyti duomenų
-apdorojimą: papildyti, redaguoti, atspausdinti, atlikti
-skaičiavimus pagal skaitmeninį lauką, paiešką pagal visus laukus,
-įrašyti apdorotus duomenis į failą.
-</a></li>
-
-
-
-</ol>	
-</div>
-<hr> 
-  
-<button class="accordion">Dokumento turinio konvertavimas į XML formatą.</button>
-<div class="panel">
-
-
-Sukurti algoritmą, kuris nuskaitytų (pvz: pirmas.csv, antras.csv,
-trecias.csv ir t.t.) visus nurodytus CSV arba DATA formato
-dokumentus ir juos konvertuotų į XML formato dokumentus. a)
-Testinius dokumentus galite atsisiųsti iš šios svetainės:
-<a href="https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx"> https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx</a> - pasirinkti 5
-skirtingus CSV formato failus turinčius nemažiau 300 įrašų.
-b) Papildomai reikia pasirinkti dar 3 failus iš šios svetainės:
-<a href="https://archive.ics.uci.edu/ml/datasets.html">https://archive.ics.uci.edu/ml/datasets.html</a> – Pasirinkę data
-folder rasite, failą su data plėtiniu pvz: failas.data. 
-
-
-
-</div>  
- <hr> 
-  <button class="accordion">Google PageRank žiniatinklio reitingavimo algoritmas.</button>
-<div class="panel">
-<br/>
-Realizuoti žiniatinklio dokumentų reitingavimo algoritmą Google
-PageRank: <a href="http://pr.efactory.de/">http://pr.efactory.de/</a> - rezultatus išsaugoti
-rezultatai.txt dokumente, šioje nuorodoje Algorithm apačioje
-rasite antraštę „The Iterative Computation of PageRank” ten yra
-pavyzdys (lentelė), kurią informaciją privalote išvesti į tekstinį
-dokumentą.
-
-
-
-
-</div>  
- <hr> 
-    <button class="accordion">Duomenų tipų atpažinimas.</button>
-<div class="panel">
-<br/>
-Duotas CSV formato failas, kurio dydis 3mb – 50mb, atsisiųsti
-galite čia: <a href="http://exporter.nih.gov/crisp_catalog.aspx">http://exporter.nih.gov/crisp_catalog.aspx</a>
-Suprogramuoti algoritmą, kuris nuskaitytų CSV formato failą ir
-nustatytų kokio tipo (DATE, INT, FLOAT, CHAR, STRING, UNKNOWN)
-duomenys yra stulpelyje, bei gautąjį rezultatą išvesti į ekraną
-arba tekstinį failą. Algoritmas turi veikti ir su kitais CSV
-formato failais, turinčiais kitą informaciją.
-
-
-</div>  
- <hr> 
-    <button class="accordion">Sukurti lietuvių-anglų žodyną.</button>
-<div class="panel">
-<br/>
-Duomenų faile saugomas žodynas (žodis ir vertimas). Parašykite
-programą, kuri išverčia žodžius iš Lietuvių į Anglų kalbą ir
-atvirksčiai. Jei ieškomo žodžio nėra, atliekamas žodyno
-papildymas.
-<ol class="rectangle-list">	
-
-
-
-
-</ol>	
-</div>  
- <hr> 
-  
-<button class="accordion">Altiktų praktinių užduočių viešas gynimas</button>
-<div class="panel">
-<br/>
-????????????????????????????????
-<ol class="rectangle-list">	
-
-<li> <a>
-???????????????????????????????????????????????????
-</a></li>
-
-
-</ol>	
-</div>  
- <hr> 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  
-  
-  <div id="test-swipe-3" class="col s12">
-  
-  
-  
-  
-   <button class="accordion"> Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.
-</button>
-<div class="panel">
-
-<br/>
-
-Sukurti konsolinę programą, kurioje privalote realizuoti žemiau pateiktus algoritmus:
-
-<ol class="rectangle-list">	
-
-<li><a> Sukurti naują projektą naudojant CodeLite, Dev C++, Code Blocks C++, Netbeans IDE, CLion ar kitą jums žinoma programinė įranga</a></li>
-<li> <a>Realizuoti Exchange sort algoritmą. Sugeneruoti testinius duomenis algoritmo rezultato formavimui, taip pat pateikti tarpinius skaičiavimus: pvz: [1]-žingsnis x < y = true, [2]-žingsnis x < y = false ir t.t. kad būtų matoma kaip algoritmas veikia.</a>
-</li>
-
-<li><a>
-
-Realizuoti algortimą Armstrong number, kuris gražina sąrašą elementų su Armstrong skaičiais iš intervalo [100..999]. Taip pat funkcija privalo nustatyti vartotojo įvestą skaičių ar jis yra Armstrong skaičius. Armstrong skaičiaus yra: 13+53+33 = 153?
-</a></li>
-
-
-</ol>	
-</div>
-
-<hr>
-
-
-<button class="accordion"> Struktūros, dinaminė atmintis, atsitiktinių skaičių generavimas. </button>
-<div class="panel">
-<br/>
-
-
-<ol class="rectangle-list">	
-
-<li><a>
-a) Sukurti programą, kurioje panaudotumėte struktūrų masyvą. Visi duomenys yra nuskaitomi iš klaviatūros, o rezultatai pateikiami ekrane.   
-
-</a></li>
-
-
-<li> <a>
-         b) Sukurti struktūrą Student su dviem laukais int ID ir char skirtą vardui bet naudojant dinaminę atmintį, reikia sugeneruoti atsitiktinius duomenis: ID ir vardus, bei rezultatą išvesti ekrane.
-</a></li>
-<li > <a>c) Sukurti struktūrą studentas, kuri privalo turėti šiuos parametrus: įvertinimas, vardas, kursas, šie parametrai yra nuskaitomi iš klaviatūros. Rezultatus išvesti į ekraną.
-</a></li>
-<li > <a>d) Realizuoti 3 skirtingas rekursyvias funkcijas, bei pateikti jų rezultatus išvedant į ekraną.</a></li>
-
-</ol>	
-	
-</div>
-<hr>
-
-<button class="accordion"> Kombinatorikos uždavinys.</button>
-<div class="panel">
-
-<br/>
-Sugalvoti temą ir sukurti konsolinę programą, kurioje turi būti įgyvendinti žemiau pateikti punktai: 
-
-
-<ol class="rectangle-list">	
-
-
-<li> <a>
-Duota fiksuota skaičių aibė A = [1,2,3,4,5,6,7,8,9]. Realizuoti
-algoritmą, kuris sudėliotų operacijų ženklus *, + taip, kad
-aritmetinės išraiškos rezultatas būtu duotasis skaičius, pvz. 80,
-tada išvestis turėtų atrodyti taip: 1*2+3+45+6+7+8+9 = 80.
-
-</a></li>
-
-
-</ol>	
-
-
-</div>
-<hr>
-<button class="accordion">Kombinatorikos uždavinys.</button>
-<div class="panel">
-<br/>
-Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti punktai:
-
-<ol class="rectangle-list">	
-
-<li> <a>
-Ištirti, ar duotasis skaičių rinkinys gali būti išskirstytas į
-skaičių trejetus taip, kad skaičių visuose trejetuose sandauga
-būtų vienoda. Pavyzdžiui: {1,1,1, 5,5,5, 2, 2, 2} => (1,5,2),
-(2,5,1), (1,2,5). 
-</a></li>
-
-
-
-</ol>	
-
-</div>
-<hr>
-
-<button class="accordion">Darbas su tekstiniais dokumentais.</button>
-<div class="panel">
-<br/>
-Sukurti REST API programą naudojant spring-boot, kurioje būtų naudojama H2 ar kita duomenų bazė bei JPA technologija, skirta susieti Java objektus su duomenų baze.
-<ol class="rectangle-list">	
-
-<li> <a>
-Sukurti duomenų struktūrą KOLEGIJA ją užpildyti prasmingais
-duomenimis: int, char, float (Nemažiau 5 skirtingų laukų). Įrašyti
-duomenis į failą, nuskaityti duomenis iš failo. Vykdyti duomenų
-apdorojimą: papildyti, redaguoti, atspausdinti, atlikti
-skaičiavimus pagal skaitmeninį lauką, paiešką pagal visus laukus,
-įrašyti apdorotus duomenis į failą.
-</a></li>
-
-
-
-</ol>	
-</div>
-<hr> 
-  
-<button class="accordion">Dokumento turinio konvertavimas į XML formatą.</button>
-<div class="panel">
-
-
-Sukurti algoritmą, kuris nuskaitytų (pvz: pirmas.csv, antras.csv,
-trecias.csv ir t.t.) visus nurodytus CSV arba DATA formato
-dokumentus ir juos konvertuotų į XML formato dokumentus. a)
-Testinius dokumentus galite atsisiųsti iš šios svetainės:
-<a href="https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx"> https://www.aikos.smm.lt/Puslapiai/Ataskaitos.aspx</a> - pasirinkti 5
-skirtingus CSV formato failus turinčius nemažiau 300 įrašų.
-b) Papildomai reikia pasirinkti dar 3 failus iš šios svetainės:
-<a href="https://archive.ics.uci.edu/ml/datasets.html">https://archive.ics.uci.edu/ml/datasets.html</a> – Pasirinkę data
-folder rasite, failą su data plėtiniu pvz: failas.data. 
-
-
-
-</div>  
- <hr> 
-  <button class="accordion">Google PageRank žiniatinklio reitingavimo algoritmas.</button>
-<div class="panel">
-<br/>
-Realizuoti žiniatinklio dokumentų reitingavimo algoritmą Google
-PageRank: <a href="http://pr.efactory.de/">http://pr.efactory.de/</a> - rezultatus išsaugoti
-rezultatai.txt dokumente, šioje nuorodoje Algorithm apačioje
-rasite antraštę „The Iterative Computation of PageRank” ten yra
-pavyzdys (lentelė), kurią informaciją privalote išvesti į tekstinį
-dokumentą.
-
-
-
-
-</div>  
- <hr> 
-    <button class="accordion">Duomenų tipų atpažinimas.</button>
-<div class="panel">
-<br/>
-Duotas CSV formato failas, kurio dydis 3mb – 50mb, atsisiųsti
-galite čia: <a href="http://exporter.nih.gov/crisp_catalog.aspx">http://exporter.nih.gov/crisp_catalog.aspx</a>
-Suprogramuoti algoritmą, kuris nuskaitytų CSV formato failą ir
-nustatytų kokio tipo (DATE, INT, FLOAT, CHAR, STRING, UNKNOWN)
-duomenys yra stulpelyje, bei gautąjį rezultatą išvesti į ekraną
-arba tekstinį failą. Algoritmas turi veikti ir su kitais CSV
-formato failais, turinčiais kitą informaciją.
-
-
-</div>  
- <hr> 
-    <button class="accordion">Sukurti lietuvių-anglų žodyną.</button>
-<div class="panel">
-<br/>
-Duomenų faile saugomas žodynas (žodis ir vertimas). Parašykite
-programą, kuri išverčia žodžius iš Lietuvių į Anglų kalbą ir
-atvirksčiai. Jei ieškomo žodžio nėra, atliekamas žodyno
-papildymas.
-<ol class="rectangle-list">	
-
-
-
-
-</ol>	
-</div>  
- <hr> 
-  
-<button class="accordion">Altiktų praktinių užduočių viešas gynimas</button>
-<div class="panel">
-<br/>
-????????????????????????????????
-<ol class="rectangle-list">	
-
-<li> <a>
-???????????????????????????????????????????????????
-</a></li>
-
-
-</ol>	
-</div>  
- <hr> 
-  
-  
-  
-  
-  
-  
-  
-  </div>
-	
-
-	
-
-        
-
-
-
-
-
-
-
-  
-</div>
-
-		
-<script>
-	
-	var main = document.getElementById('main');
-	var pro = document.getElementById('Projektas');
-	pro.style.display = "block";
-	main.className = "active";	
-	
-	
-	
-	function openCity(evt, cityName) {
-	
-	main.className = main.className.replace("active", "");
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-   document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// DATOS SKRIPTAS
-myDate = new Date(2016, 12, 02);
-toDate = new Date(2016, 12, 13);
-
-var color = "#";
-for (k = 0; k < 3; k++) {
-    color += ("0" + (Math.random()*128|0).toString(16)).substr(-2);
-}
-
-var acc = document.getElementsByClassName("accordion");
-var acc2 = document.getElementsByClassName("accordion2");
-
-
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-	
-			this.classList.toggle("active");
-			this.nextElementSibling.classList.toggle("show");
-
-  }
-}
-
-// Check boxas uzduotims
-$('.rectangle-list a').click(function(){
-
-		var dd = $(this).css("background-color");
-
-		if(dd == 'rgb(255, 255, 0)'){
-			$(this).css("background-color", "#ddd");
-			$(this).css("color", "black");
-		}
-		else{
-			$(this).css("background-color", "yellow");
-			$(this).css("color", "#cfd8dc");
-		}
-});
-
-
-function randomLinks(){
-
-var sidebarLinks = document.querySelectorAll("aside a.button");
-	for(d = 0; d < sidebarLinks.length; d++)
-	{
-		var color = "#";
-for (k = 0; k < 3; k++) {
-    color += ("0" + (Math.random()*256|0).toString(16)).substr(-2);
-}
-		sidebarLinks[d].style.backgroundColor = color;	
-	}
-}
-
-var a = moment('2017-01-16');
-var b = moment('2017-03-24');
-var c = moment('2017-01-20');
-
-
-var penkta = moment('2017-01-20');
-
-var i = 0;
-
-for (i = 0; i < acc.length; i++) {
-
-	var m = moment(a); 
-		m.diff(b, 'days'); 
-		m.add(7*i, 'days');
-	
-	var d = moment(c); 
-		d.diff(b, 'days'); 
-		d.add(7*i, 'days'); // 0 1 2 3 4 
-	
-		
-	
-		
-				acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b>. "+acc[i].innerText; 
-	
-		
-	}
-	
-</script>
-
-
-
-
-		
-<hr>
-<p id="demo"></p>
-
-<script>
-
-data = new Date();
-
-document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear()+'. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
-</script>
-
-<hr>
-
-        </section>
-
-        <aside id="sidebar">
-         <p class="pavadinimas"> <strong>NAUDINGOS NUORODOS</strong></p>
-
-		  
-
-		 
-		 
-		 
-		 
-		  <a id="ln" target="_blank" href="https://github.com/eif-courses/C-C-/tree/master/Teorija" class="button">
-            
-            Paskaitų medžiaga
-          </a>
-		 
-		 <a id="ln" target="_blank" href="https://github.com/eif-courses/C-C-/tree/master/Pavyzd%C5%BEiai" class="button">
-		 
-		Programų pavyzdžiai</a>
-		 
-
-		 <a id="ln" target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
-            <small>Dokumentų talpykla</small>
-            EIFBOX
-          </a>
-		
-
-		  <a id="ln" target="_blank" href="https://downloads.codelite.org/" class="button">
-            <small>Programinė įranga</small>
-            CodeLite
-          </a>
-		  	
-		  <a id="ln" target="_blank" href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml" class="button">
-            <small>Įkelti dokumentai</small>
-            Logas
-          </a>
-		  
-        <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote></div>
-
-        </aside>
-      </div>
-    </div>
-<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
-  </body>
+</body>
 </html>
