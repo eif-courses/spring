@@ -1,0 +1,34 @@
+{
+  "0": {
+    "head":"PROJEKTAS",
+    "aim":"Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų.Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:",
+    "tasks":{"pirma":"Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų.Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:",
+      "antra":"Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis.",
+      "trecia":"Sukurti piešimo programą, kurios duomenys yra saugomi JSON formatu.",
+      "ketvirta":"Sukurti Microsoft Word, Power Point, Excel programinės įrangos analogą.",
+      "penkta":"Sukurti įrankį, kuris pagal šabloną patikrintų studentų atliktas progamavimo užduotis.",
+      "sesta":"Sukurti tekstinį redaktorių panašų į Notepad++.."
+    }
+  },
+  "1": {
+    "head":"SVARBIOS DATOS",
+    "aim":"deadline",
+    "tasks":{"pirma":"Likus vienam mėnesiui iki semestro pabaigos teorinės paskaitos metu privalote pristatyti savo atliktus projektus (keletas skaidrių ir programinės dalies pristatymas).",
+      "antra":"Praktinės užduotys privalo būti pristatytos iki nurodyto termino kitu atvejų įvertinimas yra dalijamas pusiau"
+    }
+  },
+  "2": {
+    "head":"LITERATŪROS SĄRAŠAS",
+    "aim":"skaitalas",
+    "tasks":{"pirma":"Java2novice pavyzdžiai ir mini teorija - (<a href='http://www.java2novice.com/'>http://javadude.com/articles/</a>).",
+      "antra":"Introduction to Programming Using Java - (<a href='http://math.hws.edu/javanotes/'>http://math.hws.edu/javanotes/</a>).",
+      "trecia":"Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003.",
+      "ketvirta":"Scott Stanchfield straipsniai ir pavyzdžiai - (<a href='http://javadude.com/articles/'>http://javadude.com/articles/</a>).",
+      "penkta":"A.Riškus. Programavimas Java. Pirmoji pažintis. Kaunas, Technologija, 2014.",
+      "sesta":"Java SE8 for the Really Impatient: A Short Course on the Basics (Java Series) 1st Edition, 2014.",
+      "septinta":"Programavimo kalbos Java pavyzdžiai ir teorija - (<a href='http://www.java2s.com/'>http://www.java2s.com/</a>)."
+    }
+  }
+}
+
+

@@ -1,552 +1,305 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
-   
-	<!-- Always force latest IE rendering engine & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Programavimas kalba Java</title>
 
-	<title>Programavimas kalba Java</title>
-	<meta name="description" content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
-	<meta name="keywords" content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
-	<meta name="author" content="Marius Gžegoževskis">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+          content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
+    <meta name="keywords"
+          content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
+    <meta name="author" content="Marius Gžegoževskis">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-	<link rel="icon" href="favicon.ico" type="image/x-icon">  
-	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/materialize.css">
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+    <script src="javascripts/moment.min.js"></script>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
-	
+    <style>
+        .tabs .indicator {
+            background-color: black !important;
+        }
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        .tabs .tab a {
+            color: black;
+        }
 
-<style>
+        .tabs li {
+            background-color: #eceff1;
+        }
 
-.hi {
-  width: 44.7px;
-  height: 44.7px;
-  background-image: url("images/tech.png");
-  position: relative;
+        .tabs .tab a:hover, .tabs .tab a.active {
+            background-color: #00e676;
+            color: black;
+        }
 
-  -webkit-animation: playv 5s steps(11) infinite, playh 1.1667s steps(11) infinite;
-  animation: playv 5s steps(11) infinite, playh 1.1667s steps(11) infinite;
-}
+        .basic_h2 {
+            padding: 12px;
+            margin: 0px;
+        }
 
-@-webkit-keyframes playv {
-  0% {
-    background-position-y: 0px;
-  }
-  100% {
-    background-position-y: -492px;
-  }
-}
+        .basic_collection {
+            border: 1px solid black;
+        }
 
-@-webkit-keyframes playh {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: -492px;
-  }
-}
-
-@keyframes playv {
-  0% {
-    background-position-y: 0px;
-  }
-  100% {
-    background-position-y: -492px;
-  }
-}
-
-#animated_div {
-    width: 570px;
-    height: 47px;
-    background: #92B901;
-    color: #ffffff;
-    position: relative;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    animation: animated_div 5s 1;
-    -moz-animation: animated_div 5s 1;
-    -webkit-animation: animated_div 5s 1;
-    -o-animation: animated_div 5s 1;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-@keyframes animated_div{
-0% {
-    transform: rotate(0deg);
-    left: 0px;
-}
-
-
-25% {
-    transform: rotate(20deg);
-    left: 0px;
-}
-
-50% {
-    transform: rotate(0deg);
-    left: 500px;
-}
-
-55% {
-    transform: rotate(0deg);
-    left: 500px;
-}
-
-70% {
-    transform: rotate(0deg);
-    left: 500px;
-    background: #1ec7e6;
-}
-
-100% {
-    transform: rotate(-360deg);
-    left: 0px;
-}
-}
-
-.tabs .indicator {
-
-background-color: black !important;
-
-}
-
-
-.tabs .tab a{
-    color:black;
-}
-
-.tabs li{
-
-background-color: #eceff1;
-}
-.tabs .tab a:hover,.tabs .tab a.active {
-	background-color:#00e676;
-	color:black;
-}
-
-.basic_h2{
-	padding:12px;
-	margin:0px;
-
-}
-.basic_collection{
- border: 1px solid black;
-}
-
-.basic_h2_li{
- border-bottom: 1px solid black;
- background-color: #00e676  ;
-}
-
-</style>
-
-  </head>
-
-  <body>
-
+        .basic_h2_li {
+            border-bottom: 1px solid black;
+            background-color: #00e676;
+        }
+    </style>
+</head>
+<body>
 <div id="duom"></div>
+<div id="fb-root"></div>
+<script type="text/javascript" src="javascripts/main.js"></script>
 
-  <div id="fb-root"></div>
+<div class="inner">
+    <header>
+        <ul class="tabs">
+            <li class="tab col s3 "><a id="index">Programavimas kalba java</a></li>
+            <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
+            <li class="tab col s3 "><a id="praktika" href="praktika.html">Struktūrinis programavimas</a></li>
+            <li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
+        </ul>
+    </header>
 
-  <script>
-
-$(document).ready(function(){
-
-      (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-    $('ul.tabs').tabs();
-	   randomLinks();
-
-	document.getElementById("index").onclick = function() {
-	window.location.href = "index.html";
-	  };
-	document.getElementById("security").onclick = function() {
-	window.location.href = "security.html";
-	  };
-	  document.getElementById("praktika").onclick = function() {
-	window.location.href = "praktika.html";
-	  };
-
-
-
-
-
- 	});
-  </script>
-
-		<header>
-      <div class="inner">
-
-   <ul class="tabs">
-
-        <li class="tab col s3 "> <a id="index">Programavimas kalba java</a></li>
-        <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
-        <li class="tab col s3 "><a id="praktika" href="praktika.html">Struktūrinis programavimas</a></li>
-		<li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
-
-		
-    </ul>
-        </header>
-
-<div id="content-wrapper">
-    <div class="inner clearfix">
-        <section id="main-content">
-            <ul class="tab">
-                <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės užduotys</a></li>
-                <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a></li>
-                <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
-                <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Eifbox</a></li>
-            </ul>
-            <div id="Konspektai" class="tabcontent">
-                <div class="row" id="slideContent">
-                    <div class="col s12"><hr><ul class="tabs tabs-fixed-width" id="slideLinks">
-
-                        <script>
-
-                            $.getJSON( "slides/java/slides.json", function( data ) {
-                                var i=1;
-                                $.each( data, function( key, val ) {
-                                    $("#slideLinks").append('<li class="tab col s3">'+
-                                        '<a id="'+val.name+'" '+ ' href="'+"#"+val.click+'">'+i+"</a></li>");
-                                    $("#"+val.name).click(function() {
-                                        $("#slideContent").append('<div id="'+val.click +'" class="col s12"></div>');
-                                        $("#"+val.click).html(""+val.href);
+    <div id="content-wrapper">
+        <div class="inner clearfix">
+            <section id="main-content">
+                <ul class="tab">
+                    <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
+                        užduotys</a></li>
+                    <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a>
+                    </li>
+                    <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
+                    <li><a target="_blank"
+                           href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
+                           class="tablinks">Eifbox</a></li>
+                </ul>
+                <!-- KONSPEKTAI(PASKAITU SKAIDRES)-->
+                <div id="Konspektai" class="tabcontent">
+                    <div class="row" id="slideContent">
+                        <div class="col s12">
+                            <hr>
+                            <ul class="tabs tabs-fixed-width" id="slideLinks">
+                                <script>
+                                    $.getJSON("slides/java/slides.json", function (data) {
+                                        var i = 1;
+                                        $.each(data, function (key, val) {
+                                            $("#slideLinks").append('<li class="tab col s3">' +
+                                                '<a id="' + val.name + '" ' + ' href="' + "#" + val.click + '">' + i + "</a></li>");
+                                            $("#" + val.name).click(function () {
+                                                $("#slideContent").append('<div id="' + val.click + '" class="col s12"></div>');
+                                                $("#" + val.click).html("" + val.href);
+                                            });
+                                            i++;
+                                        });
                                     });
-                                    i++;
-                                });
-                            });
-
-                        </script>
-                    </ul>
-
-                        <div id="test1" class="col s12"><hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
-
+                                    $("#uzkrauti").click(function () {
+                                        $("#pirma").trigger('click');
+                                    });
+                                </script>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
+                <div id="Rezultatai" class="tabcontent">
+                    <ul class="collection basic_collection">
+                        <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
 
-            <div id="Rezultatai" class="tabcontent">
-                <ul class="collection basic_collection">
-                    <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
+                        <li class="collection-item">
+                            <a class="waves-effect waves-light btn light-blue darken-4" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
+                            <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
+                <div id="Projektas" class="tabcontent">
 
-                    <li class="collection-item">
-                        <a class="waves-effect waves-light btn light-blue darken-4" target="_blank" href ="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
-                        <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank" href ="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
-                    </li>
-                </ul>
-            </div>
+                    <script>
 
-            <div id="Projektas" class="tabcontent">
-                <ul class="collection basic_collection">
-                    <li class="basic_h2_li"><h2 class="basic_h2">PROJEKTAS</h2></li>
+                        $.getJSON("tasks/java/project.json", function (data) {
+                            var i = 0;
+                            $.each(data, function (key, val) {
 
-                    <li class="collection-item">
-		
-Tikslas sukurti aplikaciją su grafine vartotojo sąsaja, kurioje būtų taikomi pagrindiniai objektiškai orientuoto programavimo principai: Paveldėjimas, Inkapsuliacija, Duomenų abstrakcija ir Polimorfizmas. Atliekamas individualiai arba grupėse sudarytose nuo 1-4 studentų.
-Projekto temą siūlote jūs arba pasirenkate iš rekomenduojamo sąrašo:
-	</li>
-  <li class="collection-item">
-Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis. </li>
-
-<li class="collection-item">
-  
-  Sukurti piešimo programą, kurios duomenys yra saugomi JSON formatu.
-  </li>
-	<li class="collection-item">
- Sukurti Microsoft Word, Power Point, Excel programinės įrangos analogą.
-  </li>
-  	<li class="collection-item">
-  Sukurti įrankį, kuris pagal šabloną patikrintų studentų atliktas progamavimo užduotis.
-  </li>
-  <li class="collection-item">
-  Sukurti tekstinį redaktorių panašų į Notepad++..
-  </li>
-</ul>
-
-
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">SVARBIOS DATOS</h2></li>
-
-     <li class="collection-item">
-		
-	Likus vienam mėnesiui iki semestro pabaigos teorinės paskaitos metu privalote pristatyti savo atliktus projektus (keletas skaidrių ir programinės dalies pristatymas).
-	
-	</li>
-
-</ul>
-
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">LITERATŪROS SĄRAŠAS</h2></li>
-
-     <li class="collection-item">
-		
-	Java2novice pavyzdžiai ir mini teorija - (<a href="http://www.java2novice.com/">http://javadude.com/articles/</a>).	
-	</li>
-	
-	  <li class="collection-item">
-		
-	Introduction to Programming Using Java - (<a href="http://math.hws.edu/javanotes/">http://math.hws.edu/javanotes/</a>).	</li>
-	 
-	 <li class="collection-item">
-		
-	Bruce Eckel. Thinking in Java, 3rd/4th Edition, 2003.	
-	</li>
-	<li class="collection-item">
-		
-	Scott Stanchfield straipsniai ir pavyzdžiai - (<a href="http://javadude.com/articles/">http://javadude.com/articles/</a>).
-	</li>
-<li class="collection-item">
-		
-	A.Riškus. Programavimas Java. Pirmoji pažintis. Kaunas, Technologija, 2014.
-	</li>
-	<li class="collection-item">
-		
-	Java SE8 for the Really Impatient: A Short Course on the Basics (Java Series) 1st
-Edition, 2014.	
-	</li>
-	<li class="collection-item">
-		
-	Programavimo kalbos Java pavyzdžiai ir teorija - (<a href="http://www.java2s.com/">http://www.java2s.com/</a>). 
-	</li>
-</ul>
-
-</div>
-            <script>
-
-                myDate = new Date(2016, 12, 02);
-                toDate = new Date(2016, 12, 13);
-                var a = moment('2017-01-16');
-                var b = moment('2017-03-24');
-                var c = moment('2017-01-20');
-
-                $.getJSON( "tasks/java/tasks.json", function( data ) {
-
-                    var i=0;
-
-                    $.each( data, function( key, val ) {
-
-                        // Task deadline
-                        var m = moment(a);
-                        m.diff(b, 'days');
-                        m.add(7*i, 'days');
-
-                        var d = moment(c);
-                        d.diff(b, 'days');
-                        d.add(7*i, 'days'); // 0 1 2 3 4
-
-
-                        $(".accordion").click(function() {
-                            this.classList.toggle("active");
-                            this.nextElementSibling.classList.toggle("show");
+                                $("#Projektas").append("<ul class='collection basic_collection' id" + "=eilesNr" + i + ">" +
+                                    '<li class="basic_h2_li"><h2 class="basic_h2">' + val.head + '</h2></li>');
+                                $.each(val.tasks, function (k, v) {
+                                    $("#eilesNr" + i).append("<li class='collection-item'>" + v + "</li>");
+                                });
+                                $("#Projektas").append('</ul>');
+                                i++;
+                            });
                         });
+                    </script>
 
-                        $("#Pratybos").append("<hr><button class='accordion'><b>" +(i+1)+" užduotis.</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+
-                            val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id"+"=uzd"+ i+ "></ol></div>");
+                </div>
+                <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
+                <script>
+                    myDate = new Date(2016, 12, 02);
+                    toDate = new Date(2016, 12, 13);
+                    var a = moment('2017-01-16');
+                    var b = moment('2017-03-24');
+                    var c = moment('2017-01-20');
 
-                        $(".accordion").click(function() {
-                            this.classList.toggle("active");
-                            this.nextElementSibling.classList.toggle("show");
+                    $.getJSON("tasks/java/tasks.json", function (data) {
+                        var i = 0;
+                        $.each(data, function (key, val) {
+                            // Task deadline
+                            var m = moment(a);
+                            m.diff(b, 'days');
+                            m.add(7 * i, 'days');
+                            var d = moment(c);
+                            d.diff(b, 'days');
+                            d.add(7 * i, 'days'); // 0 1 2 3 4
+                            $(".accordion").click(function () {
+                                this.classList.toggle("active");
+                                this.nextElementSibling.classList.toggle("show");
+                            });
+                            $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
+                                val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id" + "=uzd" + i + "></ol></div>");
+                            $(".accordion").click(function () {
+                                this.classList.toggle("active");
+                                this.nextElementSibling.classList.toggle("show");
+                            });
+                            // Checkboxas uzduotims
+                            $('.rectangle-list a').click(function () {
+                                var dd = $(this).css("background-color");
+                                if (dd == 'rgb(255, 255, 0)') {
+                                    $(this).css("background-color", "#ddd");
+                                    $(this).css("color", "black");
+                                }
+                                else {
+                                    $(this).css("background-color", "yellow");
+                                    $(this).css("color", "black");
+                                }
+                            });
+                            // Punktai
+                            $.each(val.tasks, function (k, v) {
+                                $("#uzd" + i).append("<li><a>" + v + "</a></li>");
+                            });
+                            i++;
                         });
-
-                        // Checkboxas uzduotims
-                        $('.rectangle-list a').click(function(){
-
-                            var dd = $(this).css("background-color");
-
-                            if(dd == 'rgb(255, 255, 0)'){
-                                $(this).css("background-color", "#ddd");
-                                $(this).css("color", "black");
-                            }
-                            else{
-                                $(this).css("background-color", "yellow");
-                                $(this).css("color", "black");
-                            }
-                        });
-
-                        // Punktai
-                        $.each(val.tasks , function(k , v ) {
-
-                            $("#uzd"+i).append("<li><a>" + v + "</a></li>");
-                        });
-                        i++;
                     });
-
-                    document.getElementById("anketaMain").onclick = function() {
-
-                        document.getElementById("anketa").innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIAKaJzeI6mclsqGz24WL_NW9XCky86m6WNMrr0P6ca8oMAw/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
-
-                    };
-                });
-
-            </script>
-
-<div id="Pratybos" class="tabcontent"> 
-
-
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (JAVA)</h2></li>
-       
-
-	   <li class="collection-item">
-
-Atliekamos tik kompiuterinėse klasėse paskaitos metu. 
- Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio. 
-
-	</li>
-
- <li class="collection-item">
- Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą iki nurodyto termino</u></b></span> (zip formatu, dokumento pavadinimas "užduoties" nr. pvz: <b>1 užduotis.zip, 2 užduotis.zip</b>).
- </li>
- 
- <li class="collection-item">
- <span style="color:red"><i><b>PASTABA!</b></i></span> Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau.
- </li>
-	
-</ul>
-
-</div>
-            <script>
-
-                var main = document.getElementById('main');
-                main.className = "active";
-
-                var blokas = document.getElementById("Pratybos");
-
-                blokas.style.display = "block";
-
-
-                function openCity(evt, cityName) {
-
-                    main.className = main.className.replace("active", "");
-                    // Declare all variables
-                    var i, tabcontent, tablinks;
-
-                    // Get all elements with class="tabcontent" and hide them
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                        tabcontent[i].style.display = "none";
-                    }
-
-                    // Get all elements with class="tablinks" and remove the class "active"
-                    tablinks = document.getElementsByClassName("tablinks");
-                    for (i = 0; i < tablinks.length; i++) {
-                        tablinks[i].className = tablinks[i].className.replace(" active", "");
-                    }
-                    // TODO LIST NEED FIX
-                   // document.getElementById("test1").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1hyjOJzeweRG5F3lwU0BRcOhSAd6NrO9SlYlwSwu1ou0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-
-
-
-
-
-
-
-
-
-                    // Show the current tab, and add an "active" class to the link that opened the tab
-                    document.getElementById(cityName).style.display = "block";
-                    evt.currentTarget.className += " active";
-                }
-
-                function randomLinks(){
-
-                    var sidebarLinks = document.querySelectorAll("aside a.button");
-                    for(d = 0; d < sidebarLinks.length; d++)
-                    {
-                        var color = "#";
-                        for (k = 0; k < 3; k++) {
-                            color += ("0" + (Math.random()*230|0).toString(16)).substr(-2);
+                </script>
+                <div id="Pratybos" class="tabcontent">
+                    <ul class="collection basic_collection">
+                        <li class="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (JAVA)</h2></li>
+                        <li class="collection-item">
+                            Atliekamos tik kompiuterinėse klasėse paskaitos metu.
+                            Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio.
+                        </li>
+                        <li class="collection-item">
+                            Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą iki nurodyto termino</u></b></span>
+                            (zip formatu, dokumento pavadinimas "užduoties" nr. pvz: <b>1 užduotis.zip, 2
+                            užduotis.zip</b>).
+                        </li>
+                        <li class="collection-item">
+                            <span style="color:red"><i><b>PASTABA!</b></i></span> Jeigu užduotys nebus atliktos laiku
+                            įvertinimas bus dalijamas pusiau.
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    var main = document.getElementById('main');
+                    main.className = "active";
+                    var blokas = document.getElementById("Pratybos");
+                    blokas.style.display = "block";
+                    function openCity(evt, cityName) {
+                        main.className = main.className.replace("active", "");
+                        // Declare all variables
+                        var i, tabcontent, tablinks;
+                        // Get all elements with class="tabcontent" and hide them
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
                         }
-                        sidebarLinks[d].style.backgroundColor = color;
+                        // Get all elements with class="tablinks" and remove the class "active"
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        // Show the current tab, and add an "active" class to the link that opened the tab
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
                     }
-                }
+                </script>
+                <hr>
+                <p id="data_el_pastas"></p>
+                <script>
+                    data = new Date();
+                    document.getElementById("data_el_pastas").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas ' + data.getFullYear() + '. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
+                </script>
+                <hr>
+            </section>
 
-            </script>
-<hr>
-<p id="demo"></p>
-
-<script>
-
-data = new Date();
-
-document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear()+'. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
-</script>
-
-<hr>
-
-        </section>
-
-          <aside id="sidebar">
-         <p class="pavadinimas"> <strong>NAUDINGOS NUORODOS</strong></p>
+            <aside id="sidebar">
+                <p class="pavadinimas"><strong>NAUDINGOS NUORODOS</strong></p>
 
 
-		 
-		  <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PASKAIT%C5%B2%20KONSPEKTAI" class="button">
-            
-            Paskaitų medžiaga
-          </a>
-		 
-		 <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PAVYZD%C5%BDIAI" class="button">
-		 
-		Programų pavyzdžiai</a>
-		 
+                <a target="_blank"
+                   href="https://github.com/eif-courses/Programavimas-Java/tree/master/PASKAIT%C5%B2%20KONSPEKTAI"
+                   class="button">
+                    <small>Teorinė medžiaga</small>
+                    TEORIJA
+                </a>
 
-		 <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
-            <small>Dokumentų talpykla</small>
-            EIFBOX
-          </a>
-		
+                <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PAVYZD%C5%BDIAI"
+                   class="button">
+                    <small>Programų pavyzdžiai</small>
+                    PAVYZDŽIAI</a>
 
-		  <a target="_blank" href="https://www.jetbrains.com/idea/" class="button">
-            <small>Programinė įranga</small>
-            IntelliJ IDEA
-          </a>
-		  	
-		  <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml" class="button">
-            <small>Įkelti dokumentai</small>
-            Logas
-          </a>
+                <a target="_blank"
+                   href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
+                   class="button">
+                    <small>Dokumentų talpykla</small>
+                    EIFBOX
+                </a>
 
+                <a target="_blank" href="https://www.jetbrains.com/idea/" class="button">
+                    <small>Programinė įranga</small>
+                    IntelliJ IDEA
+                </a>
 
-              <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote></div>
-          </aside>
+                <a target="_blank"
+                   href="https://goo.gl/forms/Htu77dLPo0hQWfyH2"
+                   class="button">
+                    <small>Kurso vertinimas</small>
+                    APKLAUSA
+                </a>
 
-      </div>
+                <a target="_blank"
+                   href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml"
+                   class="button">
+                    <small>Įkelti dokumentai</small>
+                    ŽURNALAS
+                </a>
 
+                <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/"
+                     data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                     data-hide-cover="true" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote>
+                </div>
+            </aside>
+        </div>
     </div>
-
-	<script>
-
-/*$( ".collection-item" ).css( "background-color", "#e1f5fe" );
-        // <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></s<div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote></div>
-*/
-</script>
-<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
-
+    <script type="text/javascript" async="async" defer="defer" data-cfasync="false"
+            src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
+</div>
+</body>
 </html>
