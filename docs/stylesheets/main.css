@@ -1,8 +1,27 @@
+.basic_h2 {
+	padding: 12px;
+	margin: 0px;
+}
+
+.basic_collection {
+	border: 1px solid black;
+}
+
+.basic_h2_li {
+	border-bottom: 1px solid black;
+	background-color: lightgrey;
+
+}
+
+
+
+
+
 ol{
 				counter-reset: li;
 				list-style: none;
 				*list-style: decimal;
-				font: 15px 'sans-serif' 'Helvetica Neue', Helvetica, Arial, serif;
+				font: 15px 'sans-serif' ,'Helvetica Neue', Helvetica, Arial, serif;
 				padding: 0;
 				margin-bottom: 4em;
 				text-shadow: 0 1px 0 rgba(255,255,255,.5);
@@ -117,7 +136,7 @@ ol{
 	}
 	#java{
 	
-    background url('images/java.png') no-repeat 5px 2px;
+    background-url('images/java.png') no-repeat 5px 2px;
 
 	}
 	
@@ -137,7 +156,7 @@ ol{
 
 }
 button.accordion2.active, button.accordion2:hover {
-	background-color: #00e676;
+	background-color: #ccff90;
 	cursor:default;
 }
 	
@@ -162,7 +181,7 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #00e676;
+    background-color:#ccff90;
 }
 
 div.panel {
@@ -235,8 +254,6 @@ header {
 }
 
 
-
- }
 
 @media only screen and (max-width: 480px) { 
 

@@ -29,31 +29,19 @@
         }
 
         .tabs .tab a {
-            color: black;
+            color: white;
         }
 
         .tabs li {
-            background-color: #eceff1;
+            background-color: lightsteelblue ;
+            color: white;
         }
 
         .tabs .tab a:hover, .tabs .tab a.active {
-            background-color: #00e676;
-            color: black;
+            background-color: steelblue;
+            color: white;
         }
 
-        .basic_h2 {
-            padding: 12px;
-            margin: 0px;
-        }
-
-        .basic_collection {
-            border: 1px solid black;
-        }
-
-        .basic_h2_li {
-            border-bottom: 1px solid black;
-            background-color: #00e676;
-        }
     </style>
 </head>
 <body>
@@ -63,17 +51,24 @@
 <header>
 <div class="inner">
 
-        <ul class="tabs">
-            <li class="tab col s3 "><a id="index" href="index.html">Programavimas kalba java</a></li>
-            <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
-            <li class="tab col s3 "><a id="praktika" class="active">Struktūrinis programavimas</a></li>
-            <li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
-        </ul>
+
+
+
+    <ul class="tab">
+        <li id="pagrindinis_java"><a href="javascript:void(0)" class="tablinks" onclick="window.location.href='index.html'">Programavimas kalba Java</a></li>
+        <li id="pagrindinis_web"><a href="javascript:void(0)" class="tablinks" onclick="window.location.href='security.html'">Web saugumas</a></li>
+        <li id="pagrindinis_praktika"><a class="active" href="javascript:void(0)" class="tablinks">Struktūrinis programavimas</a></li>
+    </ul>
+
+
+
     </header>
 
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
+
+
                 <ul class="tab">
                     <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
                         užduotys</a></li>
@@ -90,10 +85,14 @@
                         <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
 
                         <li class="collection-item">
-                            <a class="waves-effect waves-light btn light-blue darken-4" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
-                            <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
+                            <a class="waves-effect waves-light btn yellow accent-4" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml">PI16A</a>
+                            <a class="waves-effect waves-light btn green" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml">PI16B</a>
+                            <a class="waves-effect waves-light btn red" target="_blank"
+                               href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml">PI16C</a>
+
+
                         </li>
                     </ul>
                 </div>
@@ -104,7 +103,7 @@
                 <script src="javascripts/praktines_uzduotys.js"></script>
                 <div id="Pratybos" class="tabcontent">
                     <ul class="collection basic_collection">
-                        <li id="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (STRUKTŪRINIO PRAKTIKA)</h2></li>
+                        <li class="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (STRUKTŪRINIO PRAKTIKA)</h2></li>
                         <li class="collection-item">
                             Užduotys yra atliekamos praktikos metu kompiuterinėse klasėse.
                         </li>

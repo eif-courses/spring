@@ -37,23 +37,11 @@
         }
 
         .tabs .tab a:hover, .tabs .tab a.active {
-            background-color: #00e676;
+            background-color: steelblue;
             color: black;
         }
 
-        .basic_h2 {
-            padding: 12px;
-            margin: 0px;
-        }
 
-        .basic_collection {
-            border: 1px solid black;
-        }
-
-        .basic_h2_li {
-            border-bottom: 1px solid black;
-            background-color: #00e676;
-        }
     </style>
 </head>
 <body>
@@ -63,12 +51,17 @@
 <header>
 <div class="inner">
 
-        <ul class="tabs">
-            <li class="tab col s3 "><a id="index">Programavimas kalba java</a></li>
-            <li class="tab col s3 "><a id="security" href="security.html">Web saugumas</a></li>
-            <li class="tab col s3 "><a id="praktika" href="praktika.html">Struktūrinis programavimas</a></li>
-            <li class="tab col s3 disabled"><a href="#">Operacinės sistemos</a></li>
-        </ul>
+
+
+
+
+
+    <ul class="tab2">
+        <li id="pagrindinis_java" style="background: transparent url('images/java.png') 0 0 no-repeat;"> <a class="active2" href="javascript:void(0)" class="tablinks">Programavimas kalba Java</a></li>
+        <li id="pagrindinis_web" style="background: transparent url('images/security.png') 0 0 no-repeat;"><a href="javascript:void(0)" class="tablinks" onclick="window.location.href='security.html'">Web saugumas</a></li>
+        <li id="pagrindinis_praktika" style="background: transparent url('images/prac.jpg') 0 0 no-repeat;"><a  href="javascript:void(0)" class="tablinks" onclick="window.location.href='praktika.html'">Struktūrinis programavimas</a></li
+    </ul>
+
     </header>
 
     <div id="content-wrapper">

@@ -6,13 +6,13 @@
  *    user zoom.
  */
 
- 
- 
 
- 
- 
- 
- 
+
+
+
+
+
+
 html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -612,7 +612,7 @@ aside a.button:hover {
 
 aside a.button2 {
   display: block;
-  
+
   margin-bottom:20px;
   padding-left: 64px;
   font-size: 21px;
@@ -620,7 +620,7 @@ aside a.button2 {
   height: 4em;
   background: black;
 
-  
+
 }
 
 
@@ -855,14 +855,14 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { 
+@media only screen and (max-width: 959px) {
 
 
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	
+
   .inner {
     width: 740px;
   }
@@ -892,25 +892,25 @@ footer a:hover {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-	
-	
-	
-	
-	aside a.button {
-  display: block;
-  width: auto;
-  height: 90px;
-  padding-left: auto;
-  margin-bottom: 15px;
-  font-size: 21px;
-  background: grey;
-   
-}
-	
-	
-	
-	
-	
+
+
+
+
+  aside a.button {
+    display: block;
+    width: auto;
+    height: 90px;
+    padding-left: auto;
+    margin-bottom: 15px;
+    font-size: 21px;
+    background: grey;
+
+  }
+
+
+
+
+
   .inner {
     width: 93%;
   }
@@ -963,7 +963,7 @@ footer a:hover {
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
-    
+
   }
   #main-content h1:before,
   #main-content h2:before,
@@ -978,57 +978,57 @@ footer a:hover {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-	aside a.button {
-  display: block;
-  width: auto;
-  height: 90px;
-  padding-left: auto;
-  margin-bottom: 15px;
-  font-size: 21px;
-  background: grey;
-}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  aside a.button {
+    display: block;
+    width: auto;
+    height: 90px;
+    padding-left: auto;
+    margin-bottom: 15px;
+    font-size: 21px;
+    background: grey;
+  }
 
-aside a.button2 {
-  display: block;
-  
-  margin-bottom:20px;
-  padding-left: 64px;
-  font-size: 21px;
-  width: auto;
-  height: 4em;
-  background: white;	
-  
-  
-}
+  aside a.button2 {
+    display: block;
+
+    margin-bottom:20px;
+    padding-left: 64px;
+    font-size: 21px;
+    width: auto;
+    height: 4em;
+    background: white;
+
+
+  }
 
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { 
-	aside a.button {
-  display: block;
-  width: auto;
-  height: 90px;
-  padding-left: auto;
-  margin-bottom: 15px;
-  font-size: 21px;
-  background: grey;
+@media only screen and (max-width: 479px) {
+  aside a.button {
+    display: block;
+    width: auto;
+    height: 90px;
+    padding-left: auto;
+    margin-bottom: 15px;
+    font-size: 21px;
+    background: grey;
 
-}
+  }
 
-aside a.button2 {
-  display: block;
-  
-  margin-bottom:20px;
-  padding-left: 64px;
-  font-size: 21px;
-  width: auto;
-  height: 4em;
-  background: white;	
-  
-  
-}
+  aside a.button2 {
+    display: block;
+
+    margin-bottom:20px;
+    padding-left: 64px;
+    font-size: 21px;
+    width: auto;
+    height: 4em;
+    background: white;
+
+
+  }
 
 
 
@@ -1037,38 +1037,199 @@ aside a.button2 {
 }
 /* Style the list */
 ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;
+  border:solid 2px white;
+
+  background-color:#01579B;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+  display: inline-block;
+  color: white;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13pt;
+
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+
+  background-color:#f50057; color:white;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+
+  background-color:#f50057;
+  color:white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@media only screen and (max-width: 479px) {
+  ul.tab {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
+    border: 2px solid #cccccc ;
+    background-color: steelblue;
+  }
 
-/* Float the list items side by side */
-ul.tab li {float: left;}
+  /* Float the list items side by side */
+  ul.tab li {float: left;}
 
-/* Style the links inside the list items */
-ul.tab li a {
+  /* Style the links inside the list items */
+  ul.tab li a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 2px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
-}
+    font-size: 10pt;
+  }
 
-/* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+  /* Change background color of links on hover */
+  ul.tab li a:hover {background-color: #004e9d; color:white;}
 
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: #ccc;}
+  /* Create an active/current tablink class */
+  ul.tab li a:focus, .active {
+    background-color:#26a69a;
+    color:white;
+  }
 
-/* Style the tab content */
-.tabcontent {
+  /* Style the tab content */
+  .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+  }
+
 }
+
+
+
+
+
+
+/* Style the list VIRSUTINIS MENU */
+ul.tab2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+/* Float the list items side by side */
+ul.tab2 li {float: left;
+  border:solid 1px grey;
+
+  background-color:white;
+}
+
+/* Style the links inside the list items */
+ul.tab2 li a {
+  display: inline-block;
+  color: black;
+  margin-left: 25px;
+  padding: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13pt;
+
+}
+
+/* Change background color of links on hover */
+ul.tab2 li a:hover {
+
+  -webkit-text-stroke: 2px blue;
+
+
+}
+
+/* Create an active/current tablink class */
+ul.tab2 li a:focus, .active2 {
+  -webkit-text-stroke: 2px blue;
+
+}
+
+/* Style the tab content */
+
+
+@media only screen and (max-width: 479px) {
+  ul.tab2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #cccccc ;
+    background-color: steelblue;
+  }
+
+  /* Float the list items side by side */
+  ul.tab2 li {float: left;}
+
+  /* Style the links inside the list items */
+  ul.tab2 li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 10pt;
+  }
+
+  /* Change background color of links on hover */
+  ul.tab2 li a:hover {background-color: #004e9d; color:white;}
+
+  /* Create an active/current tablink class */
+  ul.tab2 li a:focus, .active {
+    background-color:#26a69a;
+    color:white;
+  }
+
+  /* Style the tab content */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

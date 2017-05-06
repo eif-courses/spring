@@ -23,14 +23,5 @@ $(document).ready(function(){
     $('ul.tabs').tabs();
     randomLinks();
 
-    document.getElementById("index").onclick = function() {
-        window.location.href = "index.html";
-    };
-    document.getElementById("security").onclick = function() {
-        window.location.href = "security.html";
-    };
-    document.getElementById("praktika").onclick = function() {
-        window.location.href = "praktika.html";
-    };
 
 });
