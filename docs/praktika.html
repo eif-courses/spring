@@ -23,46 +23,49 @@
     <script src="javascripts/materialize.min.js"></script>
     <script src="javascripts/moment.min.js"></script>
 
-    <style>
-        .tabs .indicator {
-            background-color: black !important;
-        }
-
-        .tabs .tab a {
-            color: white;
-        }
-
-        .tabs li {
-            background-color: lightsteelblue ;
-            color: white;
-        }
-
-        .tabs .tab a:hover, .tabs .tab a.active {
-            background-color: steelblue;
-            color: white;
-        }
-
-    </style>
 </head>
 <body>
 <div id="duom"></div>
-<div id="fb-root"></div>
+
 <script type="text/javascript" src="javascripts/main.js"></script>
-<header>
+
 <div class="inner">
 
 
 
 
-    <ul class="tab">
-        <li id="pagrindinis_java"><a href="javascript:void(0)" class="tablinks" onclick="window.location.href='index.html'">Programavimas kalba Java</a></li>
-        <li id="pagrindinis_web"><a href="javascript:void(0)" class="tablinks" onclick="window.location.href='security.html'">Web saugumas</a></li>
-        <li id="pagrindinis_praktika"><a class="active" href="javascript:void(0)" class="tablinks">Struktūrinis programavimas</a></li>
-    </ul>
+    <header>
 
+        <div class="chip" onclick="window.location.href='index.html'">
+            <img src="images/java.png" alt="Contact Person">
+            JAVA
+        </div>
+        <div class="chip" onclick="window.location.href='smart.html'">
+            <img src="images/smart.png" alt="Contact Person" >
+            ANDROID
+        </div>
+        <div id="active" class="chip" >
+            <img src="images/prac.png" alt="Contact Person" >
+            PRAKTIKA
+        </div>
+        <div class="chip" onclick="window.location.href='htm_js.html'">
+            <img src="images/htm.png" alt="Contact Person" >
+            JS/HTML
+        </div>
+        <div class="chip" onclick="window.location.href='security.html'">
+            <img src="images/security.png" alt="Contact Person">
+            SAUGUMAS
+        </div>
+        <div class="chip" onclick="window.location.href='os.html'">
+            <img src="images/linux.png" alt="Contact Person" >
+            OS
+        </div>
 
 
     </header>
+
+
+
 
     <div id="content-wrapper">
         <div class="inner clearfix">
@@ -81,20 +84,33 @@
 
                 <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
                 <div id="Rezultatai" class="tabcontent">
-                    <ul class="collection basic_collection">
-                        <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
 
-                        <li class="collection-item">
-                            <a class="waves-effect waves-light btn yellow accent-4" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml">PI16A</a>
-                            <a class="waves-effect waves-light btn green" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml">PI16B</a>
-                            <a class="waves-effect waves-light btn red" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml">PI16C</a>
+                    <hr>
 
 
-                        </li>
-                    </ul>
+
+                    <div class="chip">
+                        <img src="images/cgrupe.PNG" alt="Contact Person">
+                        <a target="_blank"
+                           href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml"> PI16A
+                        </a>
+                    </div>
+
+                    <div class="chip">
+                        <img src="images/bgrupe.PNG" alt="Contact Person">
+                        <a target="_blank"
+                           href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml"> PI16B
+                        </a>
+                    </div>
+                    <div class="chip">
+                        <img src="images/agrupe.PNG" alt="Contact Person">
+                        <a target="_blank"
+                           href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml"> PI16C
+                        </a>
+                    </div>
+
+
+
                 </div>
 
 
@@ -103,7 +119,7 @@
                 <script src="javascripts/praktines_uzduotys.js"></script>
                 <div id="Pratybos" class="tabcontent">
                     <ul class="collection basic_collection">
-                        <li class="basic_h2_li"><h2 class="basic_h2">PRAKTINĖS UŽDUOTYS (STRUKTŪRINIO PRAKTIKA)</h2></li>
+                        <li class="basic_h2_li"><img src="images/prac.png" height="50px"><h2 style="margin-top:-50px; margin-left: 50px" class="basic_h2" id="c_praktika"><a class="waves-effect waves-light btn grey">PRAKTINĖS UŽDUOTYS</a> </h2></li>
                         <li class="collection-item">
                             Užduotys yra atliekamos praktikos metu kompiuterinėse klasėse.
                         </li>
@@ -116,16 +132,23 @@
                     </ul>
 
                     <ul id="tabs-swipe-demo" class="tabs grey lighten-3">
-                        <li class="tab col s3"><a class="active" href="#test-swipe-1">PI16A</a></li>
-                        <li class="tab col s3 disabled"><a href="#test-swipe-2">PI16B</a></li>
-                        <li class="tab col s3 disabled"><a href="#test-swipe-3">PI16C</a></li>
+                        <li id="pia" class="tab col s3"><a id="pi16a" class="active" href="#test-swipe-1">PI16A</a></li>
+                        <li id="pib" class="tab col s3"><a id="pi16b" href="#test-swipe-2">PI16B</a></li>
+                        <li id="pic" class="tab col s3"><a id="pi16c" href="#test-swipe-3">PI16C</a></li>
+
                     </ul>
-                    <hr>
+
                     <div id="test-swipe-1" class="col s12"></div>
                     <div id="test-swipe-2" class="col s12"></div>
                     <div id="test-swipe-3" class="col s12"></div>
 
+
                 </div>
+
+
+
+
+
                 <script>
                     var main = document.getElementById('main');
                     main.className = "active";
@@ -187,7 +210,7 @@
                 </a>
 
                 <a target="_blank"
-                   href="https://goo.gl/forms/pJcIWZUskv92gegg2"
+                   href="https://goo.gl/forms/1h6oBrq2J0zFlxjn1"
                    class="button">
                     <small>Žinių patrikrinimas</small>
                     TESTAS
@@ -200,12 +223,7 @@
                     ŽURNALAS
                 </a>
 
-                <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/"
-                     data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
-                     data-hide-cover="true" data-show-facepile="false">
-                    <blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a
-                            href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote>
-                </div>
+
             </aside>
         </div>
     </div>

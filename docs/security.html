@@ -31,54 +31,15 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-	<style>
-
-
-.tabs .indicator { 
-
-background-color: black !important;
-
-
-}
-
-
-.tabs .tab a{
-    color:black;
-}
-
-.tabs li{
-
-background-color: #eceff1;
-
-}
-.tabs .tab a:hover,.tabs .tab a.active {
-	background-color:steelblue;
-	color:black;
-}
-
-
-
-</style>
-
-        
 	
    
   </head>
 
   <body>
 
-    <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
-      fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  
   <script>
-	  
-	  
+
+
   $(document).ready(function(){
     $('ul.tabs').tabs();
 	   randomLinks();
@@ -123,23 +84,48 @@ background-color: #eceff1;
 
   
   
-    <header>
+
 	
 	
       <div class="inner">
 
 
 
+          <header>
 
-          <ul class="tab">
-              <li id="pagrindinis_java"><a  href="javascript:void(0)" class="tablinks" onclick="window.location.href='index.html'">Programavimas kalba Java</a></li>
-              <li id="pagrindinis_web"><a class="active" href="javascript:void(0)" class="tablinks">Web saugumas</a></li>
-              <li id="pagrindinis_praktika"><a  href="javascript:void(0)" class="tablinks" onclick="window.location.href='praktika.html'">Struktūrinis programavimas</a></li>
-          </ul>
+              <div class="chip" onclick="window.location.href='index.html'">
+                  <img src="images/java.png" alt="Contact Person">
+                  JAVA
+              </div>
+              <div  class="chip" onclick="window.location.href='smart.html'">
+                  <img src="images/smart.png" alt="Contact Person" >
+                  ANDROID
+              </div>
+              <div   class="chip" onclick="window.location.href='praktika.html'">
+                  <img src="images/prac.png" alt="Contact Person" >
+                  PRAKTIKA
+              </div>
+              <div class="chip" onclick="window.location.href='htm_js.html'">
+                  <img src="images/htm.png" alt="Contact Person" >
+                  JS/HTML
+              </div>
+              <div id="active" class="chip" >
+                  <img src="images/security.png" alt="Contact Person">
+                  SAUGUMAS
+              </div>
+              <div class="chip" onclick="window.location.href='os.html'">
+                  <img src="images/linux.png" alt="Contact Person" >
+                  OS
+              </div>
+
+          </header>
+
+
+
 	</div>
 		
 		
-    </header>
+
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -230,7 +216,7 @@ background-color: #eceff1;
 
 
 <ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">PROJEKTAS (WEB SAUGUMAS)</h2></li>
+	<li class="basic_h2_li"><img src="images/security.png" height="50px"><h2 style="margin-top:-50px; margin-left: 50px" class="basic_h2">PROJEKTAS (WEB SAUGUMAS)</h2></li>
      <li class="collection-item">
 		Sukurti internetinę svetainę laisvai pasirinkta programavimo kalba (<b>C#, JAVA, PHP, Node.js</b>). 
 	</li>
@@ -484,10 +470,7 @@ document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektroniko
 		  
 		 
 		  
-		  
-     <div style="width: 280px;" class="fb-page" data-href="https://www.facebook.com/vikoeif/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/vikoeif/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vikoeif/">Eif-courses</a></blockquote></div>
 
-         
         </aside>
       </div>
     </div>

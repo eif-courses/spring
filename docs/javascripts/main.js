@@ -12,13 +12,39 @@ function randomLinks(){
 }
 $(document).ready(function(){
 
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v2.8&appId=336920023368615";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+
+    $( "a#pi16a" ).click(function() {
+
+
+        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn yellow darken-2">PI16A GRUPĖ</a>');
+            //$("h2.basic_h2#c_praktika").css('background-color','#f9a825');
+        $("a#pi16a").css('background-color','#fbc02d');
+
+        $("a#pi16b").css('background-color','transparent');
+        $("a#pi16c").css('background-color','transparent');
+
+
+    });
+    $( "a#pi16b" ).click(function() {
+        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn green accent-4">PI16B GRUPĖ</a>');
+       // $("h2.basic_h2#c_praktika").css('background-color','#00e676');
+        $("a#pi16b").css('background-color','#00e676');
+        $("a#pi16a").css('background-color','transparent');
+        $("a#pi16c").css('background-color','transparent');
+
+    });
+    $( "#pi16c" ).click(function() {
+        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn light-blue darken-1">PI16C GRUPĖ</a>');
+       // $("h2.basic_h2#c_praktika").css('background-color','#ff5252');
+        $("a#pi16c").css('background-color','#039be5');
+        $("a#pi16b").css('background-color','transparent');
+        $("a#pi16a").css('background-color','transparent');
+
+
+
+    });
+
+
 
     $('ul.tabs').tabs();
     randomLinks();
