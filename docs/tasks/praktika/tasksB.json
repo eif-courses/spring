@@ -24,7 +24,7 @@
   },
   "3": {
     "head":"Sukurti ekspertinę sistemą (dirbtinio intelekto), kuri gebėtų mokytis.",
-    "aim":"Sukurti konsolinę programą, kurioje dirbtinis intelektas (kompiuteris) sugebėti atspėti jūsų sugalvotą žodį laisvai pasirinkta tema, pvz: gyvūnai, kompiuteris (AI) užduoda klausimus, į kuriuos jūs atsakote taip arba ne. Programos pavyzdį Pascal programavimo kalba rasite čia: <a href='https://drive.google.com/file/d/0Bx5e6YsgekD_Mm5CRndwN3M5YmM/view?usp=sharing'>https://drive.google.com/file/d/0Bx5e6YsgekD_Mm5CRndwN3M5YmM/view?usp=sharing</a>",
+    "aim":"Sukurti konsolinę programą, kurioje dirbtinis intelektas (kompiuteris) privalo sugebėti atspėti jūsų sugalvotą žodį laisvai pasirinkta tema, pvz: gyvūnai, kompiuteris (AI) užduoda klausimus, į kuriuos jūs atsakote taip arba ne. Programos pavyzdį Pascal programavimo kalba rasite čia: <a href='https://drive.google.com/file/d/0Bx5e6YsgekD_Mm5CRndwN3M5YmM/view?usp=sharing'>https://drive.google.com/file/d/0Bx5e6YsgekD_Mm5CRndwN3M5YmM/view?usp=sharing</a>",
     "tasks":{"pirma":"Dirbtinio intelekto (angl. Artificial intelligence) apmokymo duomenis saugoti faile."
     }
   },
