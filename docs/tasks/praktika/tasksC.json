@@ -42,12 +42,11 @@
     }
   },
   "6": {
-    "head":"Internetinio puslapio (html) generavimas.",
-    "aim":"Sukurti konsolinę programą, kuri gebėtų sugeneruoti internetinį puslapį html formatu.",
-    "tasks":{"pirma":"Puslapis privalo turėti standartinį HTML formato aprašą.",
-      "antra":"Turėtų būti galimybė sukurti: pasirinkto dydžio lentelę, formą, navigaciją, straipsnį ir kt. standartinius elementus.",
-      "trecia": "Turi būti sukurtas atskiras meniu kuriame pasirinkate kokių HTML elementų reikės. Pasirinkus konkretų elementą pvz: lentelė (table), užpildyti jos duomenis iš konsolės.",
-      "ketv":"Norint gauti papildomų balų galite įgyvendinti pasirinkto HTML elemento stiliaus pasirinkimo galimybę."
+    "head":"Internetinio puslapio generavimas (SVG) formatas.",
+    "aim":"Sukurti konsolinę programą, kuri nuskaitytų tekstinį dokumentą, kuriame yra įrašyti figūrų pavadinimai.",
+    "tasks":{"pirma":"Tada realizuoti atitinkamas funkcijas skirtas šioms figūroms sugeneruoti svg formatu. Įrašyti į index.html dokumentą ir rezultatą atvaizduoti naršyklėje.",
+      "antra":"Figūrų visi parametrai privalo būti atsitiktiniai dydžiai: spalva, ilgis, spindulys ir t.t.",
+      "trecia": "Galiausiai pateikti lentelę su duomenimis: kiek ir kokio tipo figūrų yra, spalva, bei kitais parametrais apačioje visų atvaizduotų figūrų."
     }
   },
   "7": {
@@ -57,13 +56,12 @@
     }
   },
   "8": {
-    "head":"Sukurti momentinės loterijos algoritmą.",
-    "aim":"Tikslas sukurti unikalią momentinę loteriją arba pasirinkti iš esamų <a href='http://www.lpt.lt/loteriju-organizatoriai/loteriju-taisykles/loteriju-taisykles-iki-2014-m-gruodzio-31-d/'>http://www.lpt.lt/loteriju-organizatoriai/loteriju-taisykles/</a>",
+    "head":"Realaus gyvenimo algoritmas.",
+    "aim":"Tikslas sukurti unikalų realaus gyvenimo bet kokios situacijos algoritmą naudojantis šiuo pavyzdžių: (<a href='http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm'>http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm</a>).",
     "tasks": {
-      "pirma": "Atkreipti į esamų loterijų taisykles ir prizinį fondą, nuo kurio ir priklausys laimėjimai.",
-      "antra": "Turi būti galimybė žaisti: įsygyti bilietą/-us, nutrinti (užtenka išvesti pranešimą, kad bilietas yra trinamas), kaupti statistiką apie laimėjimus.",
-      "trecia": "Bilietų rezultatus išvesti HTML formatu naršyklėje. Sukurti momentinės loterijos šabloną, kurį atvaizduosite HTML formatu pvz:",
-      "ketv": "<center><img src='images/bite_nutrintas.jpg'></center>"
+      "pirma": "Programa turi turėti atskirtas funkcijas ir numatytas išimtis. </i>Prieš tai pateikto pavyzdžio rinktis negalima</i>.",
+      "antra": "Vertinimas priklauso nuo idėjos originalumo ir algoritmo sudėtingumo.",
+      "trecia": "<span style='color:red'>Pastaba!</span> <i>Algoritmas nėra tik cout ar printf() funkcijų panaudojimas.</i>"
     }
   },
   "9": {
