@@ -13,10 +13,14 @@ function randomLinks(){
 $(document).ready(function(){
 
 
+
+
+
+
     $( "a#pi16a" ).click(function() {
 
 
-        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn yellow darken-2">PI16A GRUPĖ</a>');
+       // $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn yellow darken-2">PI16A GRUPĖ</a>');
             //$("h2.basic_h2#c_praktika").css('background-color','#f9a825');
         $("a#pi16a").css('background-color','#fbc02d');
 
@@ -26,7 +30,7 @@ $(document).ready(function(){
 
     });
     $( "a#pi16b" ).click(function() {
-        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn green accent-4">PI16B GRUPĖ</a>');
+       // $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn green accent-4">PI16B GRUPĖ</a>');
        // $("h2.basic_h2#c_praktika").css('background-color','#00e676');
         $("a#pi16b").css('background-color','#00e676');
         $("a#pi16a").css('background-color','transparent');
@@ -34,7 +38,7 @@ $(document).ready(function(){
 
     });
     $( "#pi16c" ).click(function() {
-        $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn light-blue darken-1">PI16C GRUPĖ</a>');
+      //  $("h2.basic_h2#c_praktika").html('<a class="waves-effect waves-light btn light-blue darken-1">PI16C GRUPĖ</a>');
        // $("h2.basic_h2#c_praktika").css('background-color','#ff5252');
         $("a#pi16c").css('background-color','#039be5');
         $("a#pi16b").css('background-color','transparent');
@@ -44,7 +48,7 @@ $(document).ready(function(){
 
     });
 
-
+    $("a#mainas.tablinks").addClass("tablinks active");
 
     $('ul.tabs').tabs();
     randomLinks();

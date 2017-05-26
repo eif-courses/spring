@@ -501,6 +501,7 @@ header {
   background: white;
   height: auto ;
   border-bottom: solid 1px #275da1;
+  border-top: solid 1px #275da1;
 }
 
 header h1 {
@@ -1187,10 +1188,6 @@ header{
 .tabs .tab a:hover,.tabs .tab a.active {
   color:black;
 }
-
-
-
-
 
 
 

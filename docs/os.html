@@ -23,12 +23,7 @@
     <script src="javascripts/materialize.min.js"></script>
     <script src="javascripts/moment.min.js"></script>
 
-    <style>
-        #androidas{
-            background-color: red!important;
-        }
 
-    </style>
 
 
 </head>
@@ -37,7 +32,7 @@
 <script type="text/javascript" src="javascripts/main.js"></script>
 
 <div class="inner">
-
+    <h3>Operacinės sistemos</h3>
     <header>
 
         <div class="chip" onclick="window.location.href='index.html'">
@@ -71,7 +66,7 @@
         <div class="inner clearfix">
             <section id="main-content">
                 <ul class="tab">
-                    <li id="main"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
+                    <li id="main"><a id="mainas" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
                         užduotys</a></li>
                     <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a>
                     </li>
@@ -194,8 +189,7 @@
                 </script>
                 <div id="Pratybos" class="tabcontent">
                     <ul class="collection basic_collection">
-                        <li class="basic_h2_li"><img src="images/linux.png" height="50px"><h2 style="margin-top:-50px; margin-left: 50px" class="basic_h2">PRAKTINĖS UŽDUOTYS (Operacinės sistemos)</h2></li>
-                        <li class="collection-item">
+                       <li class="collection-item">
                             Atliekamos tik kompiuterinėse klasėse paskaitos metu.
                             Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio.
                         </li>
