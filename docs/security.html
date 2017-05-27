@@ -1,478 +1,282 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
-   
-	<!-- Always force latest IE rendering engine & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web saugumas</title>
 
-	<title>Web saugumas</title>
-	<meta name="description" content="Web aplikacijų saugumas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
-	<meta name="keywords" content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
-	<meta name="author" content="Marius Gžegoževskis">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+          content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
+    <meta name="keywords"
+          content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
+    <meta name="author" content="Marius Gžegoževskis">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-	<link rel="icon" href="favicon.ico" type="image/x-icon">  
-	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/materialize.css">
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+    <script src="javascripts/moment.min.js"></script>
 
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+</head>
+<body>
+<div id="duom"></div>
+<script type="text/javascript" src="javascripts/main.js"></script>
 
-	
-   
-  </head>
+<div class="inner">
+    <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">WEB SAUGUMAS</h3>
+    <header>
 
-  <body>
+        <div class="chip" onclick="window.location.href='index.html'">
+            <img src="images/java.png" alt="Contact Person">
+            JAVA
+        </div>
+        <div class="chip" onclick="window.location.href='smart.html'">
+            <img src="images/smart.png" alt="Contact Person" >
+            ANDROID
+        </div>
+        <div class="chip" onclick="window.location.href='praktika.html'">
+            <img src="images/prac.png" alt="Contact Person" >
+            PRAKTIKA
+        </div>
+        <div class="chip" onclick="window.location.href='htm_js.html'">
+            <img src="images/htm.png" alt="Contact Person" >
+            JS/HTML
+        </div>
+        <div id="active" class="chip">
+            <img src="images/security.png" alt="Contact Person">
+            SAUGUMAS
+        </div>
+        <div class="chip" onclick="window.location.href='os.html'">
+            <img src="images/linux.png" alt="Contact Person" >
+            OS
+        </div>
 
-  <script>
-
-
-  $(document).ready(function(){
-    $('ul.tabs').tabs();
-	   randomLinks();
-	   
-	 
-	   
-	   document.getElementById("antra").onclick = function() {
-	   document.getElementById("test2").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1lGH9Yqa6NzL_BZ9eTo4hMgsCg5P4x-KvSMAKIy-Gkn8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	   
-	   document.getElementById("trecia").onclick = function() {
-	   document.getElementById("test3").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1lZZVLbcQvL2PDdgbwX3_Chz6jZ7LpVYXSNEm-9VA3qg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	   document.getElementById("ketv").onclick = function() {
-	   document.getElementById("test4").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1C2K5iRt0Zm2au40xXb2ZPHxjmjppTfrBcvZ5EfZF_oo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	   document.getElementById("penkt").onclick = function() {
-	   document.getElementById("test5").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1_KVo9Sego1Jr5n_8SeHnihk8cCfC63JsV4HFuulnvKk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-	  
-	  
-	    document.getElementById("sest").onclick = function() {
-	   document.getElementById("test6").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1PwatZ4gSQu5prEQMzsPyscoCXPECxpQq0jq5EdlUN9Y/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';   
-	  };
-	    document.getElementById("sept").onclick = function() {
-	   document.getElementById("test7").innerHTML ='<hr><iframe src="https://docs.google.com/presentation/d/1TgRA-Uyhg_R2Ogm3QHy8DiFZGOUQCUFT_av6_0Th2AM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-	   };
-		
-	  
-	  
-	   });
-  
-  
-  
-  
-  
-        
-  </script>
-  
-  
-
-
-  
-  
-
-	
-	
-      <div class="inner">
-          <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">Web saugumas</h3>
-          <header>
-
-              <div class="chip" onclick="window.location.href='index.html'">
-                  <img src="images/java.png" alt="Contact Person">
-                  JAVA
-              </div>
-              <div  class="chip" onclick="window.location.href='smart.html'">
-                  <img src="images/smart.png" alt="Contact Person" >
-                  ANDROID
-              </div>
-              <div   class="chip" onclick="window.location.href='praktika.html'">
-                  <img src="images/prac.png" alt="Contact Person" >
-                  PRAKTIKA
-              </div>
-              <div class="chip" onclick="window.location.href='htm_js.html'">
-                  <img src="images/htm.png" alt="Contact Person" >
-                  JS/HTML
-              </div>
-              <div id="active" class="chip" >
-                  <img src="images/security.png" alt="Contact Person">
-                  SAUGUMAS
-              </div>
-              <div class="chip" onclick="window.location.href='os.html'">
-                  <img src="images/linux.png" alt="Contact Person" >
-                  OS
-              </div>
-
-          </header>
-
-
-
-	</div>
-		
-		
-
+    </header>
 
     <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-       
-		
-		
 
-		
-		<ul class="tab">
-		 <li id="main"><a id="mainas" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a></li>
+        <div class="inner clearfix">
 
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
-   <li><a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="tablinks">Eibox</a></li>
-</ul>
+            <section id="main-content">
+
+                <ul class="tab">
+                    <li id="main"><a id="mainas" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
+                        užduotys</a></li>
+                    <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a>
+                    </li>
+                    <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
+                    <li><a target="_blank"
+                           href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
+                           class="tablinks">Eifbox</a></li>
+                </ul>
+                <!-- KONSPEKTAI(PASKAITU SKAIDRES)-->
+                <div id="Konspektai" class="tabcontent">
+                    <div class="row" id="slideContent">
+                        <div class="col s12">
+                            <hr>
+                            <ul class="tabs tabs-fixed-width" id="slideLinks">
+                                <script>
+                                    $.getJSON("slides/security/slides.json", function (data) {
+                                        var i = 1;
+                                        $.each(data, function (key, val) {
+                                            $("#slideLinks").append('<li class="tab col s3">' +
+                                                '<a id="' + val.name + '" ' + ' href="' + "#" + val.click + '">' + i + "</a></li>");
+                                            $("#" + val.name).click(function () {
+                                                $("#slideContent").append('<div id="' + val.click + '" class="col s12"></div>');
+                                                $("#" + val.click).html("" + val.href);
+                                            });
+                                            i++;
+                                        });
+                                    });
+                                    $("#uzkrauti").click(function () {
+                                        $("#pirma").trigger('click');
+                                    });
+                                </script>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
+                <div id="Rezultatai" class="tabcontent">
+
+                    <div class="collection">
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Eh7W7yR2ULW6mF4xwvs0ulqkuiWRv8zJFJhvdW4BKMM/pubhtml" class="collection-item">PIN13</a>
+                    </div>
+
+                </div>
+                <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
+                <div id="Projektas" class="tabcontent">
+
+                    <script>
+
+                        $.getJSON("tasks/security/project.json", function (data) {
+                            var i = 0;
+                            $.each(data, function (key, val) {
+
+                                $("#Projektas").append("<ul class='collection basic_collection' id" + "=eilesNr" + i + ">" +
+                                    '<li class="basic_h2_li"><h2 class="basic_h2">' + val.head + '</h2></li>');
+                                $.each(val.tasks, function (k, v) {
+                                    $("#eilesNr" + i).append("<li class='collection-item'>" + v + "</li>");
+                                });
+                                $("#Projektas").append('</ul>');
+                                i++;
+                            });
+                        });
+                    </script>
+
+                </div>
+                <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
+                <script>
+                    myDate = new Date(2016, 12, 02);
+                    toDate = new Date(2016, 12, 13);
+                    var a = moment('2017-01-16');
+                    var b = moment('2017-03-24');
+                    var c = moment('2017-01-20');
+
+                    $.getJSON("tasks/security/tasks.json", function (data) {
+                        var i = 0;
+                        $.each(data, function (key, val) {
+                            // Task deadline
+                            var m = moment(a);
+                            m.diff(b, 'days');
+                            m.add(7 * i, 'days');
+                            var d = moment(c);
+                            d.diff(b, 'days');
+                            d.add(7 * i, 'days'); // 0 1 2 3 4
+                            $(".accordion").click(function () {
+                                this.classList.toggle("active");
+                                this.nextElementSibling.classList.toggle("show");
+                            });
+                            $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
+                                val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id" + "=uzd" + i + "></ol></div>");
+                            $(".accordion").click(function () {
+                                this.classList.toggle("active");
+                                this.nextElementSibling.classList.toggle("show");
+                            });
+                            // Checkboxas uzduotims
+                            $('.rectangle-list a').click(function () {
+                                var dd = $(this).css("background-color");
+                                if (dd == 'rgb(255, 255, 0)') {
+                                    $(this).css("background-color", "#ddd");
+                                    $(this).css("color", "black");
+                                }
+                                else {
+                                    $(this).css("background-color", "yellow");
+                                    $(this).css("color", "black");
+                                }
+                            });
+                            // Punktai
+                            $.each(val.tasks, function (k, v) {
+                                $("#uzd" + i).append("<li><a>" + v + "</a></li>");
+                            });
+                            i++;
+                        });
+                    });
+                </script>
+                <div id="Pratybos" class="tabcontent">
+
+                    <ul class="collection basic_collection">
+
+                        <li class="collection-item">
+                            Atliekamos tik kompiuterinėse klasėse paskaitos metu.
+                            Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio.
+                        </li>
+                        <li class="collection-item">
+                            Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą iki nurodyto termino</u></b></span>
+                            (zip formatu, dokumento pavadinimas "užduoties" nr. pvz: <b>1 užduotis.zip, 2
+                            užduotis.zip</b>).
+                        </li>
+                        <li class="collection-item">
+                            <span style="color:red"><i><b>PASTABA!</b></i></span> Jeigu užduotys nebus atliktos laiku
+                            įvertinimas bus dalijamas pusiau.
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    var main = document.getElementById('main');
+                    main.className = "active";
+                    var blokas = document.getElementById("Pratybos");
+                    blokas.style.display = "block";
+                    function openCity(evt, cityName) {
+                        main.className = main.className.replace("active", "");
+                        // Declare all variables
+                        var i, tabcontent, tablinks;
+                        // Get all elements with class="tabcontent" and hide them
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        // Get all elements with class="tablinks" and remove the class "active"
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        // Show the current tab, and add an "active" class to the link that opened the tab
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+                </script>
+                <hr>
+                <p id="data_el_pastas"></p>
+                <script>
+                    data = new Date();
+                    document.getElementById("data_el_pastas").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas ' + data.getFullYear() + '. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
+                </script>
+                <hr>
+            </section>
+
+            <aside id="sidebar">
+                <p class="pavadinimas"><strong>NAUDINGOS NUORODOS</strong></p>
 
 
+                <a target="_blank"
+                   href="https://github.com/eif-courses/security/tree/master/docs/paskaitos"
+                   class="button">
+                    <small>Teorinė medžiaga</small>
+                    TEORIJA
+                </a>
 
+                <a target="_blank"
+                   href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
+                   class="button">
+                    <small>Dokumentų talpykla</small>
+                    EIFBOX
+                </a>
 
+                <a target="_blank" href="https://www.jetbrains.com/idea/" class="button">
+                    <small>Programinė įranga</small>
+                    IntelliJ IDEA
+                </a>
 
-<div id="Rezultatai" class="tabcontent">
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
-        <li class="collection-item">
-<a class="waves-effect waves-light btn green darken-3" target="_blank" href="https://docs.google.com/spreadsheets/d/1Eh7W7yR2ULW6mF4xwvs0ulqkuiWRv8zJFJhvdW4BKMM/pubhtml">PIN13</a>
-	</li>
-	
-</ul>
+                <a target="_blank"
+                   href="https://goo.gl/forms/FUqmso2DN6ya0K6z1"
+                   class="button">
+                    <small>Kurso vertinimas</small>
+                    APKLAUSA
+                </a>
 
-</div>
+                <a target="_blank"
+                   href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml"
+                   class="button">
+                    <small>Įkelti dokumentai</small>
+                    ŽURNALAS
+                </a>
 
-
-
-
-<div id="Konspektai" class="tabcontent">
-
-<div class="row">
-    <div class="col s12">
-	<hr>
-      <ul class="tabs tabs-fixed-width">
-        <li class="tab col s3 "><a id="pirma" href="#test1">1</a></li>
-        <li class="tab col s3 "><a id="antra" href="#test2"> 2</a></li>
-        <li class="tab col s3 "><a id="trecia" href="#test3">3</a></li>
-        <li class="tab col s3 "><a id="ketv" href="#test4">4</a></li>
-		
-		 <li class="tab col s3"><a id="penkt" href="#test5">5</a></li>
-        <li class="tab col s3"><a id="sest" href="#test6">6</a></li>
-        <li class="tab col s3 "><a id="sept" href="#test7">7</a></li>
-        <li class="tab col s3 disabled"><a id="astuon" href="#test8">8</a></li>
-
-      </ul>
+            </aside>
+        </div>
     </div>
-    <div id="test1" class="col s12">
-
-	  </div>
-    <div id="test2" class="col s12"></div>
-    <div id="test3" class="col s12"></div>
-    <div id="test4" class="col s12"></div>
-	
-	 <div id="test5" class="col s12"></div>
-    <div id="test6" class="col s12"></div>
-	 <div id="test7" class="col s12"></div>
-    <div id="test8" class="col s12"></div>
-	
-  </div>
-
-
-
-
-
-
+    <script type="text/javascript" async="async" defer="defer" data-cfasync="false"
+            src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
-
-
-
-
-
-
-<div id="Projektas" class="tabcontent">
-	
-
-
-
-
-
-
-
-
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><img src="images/security.png" height="50px"><h2 style="margin-top:-50px; margin-left: 50px" class="basic_h2">PROJEKTAS (WEB SAUGUMAS)</h2></li>
-     <li class="collection-item">
-		Sukurti internetinę svetainę laisvai pasirinkta programavimo kalba (<b>C#, JAVA, PHP, Node.js</b>). 
-	</li>
-  <li class="collection-item">
-  Svetainė privalo būti apsaugota nuo dažniausiai pasitaikančių klaidų, kurių sąrašą rasite (<a href="https://www.owasp.org/index.php/Top_10_2013-Top_10">čia</a>). 
-  </li>
-   <li class="collection-item">
-  Svetainėje realizuoti bent vieną puslapį, kuriame būtų CRUD operacijos ir duomenų validacija. 
-  </li>
-	<li class="collection-item">
-  Taip pat pasirinktinai realizuoti prisijungimą per socialinio tinklo paskyrą arba realizuoti savo.
-  </li>
-  	<li class="collection-item">
-  Sukurti tris skirtingas roles (<b>Admin, User, Guest</b>) puslapio funkcijų apribojimui. 
-  </li>
-  <li class="collection-item">
-  Kuriant internetinę svetainę naudoti internetinių aplikacijų karkasus (angl.framework).
-  </li>
-</ul>
-
-<ul class="collection basic_collection">
-	<li class="basic_h2_li"><h2 class="basic_h2">SVARBIOS DATOS</h2></li>
-        <li class="collection-item">
-	        Projektus iki egzamino dienos zip ar rar formatu patalpinti (<a href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">dokumentų talpykoje</a>).
-			</li>
-			 <li class="collection-item">
-			Parengti internetinės svetainės pristatymą, bei jį pristatyti egzamino metu.	
-			</li>
-</ul>
-
-
-
-
-
-
-
-
-
-
- <ul class="collection basic_collection">
-        <li class="basic_h2_li"><h2 class="basic_h2">LITERATŪROS SĄRAŠAS</h2></li>
-        <li class="collection-item">The Web Application Hacker's Handbook: (<a href="https://leaksource.files.wordpress.com/2014/08/the-web-application-hackers-handbook.pdf">nuoroda</a>).
-</li>
-        <li class="collection-item">Java spring karkasas - (<a href="https://spring.io/guides">nuoroda</a>).</li>
-        <li class="collection-item">Pamokos pradedantiesiems php, xml, html, JS, SQL - (<a href="http://www.w3schools.com/php/default.asp">nuoroda</a>).</li>
-        <li class="collection-item">Open Web Application Security Project - (<a href="https://www.owasp.org/index.php/Main_Page">nuoroda</a>).</li>
-      </ul>
-            
-
-
-
-
-
-
-</div>
-
-
-
-
-<script>
-	
-	var main = document.getElementById('main');
-	var pro = document.getElementById('Projektas');
-	pro.style.display = "block";
-	main.className = "active";	
-	
-	
-	
-	function openCity(evt, cityName) {
-	
-	main.className = main.className.replace("active", "");
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
- document.getElementById("test1").innerHTML = '<hr><iframe src="https://docs.google.com/presentation/d/1Vdl5l-_zNchBifbxaHacnqPEHp0ivZFPJfwVbV5hcCk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>';
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// DATOS SKRIPTAS
-myDate = new Date(2016, 12, 02);
-toDate = new Date(2016, 12, 13);
-
-var color = "#";
-for (k = 0; k < 3; k++) {
-    color += ("0" + (Math.random()*128|0).toString(16)).substr(-2);
-}
-
-var acc = document.getElementsByClassName("accordion");
-var acc2 = document.getElementsByClassName("accordion2");
-
-
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-	
-			this.classList.toggle("active");
-			this.nextElementSibling.classList.toggle("show");
-
-  }
-}
-
-// Check boxas uzduotims
-$('.rectangle-list a').click(function(){
-
-		var dd = $(this).css("background-color");
-
-		if(dd == 'rgb(255, 255, 0)'){
-			$(this).css("background-color", "#ddd");
-			$(this).css("color", "black");
-		}
-		else{
-			$(this).css("background-color", "yellow");
-			$(this).css("color", "#cfd8dc");
-		}
-});
-
-
-function randomLinks(){
-
-var sidebarLinks = document.querySelectorAll("aside a.button");
-	for(d = 0; d < sidebarLinks.length; d++)
-	{
-		var color = "#";
-for (k = 0; k < 3; k++) {
-    color += ("0" + (Math.random()*256|0).toString(16)).substr(-2);
-}
-		sidebarLinks[d].style.backgroundColor = color;	
-	}
-}
-
-var a = moment('2017-01-16');
-var b = moment('2017-03-24');
-var c = moment('2017-01-20');
-
-
-var penkta = moment('2017-01-20');
-
-var i = 0;
-
-for (i = 0; i < acc.length; i++) {
-
-	var m = moment(a); 
-		m.diff(b, 'days'); 
-		m.add(7*i, 'days');
-	
-	var d = moment(c); 
-		d.diff(b, 'days'); 
-		d.add(7*i, 'days'); // 0 1 2 3 4 
-	
-		
-	
-		if(i == 4){
-			acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> (2017-02-13 iki 2017-02-24) . "+acc[i].innerText; 
-			a = moment('2017-01-23');
-			c = moment('2017-01-27');
-
-		}
-		else{
-				acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
-		}
-		//if(i >= 5){
-			
-		//	acc[i].innerHTML = '<b>'+(i+1)+" užduotis</b> ("+m.format('YYYY-MM-DD')+" iki "+ d.format('YYYY-MM-DD')+"). "+acc[i].innerText; 
-	
-		//}
-		
-	}
-	
-</script>
-
-
-
-
-
-
-<hr>
-<p id="demo"></p>
-
-<script>
-
-data = new Date();
-
-document.getElementById("demo").innerHTML = '&copy Vilniaus kolegija Elektronikos ir Informatikos fakultetas '+data.getFullYear()+'. Marius Gžegoževskis. el. paštas: <a href="mailto:m.gzegozevskis@eif.viko.lt">m.gzegozevskis@eif.viko.lt</a>';
-</script>
-
-
-
-
-<hr>
-
-
-
-
-
-
-
-
-
-        </section>
-
-        <aside id="sidebar">
-         <p class="pavadinimas"> <strong>NAUDINGOS NUORODOS</strong></p>
-
-		 
-
-		 
-		 
-		  <a id="ln" target="_blank" href="https://github.com/eif-courses/security/tree/master/docs/paskaitos" class="button">
-            
-            Paskaitų medžiaga
-          </a>
-		 
-		 
-		 
-		 
-		 
-		
-         
-		  
-		 <a id="ln" target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
-            <small>Dokumentų talpykla</small>
-            EIFBOX
-          </a>
-		
-		
-	
-		
-		
-		  <a id="ln" target="_blank" href="https://www.jetbrains.com/idea/" class="button">
-            <small>Programinė įranga</small>
-            IntelliJ IDEA
-          </a>
-		  	
-		  <a id="ln" target="_blank" href="https://docs.google.com/spreadsheets/d/1Ox9QKSpCR0498gg-bqI30WtIyNqmR6Dtdo-zpDhXn6o/pubhtml" class="button">
-            <small>Įkelti dokumentai</small>
-            Logas
-          </a>
-		  
-		 
-		  
-
-        </aside>
-      </div>
-    </div>
-
- <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
-  </body>
+</body>
 </html>

@@ -1,0 +1,30 @@
+{
+  "0": {
+    "head":"PROJEKTAS",
+    "aim":"Sukurti internetinę svetainę laisvai pasirinkta programavimo kalba (<b>C#, JAVA, PHP, Node.js</b>).",
+    "tasks":{"pirma":"Svetainė privalo būti apsaugota nuo dažniausiai pasitaikančių klaidų, kurių sąrašą rasite (<a href='https://www.owasp.org/index.php/Top_10_2013-Top_10'>čia</a>). ",
+      "antra":"Svetainėje realizuoti bent vieną puslapį, kuriame būtų CRUD operacijos ir duomenų validacija.",
+      "trecia":"Taip pat pasirinktinai realizuoti prisijungimą per socialinio tinklo paskyrą arba realizuoti savo.",
+      "ketvirta":"Sukurti tris skirtingas roles (<b>Admin, User, Guest</b>) puslapio funkcijų apribojimui.",
+      "penkta":"Kuriant internetinę svetainę naudoti internetinių aplikacijų karkasus (angl.framework)."
+    }
+  },
+  "1": {
+    "head":"SVARBIOS DATOS",
+    "aim":"deadline",
+    "tasks":{"pirma":"Projektus iki egzamino dienos zip ar rar formatu patalpinti (<a href='https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec'>dokumentų talpykoje</a>).",
+      "antra":"Parengti internetinės svetainės pristatymą, bei jį pristatyti egzamino metu."
+    }
+  },
+  "2": {
+    "head":"LITERATŪROS SĄRAŠAS",
+    "aim":"skaitalas",
+    "tasks":{"pirma":"The Web Application Hacker's Handbook: (<a href='https://leaksource.files.wordpress.com/2014/08/the-web-application-hackers-handbook.pdf'>nuoroda</a>).",
+      "antra":"Java spring karkasas - (<a href='https://spring.io/guides'>nuoroda</a>).",
+      "trecia":"Pamokos pradedantiesiems php, xml, html, JS, SQL - (<a href='http://www.w3schools.com/php/default.asp'>nuoroda</a>).",
+      "ketvirta":"Open Web Application Security Project - (<a href=''https://www.owasp.org/index.php/Main_Page'>nuoroda</a>)."
+    }
+  }
+}
+
+

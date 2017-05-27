@@ -1,0 +1,19 @@
+{
+  "0": {
+    "head":"PROGRAMINĖ ĮRANGA",
+    "aim":"Virtualios mašinos diegimo instrukcija.",
+    "tasks":{"pirma":"Kaip įdiegti Linux operacinę sistemą naudojant virtualią mašiną (<a href='https://www.youtube.com/watch?v=Lv6V6ESOyUk'>rasite čia</a>). <br/> VMware player - (<a href='http://www.vmware.com/products/player/playerpro-evaluation.html'>http://www.vmware.com/products/player/playerpro-evaluation.html</a>).<br/>Ubuntu OS - (<a href='http://www.ubuntu.com/download/desktop'>http://www.ubuntu.com/download/desktop</a>).",
+      "antra":"Virtualią mašiną galite rinktis bet kokią, kurioje galėtumėte vykdyti Bash programavimo kalbos skriptus."
+    }
+  },
+  "2": {
+    "head":"LITERATŪROS SĄRAŠAS",
+    "aim":"skaitalas",
+    "tasks":{"pirma":"BASH komandų ir skriptų pavyzdžiai - (<a href='https://bash.cyberciti.biz/guide/Main_Page'>https://bash.cyberciti.biz/guide/Main_Page</a>).",
+      "antra":"Pagrindinės BASH programamvimo kalbos komandos - (<a href='http://ss64.com/bash/'>http://ss64.com/bash/</a>).",
+      "trecia":"BASH ir PowerShell komandu palyginimas - (<a href='http://cecs.wright.edu/~pmateti/Courses/233/Labs/Scripting/bashVsPowerShellTable.html'>rasite čia</a>)."
+    }
+  }
+}
+
+

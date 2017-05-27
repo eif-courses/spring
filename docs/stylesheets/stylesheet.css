@@ -1083,7 +1083,8 @@ ul.tab li a:focus, .active {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
-  border-top: none;
+  margin-top: 10px;
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -1124,7 +1125,7 @@ ul.tab li a:focus, .active {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
-    border-top: none;
+
   }
 
 }

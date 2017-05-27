@@ -32,7 +32,7 @@
 <script type="text/javascript" src="javascripts/main.js"></script>
 
 <div class="inner">
-    <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">Operacinės sistemos</h3>
+    <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">OPERACINĖS SISTEMOS</h3>
     <header>
 
         <div class="chip" onclick="window.location.href='index.html'">
@@ -68,62 +68,31 @@
                 <ul class="tab">
                     <li id="main"><a id="mainas" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
                         užduotys</a></li>
-                    <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a>
+                    <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Įrankiai</a>
                     </li>
-                    <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks"
-                           onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
+
                     <li><a href="javascript:void(0)" class="tablinks"
                            onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
                     <li><a target="_blank"
                            href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
                            class="tablinks">Eifbox</a></li>
                 </ul>
-                <!-- KONSPEKTAI(PASKAITU SKAIDRES)-->
-                <div id="Konspektai" class="tabcontent">
-                    <div class="row" id="slideContent">
-                        <div class="col s12">
-                            <hr>
-                            <ul class="tabs tabs-fixed-width" id="slideLinks">
-                                <script>
-                                    $.getJSON("slides/java/slides.json", function (data) {
-                                        var i = 1;
-                                        $.each(data, function (key, val) {
-                                            $("#slideLinks").append('<li class="tab col s3">' +
-                                                '<a id="' + val.name + '" ' + ' href="' + "#" + val.click + '">' + i + "</a></li>");
-                                            $("#" + val.name).click(function () {
-                                                $("#slideContent").append('<div id="' + val.click + '" class="col s12"></div>');
-                                                $("#" + val.click).html("" + val.href);
-                                            });
-                                            i++;
-                                        });
-                                    });
-                                    $("#uzkrauti").click(function () {
-                                        $("#pirma").trigger('click');
-                                    });
-                                </script>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
                 <div id="Rezultatai" class="tabcontent">
-                    <ul class="collection basic_collection">
-                        <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
+                    <div class="collection">
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml" class="collection-item">PI16A</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml" class="collection-item ">PI16B</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml" class="collection-item">PI16C</a>
 
-                        <li class="collection-item">
-                            <a class="waves-effect waves-light btn light-blue darken-4" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
-                            <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
                 <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
                 <div id="Projektas" class="tabcontent">
 
                     <script>
 
-                        $.getJSON("tasks/java/project.json", function (data) {
+                        $.getJSON("tasks/os/project.json", function (data) {
                             var i = 0;
                             $.each(data, function (key, val) {
 
@@ -147,7 +116,7 @@
                     var b = moment('2017-03-24');
                     var c = moment('2017-01-20');
 
-                    $.getJSON("tasks/java/tasks.json", function (data) {
+                    $.getJSON("tasks/os/tasks.json", function (data) {
                         var i = 0;
                         $.each(data, function (key, val) {
                             // Task deadline
@@ -242,13 +211,13 @@
 
 
                 <a target="_blank"
-                   href="https://github.com/eif-courses/Programavimas-Java/tree/master/PASKAIT%C5%B2%20KONSPEKTAI"
+                   href="https://github.com/fontpoint/OS/tree/master/Teorin%C4%97%20med%C5%BEiaga/Bash"
                    class="button">
                     <small>Teorinė medžiaga</small>
                     TEORIJA
                 </a>
 
-                <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PAVYZD%C5%BDIAI"
+                <a target="_blank" href="https://github.com/fontpoint/OS/tree/master/Teorin%C4%97%20med%C5%BEiaga/Bash/Pavyzd%C5%BEiai"
                    class="button">
                     <small>Programų pavyzdžiai</small>
                     PAVYZDŽIAI</a>

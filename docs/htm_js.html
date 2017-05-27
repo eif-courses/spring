@@ -31,7 +31,7 @@
 <script type="text/javascript" src="javascripts/main.js"></script>
 
 <div class="inner">
-    <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">Internetinių svetainių kūrimas</h3>
+    <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 15px 0 24px; text-align: center;">INTERNETINIŲ SVETAINIŲ KŪRIMAS</h3>
     <header>
 
         <div class="chip" onclick="window.location.href='index.html'">
@@ -106,23 +106,19 @@
                 </div>
                 <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
                 <div id="Rezultatai" class="tabcontent">
-                    <ul class="collection basic_collection">
-                        <li class="basic_h2_li"><h2 class="basic_h2">REZULTATAI</h2></li>
+                    <div class="collection">
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml" class="collection-item">PI16A</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml" class="collection-item ">PI16B</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml" class="collection-item">PI16C</a>
 
-                        <li class="collection-item">
-                            <a class="waves-effect waves-light btn light-blue darken-4" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1rUPwaA1_tRDXQa6o5RfMPSJPsHIndQHaBilKhFvfmuk/pubhtml#">PI14A</a>
-                            <a class="waves-effect waves-light btn deep-orange darken-3" target="_blank"
-                               href="https://docs.google.com/spreadsheets/d/1B4CsM0CESKumqojBwwz0EZMo6NJMT4j0Lr8DzkvSzys/pubhtml#">PI14B</a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
                 <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
                 <div id="Projektas" class="tabcontent">
 
                     <script>
 
-                        $.getJSON("tasks/java/project.json", function (data) {
+                        $.getJSON("tasks/html/project.json", function (data) {
                             var i = 0;
                             $.each(data, function (key, val) {
 
@@ -146,7 +142,7 @@
                     var b = moment('2017-03-24');
                     var c = moment('2017-01-20');
 
-                    $.getJSON("tasks/java/tasks.json", function (data) {
+                    $.getJSON("tasks/html/tasks.json", function (data) {
                         var i = 0;
                         $.each(data, function (key, val) {
                             // Task deadline
