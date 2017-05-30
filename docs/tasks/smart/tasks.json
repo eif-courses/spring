@@ -1,11 +1,257 @@
 {
     "0": {
-        "head":"IN PROGRESS.............................",
-        "aim":"IN PROGRESS.............................",
-        "tasks":{"pirma":"IN PROGRESS............................."
-
+        "head":"Objektiškai orientuotojo programavimo principai: klasės, modifikatoriai, konstruktoriai, metodai, baziniai duomenų tipai.",
+        "aim":"Sukurti konsolinę programą, kurios temą pasirenkate iš sąrašo (<a target='_blank' href='https://projecteuler.net/archives'>https://projecteuler.net/archives</a>). Užduotis yra sprendžiama ir realizuojama taikant objektiškai orientuotojo programavimo žinias. Žemiau yra pateikti minimalūs reikalavimai užduočiai atlikti: ",
+        "tasks":{"pirma":"Sukurti Java projektą naudojant šią programinę įrangą: <b>Netbeans, IntelliJ IDEA, Eclipse</b>.",
+                 "antra":"Išsiaiškinti kas yra <b>Java package</b>, tada savo programoje sukurti bent vieną package.",
+                 "trecia":"Panaudoti šiuos modifikatorius: <b>public, private, protected, be modifikatoriaus",
+                 "ketvirta":"Sukurti keletą skirtingų <b>objektų (klasių), metodų, duomenų tipų</b> pagal pasirinktą tematiką skirtų užduočiai spręsti.",
+                 "penkta":"Sukurti keletą <b>prasmingų konstruktorių</b> su argumentais ir be jų.",
+                 "sesta":"Sukurti keletą <b>perkrautų metodų</b> (angl. Overloaded).",
+                 "septinta":"Suprasti kas yra <b>toString()</b> metodas ir ji panaudoti, bei sugebėti paaiškinti kam jis skirtas.",
+                 "astunta":"Duomenų įvedimas iš konsolės naudojant <b>Scanner</b> biblioteką (import java.util.Scanner). Suprasti kaip galite importuoti bet kokį kitą klasių rinkinį."
         }
-    }
+    },
+    "1": {
+        "head":"Paveldėjimas, abstrakti klasė, interfeisas, enum, static raktinis žodis.",
+        "aim":"Užduoties tikslas sukurti Java programą (konsolinę arba su grafine vartotojo sąsaja), kurios temą sugalvojate jūs. Keletas temų, kurias galite atlikti: <b>Gėrimų aparatas, Bankomatas, Parduotuvė, Bankas, Viešbutis</b>. Galutinė aplikacija privalo pilnai funkcionuoti, pvz: bankomatas, gėrimų aparatas turi aptarnauti vartotoją (išduoti pinigus, paduoti gėrimą).Programa privalo tenkinti šiuos punktus: ",
+        "tasks":{"pirma":"Sukurti <b>nemažiau 6 skirtingas</b> Java klases, kurios tenkina kodo rašymo taisykles.",
+            "antra":"Sukurti bent vieną <b>interfeisą</b>, kuriame realizuoti bent vieną prasmingą metodą.",
+            "trecia":"Panaudoti raktinį žodį <b>static</b> ir sukurti: klasę, keletą metodų, laukų, konstantų.",
+            "ketvirta":"2-3 klasės turi <b>paveldėti</b> iš abstrakčios klasės ir įgyventi visus abstrakčius metodus.",
+            "penkta":"Panaudoti jūsų sukurtą <b>interfeisą</b> bent 2 skirtingose klasėse.",
+            "sesta":"Išsiaiškinti kas yra <b>kompozicija</b> ir bent vienoje iš klasių tai panaudoti.",
+            "septinta":"<span style='color:red'>Rekomendacija!</span> Nupiešti projektuojamos programos klasių diagramą (pvz: popieriaus lape)."
+        }
+    },
+  "2": {
+      "head":"Vidinės klasės, raktinis žodis final, vidiniai interfeisai.",
+      "aim":"Sugalvoti temą ir sukurti konsolinę programą, kurioje turi būti įgyvendinti žemiau pateikti punktai:",
+      "tasks":{"pirma":"Sukurti bent 3 prasmingas (member) <b>vidines klases</b> (pvz: klasė Kompiuteris ir jos vidinės klasės yra [Procesorius, Atmintis, KietasisDiskas]).",
+          "antra":"Sukurti klasę ir joje sukurti <b>vidinį interfeisą</b> (nested interface), kuris būtų protected.",
+          "trecia":"Sukurti interfeisą ir jame sukurti kitą vidinį interfeisą, kuriame realizuoti <b>default metodą</b> ir keletą <b>static metodų</b>.",
+          "ketvirta":"Sukurti klasę, kurioje realizuoti <b>static vidinę klasę</b> ir keletą statinių metodų.",
+          "penkta":"Sukurti klasę, joje sukurti dvi konstantas, kurios būtų inicijuojamos naudojant <b>konstruktorių</b> ir <b>static bloką</b>.",
+          "sesta":"Sukurti klasę, kurioje realizuoti <b>vidinę lokalią</b> ir <b>anoniminę klases</b>.",
+          "septinta":"Sukurti klasę, ir joje realizuoti <b>design pattern builder</b>.",
+          "astunta":"Išsiaiškinti kas yra <b>try{...} catch(){...} ir finnaly{...}</b> blokai, keliose iš savo klasių panaudoti šiuos blokus.",
+          "devinta":"<span style='color:red'>Pastaba!</span> Visos sukurtos klasės turi būti panaudotos ir jeigu reikia, sukurti papildomas klases programos įgyvendinimui."
+      }
+  },
+  "3": {
+      "head":"Parametrizuojami tipai (generics), anotacijos.",
+      "aim":"Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti punktai:",
+      "tasks":{"pirma":"Sukurti keletą klasių, kurios būtų išdėstytos bent <b>3 lygmenų medyje</b>.",
+          "antra":"Sukurti Interfeisą, kuriame panaudotumėte <b>@FunctionalInterface</b> anotaciją.",
+          "trecia":"Sukurti naują <b>duomenų struktūrą</b> naudojantis jau esamais generics interfeisais iš kolekcijų karkaso (collections framework).",
+          "ketvirta":"Sukurti generic klasę, kurioje būtų naudojami <b>3 parametrai </b>(K, V, S).",
+          "penkta":"Sukurti klasę kurioje būtų <b>5 skirtingi generics metodai</b>.",
+          "sesta":"Sukurti klases, kurios naudotų bendruosius tipus (wildcards: ?, ? <b>super</b> Tipas, ? <b>extends</b> Tipas). ",
+          "septinta":"Sukurti bent 6 skirtingų rūšių <b>savo anotacijas</b>. Tada sukurtoms  anotacijoms sugalvoti paskirtį ir aprašyti funkcijas. Anotacijas galite nuskaityti naudojantis reflection biblioteka. Visos anotacijos privalo būti panaudotos.",
+          "astunta":"Panaudoti <b>3 esamas (built-in) anotacijas </b> ir sugebėti paaiškinti kam jos skirtos. "
+      }
+  },
+  "4": {
+       "head":"Klaidų apdorojimo mechanizmas.",
+       "aim":"Tikslas sukurti <b>checked</b> (Exception) ir <b>unchecked</b> (RuntimeException) tipo išimtis.",
+       "tasks":{"pirma":"Sukurti klasę, kurioje įgyvendintumėte <b>checked</b> tipo išimtį. Klasė privalo turėti bent vieną <b>unikalų metodą</b>, kuris klasifikuotų pagal tam tikrą požymį pvz: klaidos kodą ir reaguotų skirtingai priklausomai nuo klaidos kodo.",
+            "antra":"Sukurti klasę, kurioje įgyvendintumėte <b>unchecked</b> tipo išimtį. Klasė privalo turėti bent vieną <b>unikalų metodą</b>.",
+            "trecia":"Aprašyti bent po vieną <b>testinį metodą</b> prieš tai realizuotoms checked ir uncheked tipo išimčių klasėms ir pademonstruoti kaip veikia."
+        }
+  },
+  "5": {
+       "head":"Java 1.8 JDK versija. Lambda expressions. Streams API.",
+       "aim":"Tikslas susipažinti su Java 1.8 JDK jos galimybėmis, Lambda išraiškų taikymas. Taip pat Pivotal Web Services panaudojimas patalpinant savo projektą į cloud'ą.",
+       "tasks":{"pirma":"Pasinaudoti 5 ar 6 užduoties savo (ne kolegos) projektu ir sukurti <b>jar</b> ar <b>war</b> archyvą bei jį patalpinti į cloud:",
+            "antra":"Sukurti keletą funkcijų, kuriose panaudotumėte lambda expressions, bent vienoje iš funkcijų panaudoti <b>lambda</b> kaip funckijos parametrą.Taip pat vienoje iš funkcijų panaudoti predikatą (<b>Predicate</b>).",
+            "trecia":"Panaudoti <b>Stream</b> klasę, kurioje pritaikyti <b>parralel stream</b>, bei sugalvoti savo <b>unikalų filtrą</b> ir ji pritaikyti savo programoje."
+       }
+  },
+   "6": {
+      "head":"Projektavimo šablonai (angl. design patterns).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "7": {
+      "head":"Mobile User Experience (UX) Design.",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "8": {
+      "head":"Google UI material design and patterns.",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "9": {
+      "head":"Standartiniai Android studio šablonai (angl. templates).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "10": {
+      "head":"Android studio pradžia, kuriant pirmąją programėlę.",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "11": {
+      "head":"Pagrindiniai išdėstymo būdai. Views and layouts",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "12": {
+      "head":"Standartiniai komponentai, controls",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "13": {
+      "head":"Activities, Fragmentai ir Intentai.",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "14": {
+      "head":"Notifications",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "15": {
+      "head":"AdapterViews and CustomViews",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "16": {
+      "head":"Interactions, Navigations",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "17": {
+      "head":"Simple animations",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "18": {
+      "head":"Sensoriai",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "19": {
+      "head":"Services, paslaugos, background procesai..",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "20": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "21": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "22": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "23": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "24": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "25": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "26": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "27": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },   "28": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  },
+     "29": {
+      "head":"Pažintis su Firebase MBaSS (debesijos paslaugos).",
+      "aim":"IN PROGRESS..............................",
+      "tasks":{"pirma":"IN PROGRESS..............................",
+          "antra":"IN PROGRESS..............................",
+          "trecia":"IN PROGRESS.............................."
+      }
+  }
 
 
 
