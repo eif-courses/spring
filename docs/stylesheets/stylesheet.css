@@ -1072,7 +1072,7 @@ ul.tab li a:hover {
   background-color:#f50057; color:white;}
 
 /* Create an active/current tablink class */
-ul.tab li a:focus, .active {
+ul.tab li .active {
 
   background-color:#f50057;
   color:white;
