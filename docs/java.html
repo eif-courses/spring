@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Web saugumas</title>
+    <title>Programavimas kalba Java</title>
 
     <meta name="description"
           content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
@@ -24,13 +24,24 @@
     <script src="javascripts/moment.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+
+
+
+
+
 </head>
 <body>
 <div id="duom"></div>
 <script type="text/javascript" src="javascripts/main.js"></script>
 
+
+
+
+
+
+
 <div class="w3-bar w3-border w3-white w3-large w3-text-grey">
-    <a href="java.html" class="w3-bar-item w3-button ">
+    <a href="java.html" class="w3-bar-item w3-button w3-text-black w3-grey">
         <img src="images/java_icon.png" style="vertical-align: middle">
         <span style="">Java</span>
 
@@ -44,7 +55,7 @@
         <img src="images/prac.png" style="vertical-align: middle">
         <span style="">Praktika</span>
     </a>
-    <a href="security.html" class="w3-bar-item w3-button w3-text-black w3-grey">
+    <a href="security.html" class="w3-bar-item w3-button ">
         <img src="images/security.png" style="vertical-align: middle">
         <span style="">Web saugumas</span>
     </a>
@@ -53,7 +64,6 @@
         <span style="">OS</span>
     </a>
 </div>
-
 
 
 
@@ -84,7 +94,7 @@
                             <hr>
                             <ul class="tabs tabs-fixed-width" id="slideLinks">
                                 <script>
-                                    $.getJSON("slides/security/slides.json", function (data) {
+                                    $.getJSON("slides/java/slides.json", function (data) {
                                         var i = 1;
                                         $.each(data, function (key, val) {
                                             $("#slideLinks").append('<li class="tab col s3">' +
@@ -108,7 +118,10 @@
                 <div id="Rezultatai" class="tabcontent">
 
                     <div class="collection">
-                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Eh7W7yR2ULW6mF4xwvs0ulqkuiWRv8zJFJhvdW4BKMM/pubhtml" class="collection-item">PIN13</a>
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml" class="collection-item">PI16A</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml" class="collection-item ">PI16B</a>
+                        <a  target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml" class="collection-item">PI16C</a>
+
                     </div>
 
                 </div>
@@ -116,8 +129,7 @@
                 <div id="Projektas" class="tabcontent">
 
                     <script>
-
-                        $.getJSON("tasks/security/project.json", function (data) {
+                        $.getJSON("tasks/java/project.json", function (data) {
                             var i = 0;
                             $.each(data, function (key, val) {
 
@@ -141,7 +153,7 @@
                     var b = moment('2017-03-24');
                     var c = moment('2017-01-20');
 
-                    $.getJSON("tasks/security/tasks.json", function (data) {
+                    $.getJSON("tasks/java/tasks.json", function (data) {
                         var i = 0;
                         $.each(data, function (key, val) {
                             // Task deadline
@@ -234,16 +246,21 @@
             </section>
 
             <aside id="sidebar">
-                <p class="pavadinimas"> <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 25px; margin: 15px 0 24px;">WEB SAUGUMAS</h3></p>
+                <p class="pavadinimas"> <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 25px; margin: 15px 0 24px;">PROGRAMAVIMO KALBA JAVA</h3></p>
 
 
 
                 <a target="_blank"
-                   href="https://github.com/eif-courses/security/tree/master/docs/paskaitos"
+                   href="https://github.com/eif-courses/Programavimas-Java/tree/master/PASKAIT%C5%B2%20KONSPEKTAI"
                    class="button">
                     <small>Teorinė medžiaga</small>
                     TEORIJA
                 </a>
+
+                <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PAVYZD%C5%BDIAI"
+                   class="button">
+                    <small>Programų pavyzdžiai</small>
+                    PAVYZDŽIAI</a>
 
                 <a target="_blank"
                    href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
@@ -258,7 +275,7 @@
                 </a>
 
                 <a target="_blank"
-                   href="https://goo.gl/forms/FUqmso2DN6ya0K6z1"
+                   href="https://goo.gl/forms/Htu77dLPo0hQWfyH2"
                    class="button">
                     <small>Kurso vertinimas</small>
                     APKLAUSA
@@ -274,6 +291,8 @@
             </aside>
         </div>
     </div>
+
+
     <script type="text/javascript" async="async" defer="defer" data-cfasync="false"
             src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
