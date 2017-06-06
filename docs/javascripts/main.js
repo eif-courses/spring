@@ -7,7 +7,7 @@ function randomLinks(){
         for (k = 0; k < 3; k++) {
             color += ("0" + (Math.random()*230|0).toString(16)).substr(-2);
         }
-        sidebarLinks[d].style.backgroundColor = color;
+        sidebarLinks[d].style.backgroundColor = "white";
     }
 }
 
@@ -40,6 +40,6 @@ $(document).ready(function(){
 
     $('.tooltipped').tooltip({delay: 50});
 
-    randomLinks();
+   // randomLinks();
 
 });

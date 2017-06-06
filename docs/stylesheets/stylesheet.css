@@ -553,7 +553,7 @@ aside#sidebar {
   padding-left: 20px;
   font-size: 12px;
   line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+  background-color: transparent;
 }
 
 aside#sidebar p.repo-owner,
@@ -588,25 +588,32 @@ header a.button {
 }
 aside a.button {
   display: block;
-  width: 280px;
+  width: 250px;
   height: 4em;
   padding-left: 64px;
   margin-bottom: 20px;
-  color:black;
-  font-size: 21px;
-  background: grey;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  color: black;
+  font-size: 16pt;
+  border: 2px solid grey;
+  background: transparent url(../images/github-button_hover.png) 0 0 no-repeat;
 }
+aside a.button span{
+color: #2879d0;
+}
+aside a.button small{
+  font-size: medium;
+}
+
 
 aside a.button:hover {
   display: block;
-  width: 280px;
+  width: 250px;
   height: 4em;
   padding-left: 64px;
   margin-bottom: 20px;
-  font-size: 21px;
-  background: grey;
-  background: transparent url(../images/github-button_hover.png) 0 0 no-repeat;
+  font-size: 16pt;
+
+  background: transparent url(../images/github-button_hover.png) 0 0 no-repeat; background-color: #00E676;
 }
 
 
@@ -616,7 +623,7 @@ aside a.button2 {
 
   margin-bottom:20px;
   padding-left: 64px;
-  font-size: 21px;
+  font-size: 16pt;
   width: 280px;
   height: 4em;
   background: black;
@@ -811,7 +818,12 @@ ul {
   list-style: disc;
   padding-left: 20px;
 }
-
+ul.w3-ul.w3-card-4 li:hover{
+  background-color: #00E676!important;
+}
+ul.w3-ul.w3-card-4 li{
+  border: 1px solid grey!important;
+}
 ol {
   list-style-position: inside;
   list-style: decimal;
@@ -900,13 +912,33 @@ footer a:hover {
   aside a.button {
     display: block;
     width: auto;
-    height: 90px;
-    padding-left: auto;
-    margin-bottom: 15px;
-    font-size: 21px;
-    background: grey;
-
+    height: 4em;
+    padding-left: 64px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16pt;
+    border: 2px solid grey;
+    background: transparent url(../images/github-button_hover.png) 0 0 no-repeat;
   }
+  aside a.button span{
+    color: #2879d0;
+  }
+  aside a.button small{
+    font-size: medium;
+  }
+
+
+  aside a.button:hover {
+    display: block;
+    width: auto;
+    height: 4em;
+    padding-left: 64px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+
+    background: transparent url(../images/github-button_hover.png) 0 0 no-repeat; background-color: #00E676;
+  }
+
 
 
 
