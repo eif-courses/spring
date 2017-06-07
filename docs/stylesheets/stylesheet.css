@@ -697,6 +697,15 @@ form {
 
 }
 
+/* BACK TO TOP LINK */
+
+
+
+/*------------------------------------------*/
+
+
+
+
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -824,6 +833,11 @@ ul.w3-ul.w3-card-4 li:hover{
 ul.w3-ul.w3-card-4 li{
   border: 1px solid grey!important;
 }
+li.w3-padding-16 span.w3-large{
+  color: #2879d0!important;
+}
+
+
 ol {
   list-style-position: inside;
   list-style: decimal;
