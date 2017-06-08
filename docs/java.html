@@ -223,7 +223,7 @@
                                 this.nextElementSibling.classList.toggle("show");
                             });
                             $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
-                                val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id" + "=uzd" + i + "></ol></div>");
+                                val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzd" + i + "></div></div>");
                             $(".accordion").click(function () {
                                 this.classList.toggle("active");
                                 this.nextElementSibling.classList.toggle("show");
@@ -242,7 +242,7 @@
                             });
                             // Punktai
                             $.each(val.tasks, function (k, v) {
-                                $("#uzd" + i).append("<li><a>" + v + "</a></li>");
+                                $("#uzd" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
                             });
                             i++;
                         });
@@ -251,19 +251,19 @@
                 <div id="Pratybos" class="tabcontent">
 
                     <ul class="collection basic_collection">
-
                         <li class="collection-item">
-                            Atliekamos tik kompiuterinėse klasėse paskaitos metu.
                             Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio.
                         </li>
+
                         <li class="collection-item">
-                            Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą iki nurodyto termino</u></b></span>
-                            (zip formatu, dokumento pavadinimas "užduoties" nr. pvz: <b>1 užduotis.zip, 2
-                            užduotis.zip</b>).
+                            Atliktą užduotį iki nurodyto termino privalote patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">(<span class="nuoroda">http://eifbox.viko.lt</span>)</a> ir ją apsiginti paskaitos metu.
+                            (užduotys talpinamos <u>zip</u> arba <u>rar</u> formatu iki 100mb).
+
+                            <br/>Dokumento pavadinimas turi atrodyti pvz: <b>1 užduotis.zip, 2 užduotis.zip</b> ir t.t.
                         </li>
+
                         <li class="collection-item">
-                            <span style="color:red"><i><b>PASTABA!</b></i></span> Jeigu užduotys nebus atliktos laiku
-                            įvertinimas bus dalijamas pusiau.
+                            <span style="color:red"><b>PASTABA!</b></span> Jeigu užduotys nebus atliktos laiku įvertinimas bus dalijamas pusiau!
                         </li>
                     </ul>
                 </div>

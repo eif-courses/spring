@@ -4,7 +4,7 @@
     "aim":"Sukurti konsolinę programą laisvai pasirinkta programavimo aplinka: CodeLite, Dev C/C++, CodeBlocks C++ ar kt.,kurioje privalote įgyvendinti žemiau pateiktus <b>Exchange sort</b> ir <b>Armstrong number</b> algoritmus.",
     "tasks":{"pirma":"Realizuoti <b>Exchange sort</b> algoritmą. Pateikti tarpinius skaičiavimus, pvz: [1] - žingsnis x < y = true, [2]-žingsnis x < y = false ir t.t. kad būtų matoma kaip algoritmas veikia.",
       "antra":"Sukurti funkciją, kuri surastų visus Armstrong skaičius iš intervalo <b>[111..999]</b> bei nustatytų iš konsolės įvestą skaičių ar šis skaičius yra Armstrong skaičius.",
-      "trecia":"Taip pat privalote nubraižyti prieš tai realizuotų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemomis renkatės jūs, pvz: (<b><a href='http://draw.io'>http://draw.io</a></b>)."
+      "trecia":"Taip pat privalote nubraižyti prieš tai realizuotų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemomis renkatės jūs, pvz: (<b><a href='http://draw.io'><span class='nuoroda'>http://draw.io</span></a></b>)."
     }
   },
   "1": {

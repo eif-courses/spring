@@ -194,7 +194,7 @@
                                 this.nextElementSibling.classList.toggle("show");
                             });
                             $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
-                                val.head + "</button><div class='panel'><br/>" + val.aim + "<ol class='rectangle-list' id" + "=uzd" + i + "></ol></div>");
+                                val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzd" + i + "></div></div>");
                             $(".accordion").click(function () {
                                 this.classList.toggle("active");
                                 this.nextElementSibling.classList.toggle("show");
@@ -213,7 +213,7 @@
                             });
                             // Punktai
                             $.each(val.tasks, function (k, v) {
-                                $("#uzd" + i).append("<li><a>" + v + "</a></li>");
+                                $("#uzd" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
                             });
                             i++;
                         });

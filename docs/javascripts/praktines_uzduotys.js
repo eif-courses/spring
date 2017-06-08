@@ -8,7 +8,7 @@ $.getJSON("tasks/praktika/tasksA.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-1").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "  +
-            val.head + "</button><div class='panel w3-border w3-light-grey w3-large'><br/>" +"<div class='w3-panel w3-border w3-light-grey w3-round-large'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysA" + i + "></div></div>");
+            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysA" + i + "></div></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -16,7 +16,7 @@ $.getJSON("tasks/praktika/tasksA.json", function (data) {
 
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysA" + i).append("<div class='w3-panel w3-border w3-light-grey w3-round-large'>" + v + "</div>");
+            $("#uzdavinysA" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
         });
         i++;
     });
@@ -32,7 +32,7 @@ $.getJSON("tasks/praktika/tasksB.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-2").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
-            val.head + "</button><div class='panel w3-border w3-light-grey w3-large'><br/>" +"<div class='w3-panel w3-border w3-light-grey w3-round-large'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysB" + i + "></div></div>");    $(".accordion").click(function () {
+            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysB" + i + "></div></div>");    $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
@@ -50,7 +50,7 @@ $.getJSON("tasks/praktika/tasksB.json", function (data) {
         });
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysB" + i).append("<div class='w3-panel w3-border w3-light-grey w3-round-large'>" + v + "</div>");
+            $("#uzdavinysB" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
         });
         i++;
     });
@@ -66,7 +66,7 @@ $.getJSON("tasks/praktika/tasksC.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-3").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
-            val.head + "</button><div class='panel w3-border w3-light-grey w3-large'><br/>" +"<div class='w3-panel w3-border w3-light-grey w3-round-large'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysC" + i + "></div></div>");
+            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysC" + i + "></div></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -85,7 +85,7 @@ $.getJSON("tasks/praktika/tasksC.json", function (data) {
         });
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysC" + i).append("<div class='w3-panel w3-border w3-light-grey w3-round-large'>" + v + "</div>");
+            $("#uzdavinysC" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
         });
         i++;
     });
@@ -100,7 +100,7 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-4").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
-            val.head + "</button><div class='panel w3-border w3-light-grey w3-large'><br/>" +"<div class='w3-panel w3-border w3-light-grey w3-round-large'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysD" + i + "></div></div>");
+            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysD" + i + "></div></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -119,7 +119,7 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
         });
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysD" + i).append("<div class='w3-panel w3-border w3-light-grey w3-round-large'>" + v + "</div>");
+            $("#uzdavinysD" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
         });
         i++;
     });
@@ -150,7 +150,7 @@ $.getJSON("tasks/praktika/tasksEN.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-5").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
-            val.head + "</button><div class='panel w3-border w3-light-grey w3-large'><br/>" +"<div class='w3-panel w3-border w3-light-grey w3-round-large'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysEN" + i + "></div></div>");
+            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysEN" + i + "></div></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -169,7 +169,7 @@ $.getJSON("tasks/praktika/tasksEN.json", function (data) {
         });
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysEN" + i).append("<div class='w3-panel w3-border w3-light-grey w3-round-large'>" + v + "</div>");
+            $("#uzdavinysEN" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
         });
         i++;
     });

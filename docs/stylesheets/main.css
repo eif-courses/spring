@@ -180,9 +180,11 @@ button.accordion {
 
 }
 
-button.accordion.active, button.accordion:hover {
+button.accordion.active, button.accordion:hover, button.accordion:focus{
     background-color:#ccff90;
 }
+
+
 
 div.panel {
 
