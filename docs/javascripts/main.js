@@ -13,11 +13,18 @@ function randomLinks(){
 
 $(document).ready(function(){
 
-    var tab_color = '#c6ff00';
+
+
+
+    var tab_color = 'red';
+    var tabs_background_color = 'transparent';
     var text_min_size = '12pt';
     var text_max_size = '20pt';
     var other_tabs_color = 'transparent';
     var groups = ["pi16a", "pi16b", "pi16c", "pi16d", "pi16e"];
+
+
+    $("#tabs-swipe-demo").css('background-color', tabs_background_color);
 
     $.each(groups, function( i, v ) {
         $( "a#"+v).click(function() {
