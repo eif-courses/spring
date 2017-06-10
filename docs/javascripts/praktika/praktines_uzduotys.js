@@ -100,7 +100,7 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
             this.nextElementSibling.classList.toggle("show");
         });
         $("#test-swipe-4").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
-            val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzdavinysD" + i + "></div></div>");
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysd"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -119,8 +119,11 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
         });
         // Punktai
         $.each(val.tasks, function (k, v) {
-            $("#uzdavinysD" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
+            $("#uzduotysd"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
+
+            $("#uzduotysd"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+
         i++;
     });
 });

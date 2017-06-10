@@ -4,43 +4,28 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Programavimas išmaniesiems įrenginiams</title>
-
-    <meta name="description"
-          content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
-    <meta name="keywords"
-          content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
+    <meta name="description" content="Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas">
+    <meta name="keywords" content="Programavimas, Java, Objektiškai orientuotasis, Vilniaus kolegija, Elektronikos ir informatikos fakultetas">
     <meta name="author" content="Marius Gžegoževskis">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/materialize.css">
-
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/materialize.min.js"></script>
-    <script src="javascripts/moment.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
-
 </head>
 <body>
 <div id="duom"></div>
-<script type="text/javascript" src="javascripts/main.js"></script>
-
 <div class="w3-bar w3-border w3-white w3-large w3-text-grey">
     <a href="java.html" class="w3-bar-item w3-button ">
         <img src="images/java_icon.png" style="vertical-align: middle">
         <span style="">Java</span>
-
     </a>
     <a href="smart.html" class="w3-bar-item w3-button w3-text-black w3-grey">
         <img src="images/android-alpha.png" style="vertical-align: middle">
         <span style="">Android</span>
-
     </a>
     <a href="praktika.html" class="w3-bar-item w3-button "  >
         <img src="images/prac.png" style="vertical-align: middle">
@@ -54,12 +39,8 @@
         <img src="images/security.png" style="vertical-align: middle">
         <span style="">Web saugumas</span>
     </a>
-
 </div>
-
-
 <div class="inner">
-
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
@@ -72,7 +53,6 @@
                            onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
                     <li><a href="javascript:void(0)" class="tablinks"
                            onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
-
                 </ul>
                 <!-- KONSPEKTAI(PASKAITU SKAIDRES)-->
                 <div id="Konspektai" class="tabcontent">
@@ -80,23 +60,6 @@
                         <div class="col s12">
                             <hr>
                             <ul class="tabs tabs-fixed-width" id="slideLinks">
-                                <script>
-                                    $.getJSON("slides/java/slides.json", function (data) {
-                                        var i = 1;
-                                        $.each(data, function (key, val) {
-                                            $("#slideLinks").append('<li class="tab col s3">' +
-                                                '<a id="' + val.name + '" ' + ' href="' + "#" + val.click + '">' + i + "</a></li>");
-                                            $("#" + val.name).click(function () {
-                                                $("#slideContent").append('<div id="' + val.click + '" class="col s12"></div>');
-                                                $("#" + val.click).html("" + val.href);
-                                            });
-                                            i++;
-                                        });
-                                    });
-                                    $("#uzkrauti").click(function () {
-                                        $("#pirma").trigger('click');
-                                    });
-                                </script>
                             </ul>
                         </div>
                     </div>
@@ -106,7 +69,6 @@
                     <ul class="w3-ul w3-card-4">
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml">
                             <li class="w3-padding-16">
-
                                 <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
                                 <span class="w3-large">PI16A</span><br>
                                 <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
@@ -114,16 +76,13 @@
                         </a>
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml">
                             <li class="w3-padding-16">
-
                                 <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
                                 <span class="w3-large">PI16B</span><br>
                                 <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
                             </li>
                         </a>
-
                         <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml">
                             <li class="w3-padding-16 ">
-
                                 <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
                                 <span class="w3-large">PI16C</span><br>
                                 <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
@@ -133,73 +92,8 @@
                 </div>
                 <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
                 <div id="Projektas" class="tabcontent">
-
-                    <script>
-
-                        $.getJSON("tasks/smart/project.json", function (data) {
-                            var i = 0;
-                            $.each(data, function (key, val) {
-
-                                $("#Projektas").append("<ul class='collection basic_collection' id" + "=eilesNr" + i + ">" +
-                                    '<li class="basic_h2_li"><h2 class="basic_h2">' + val.head + '</h2></li>');
-                                $.each(val.tasks, function (k, v) {
-                                    $("#eilesNr" + i).append("<li class='collection-item'>" + v + "</li>");
-                                });
-                                $("#Projektas").append('</ul>');
-                                i++;
-                            });
-                        });
-                    </script>
-
                 </div>
                 <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
-                <script>
-                    myDate = new Date(2016, 12, 02);
-                    toDate = new Date(2016, 12, 13);
-                    var a = moment('2017-01-16');
-                    var b = moment('2017-03-24');
-                    var c = moment('2017-01-20');
-
-                    $.getJSON("tasks/smart/tasks.json", function (data) {
-                        var i = 0;
-                        $.each(data, function (key, val) {
-                            // Task deadline
-                            var m = moment(a);
-                            m.diff(b, 'days');
-                            m.add(7 * i, 'days');
-                            var d = moment(c);
-                            d.diff(b, 'days');
-                            d.add(7 * i, 'days'); // 0 1 2 3 4
-                            $(".accordion").click(function () {
-                                this.classList.toggle("active");
-                                this.nextElementSibling.classList.toggle("show");
-                            });
-                            $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
-                                val.head + "</button><div class='panel w3-border w3-white w3-medium'><br/>" +"<div class='w3-panel w3-border w3-white w3-medium'>" +val.aim + "</div>"+ "   <div id" + "=uzd" + i + "></div></div>");
-                            $(".accordion").click(function () {
-                                this.classList.toggle("active");
-                                this.nextElementSibling.classList.toggle("show");
-                            });
-                            // Checkboxas uzduotims
-                            $('.rectangle-list a').click(function () {
-                                var dd = $(this).css("background-color");
-                                if (dd == 'rgb(255, 255, 0)') {
-                                    $(this).css("background-color", "#ddd");
-                                    $(this).css("color", "black");
-                                }
-                                else {
-                                    $(this).css("background-color", "yellow");
-                                    $(this).css("color", "black");
-                                }
-                            });
-                            // Punktai
-                            $.each(val.tasks, function (k, v) {
-                                $("#uzd" + i).append("<div class='w3-panel w3-border w3-white w3-medium'>" + v + "</div>");
-                            });
-                            i++;
-                        });
-                    });
-                </script>
                 <div id="Pratybos" class="tabcontent">
                     <ul class="collection basic_collection">
                      <li class="collection-item">
@@ -217,30 +111,7 @@
                         </li>
                     </ul>
                 </div>
-                <script>
-                    var main = document.getElementById('main');
-                    main.className = "active";
-                    var blokas = document.getElementById("Pratybos");
-                    blokas.style.display = "block";
-                    function openCity(evt, cityName) {
-                        main.className = main.className.replace("active", "");
-                        // Declare all variables
-                        var i, tabcontent, tablinks;
-                        // Get all elements with class="tabcontent" and hide them
-                        tabcontent = document.getElementsByClassName("tabcontent");
-                        for (i = 0; i < tabcontent.length; i++) {
-                            tabcontent[i].style.display = "none";
-                        }
-                        // Get all elements with class="tablinks" and remove the class "active"
-                        tablinks = document.getElementsByClassName("tablinks");
-                        for (i = 0; i < tablinks.length; i++) {
-                            tablinks[i].className = tablinks[i].className.replace(" active", "");
-                        }
-                        // Show the current tab, and add an "active" class to the link that opened the tab
-                        document.getElementById(cityName).style.display = "block";
-                        evt.currentTarget.className += " active";
-                    }
-                </script>
+
                 <hr>
                 <p id="data_el_pastas"></p>
                 <script>
@@ -306,5 +177,14 @@
     <script type="text/javascript" async="async" defer="defer" data-cfasync="false"
             src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
+
+<script src="javascripts/jquery.min.js"></script>
+<script src="javascripts/materialize.min.js"></script>
+<script src="javascripts/moment.min.js"></script>
+<script src="javascripts/smart/smart_tasks.js"></script>
+<script src="javascripts/main.js"></script>
+<script>
+
+</script>
 </body>
 </html>
