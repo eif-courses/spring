@@ -2,7 +2,7 @@
   "0": {
     "head":"Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.",
     "aim":"Pasirinkti 2 skirtingus algoritmus iš (<a href='https://projecteuler.net/archives'>https://projecteuler.net/archives</a>) ir sukurti konsolinę programą, kurios rezultatą išvesti į ekraną. Taip pat nubraižyti pasirinktų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemoms renkatės jūs, pvz: (<a href='http://draw.io'>http://draw.io</a>).",
-    "example":"Blokinės schemos (ciklas, sąlyga, veiksmai).<br/><img src='images/pavyzdziai_praktikos/blokine.png' align='left'/><img src='images/pavyzdziai_praktikos/blokine2_3.png' align='right'/>",
+    "example":"Blokinės schemos:veiksmų kartojimas, veiksmų pasirinkimas (šakojimas), nuosekli veiksmų seka.<br/><img src='images/pavyzdziai_praktikos/blokine.png' align='left'/><img src='images/pavyzdziai_praktikos/blokine2_3.png' align='right'/>",
     "tasks":{"pirma":"Taip pat privalote pateikti tarpinius skaičiavimus (išvesti į ekraną), kad būtų aišku kaip algoritmas veikia pažingsniui."
 
 
