@@ -2,7 +2,8 @@
     "0": {
         "head":"Socket panaudojimas klientas ir serveris.",
         "aim":"Sukurti paprastą http serverį į kurį būtų galima kreiptis iš naršyklės arba iš klientinės programos.",
-        "tasks":{"pirma":"Serverio ir kliento „bendravimas“ gali būti realizuojamas naudojantis SOCKET ar kitomis bibliotekomis.",
+      "example":"informacija ruošiama....",
+      "tasks":{"pirma":"Serverio ir kliento „bendravimas“ gali būti realizuojamas naudojantis SOCKET ar kitomis bibliotekomis.",
                  "antra":"Taip pat turi būti galima siųsti komandas ir jas apdoroti.",
                  "trecia":"Pavyzdžiui vietoje standartinio GET – naudoti lietuvišką žodi GAUTI arba PUBLIKUOTI."
         }
