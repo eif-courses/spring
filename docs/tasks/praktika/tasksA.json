@@ -2,7 +2,7 @@
   "0": {
     "head":"Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.",
     "aim":"Sukurti konsolinę programą laisvai pasirinkta programavimo aplinka: CodeLite, Dev C/C++, CodeBlocks C++ ar kt.,kurioje privalote įgyvendinti žemiau pateiktus <b>Exchange sort</b> ir <b>Armstrong number</b> algoritmus.",
-    "example":"informacija ruošiama....",
+    "example":"Blokinės schemos:veiksmų kartojimas, veiksmų pasirinkimas (šakojimas), nuosekli veiksmų seka.<br/><img src='images/pavyzdziai_praktikos/blokine.png' align='left'/><img src='images/pavyzdziai_praktikos/blokine2_3.png' align='right'/>",
     "tasks":{"pirma":"Realizuoti <b>Exchange sort</b> algoritmą. Pateikti tarpinius skaičiavimus, pvz: [1] - žingsnis x < y = true, [2]-žingsnis x < y = false ir t.t. kad būtų matoma kaip algoritmas veikia.",
       "antra":"Sukurti funkciją, kuri surastų visus Armstrong skaičius iš intervalo <b>[111..999]</b> bei nustatytų iš konsolės įvestą skaičių ar šis skaičius yra Armstrong skaičius.",
       "trecia":"Taip pat privalote nubraižyti prieš tai realizuotų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemomis renkatės jūs, pvz: (<b><a href='http://draw.io'><span class='nuoroda'>http://draw.io</span></a></b>)."
@@ -20,8 +20,8 @@
   "2": {
     "head":"Galvosūkis, užduotis iššūkis, olimpiadinis uždavinys.",
     "aim":"Duota fiksuota skaičių aibė A = <b>[1,2,3,4,5,6,7,8,9]</b>.Sukurti konsolinę programą, kuri gebėtų sudėlioti operacijų <b>{*, +}</b> ženklus taip, kad gautume įvestą skaičių <b>n</b> iš konsolės. ",
-    "example":"informacija ruošiama....",
-    "tasks":{"pirma":"Pavyzdžiui. Įvedimas. <b>[n = <span style='color:red'>80</span>]</b>, tada išvestis. <b>[1*2+3+45+6+7+8+9 = <span style='color:red'>80</span>]</b>."
+    "example":"Pavyzdžiui. Įvedimas. <b>[n = <span style='color:red'>80</span>]</b>, tada išvestis. <b>[1*2+3+45+6+7+8+9 = <span style='color:red'>80</span>]</b>.",
+    "tasks":{"pirma":"Infromacija ruošiama..."
 
     }
   },
