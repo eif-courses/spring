@@ -23,15 +23,21 @@ function openCity(evt, cityName) {
 }
 $(document).ready(function(){
 
+
+
+
+
+
+
     var tab_color = 'red';
     var tabs_background_color = 'transparent';
-    var text_min_size = '12pt';
-    var text_max_size = '20pt';
+    var text_min_size = '14pt';
+    var text_max_size = '14pt';
     var other_tabs_color = 'transparent';
     var groups = ["pi16a", "pi16b", "pi16c", "pi16d", "pi16e"];
 
 
-    $("#tabs-swipe-demo").css('background-color', tabs_background_color);
+
 
     $.each(groups, function( i, v ) {
         $( "a#"+v).click(function() {
@@ -49,6 +55,11 @@ $(document).ready(function(){
     });
 
     $("a#mainas.tablinks").addClass("tablinks active");
+
+    $("aside#sidebar").prepend(' <iframe src="https://www.facebook.com/plugins/like.php?locale=en_US&href=https%3A%2F%2Feif-courses.github.io%2F&width=250&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId=795898857225737" width="250" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
+
+    $("aside#sidebar").prepend(' <h3 class="pavadinimas" style="color: midnightblue; font-family: Raleway, sans-serif; font-size: 16px; font-weight: 800; line-height: 25px; margin: 3px 0px 10px;">NAUDINGOS NUORODOS</h3>');
+
 
     $('ul.tabs').tabs();
 

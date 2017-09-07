@@ -10,12 +10,16 @@
     <meta name="author" content="Marius Gžegoževskis">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+    <script src="javascripts/moment.min.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/materialize.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 </head>
 <body>
 
@@ -26,29 +30,33 @@
 
 
 <div id="duom"></div>
-<div class="w3-bar w3-border w3-white w3-large w3-text-grey">
-    <a href="java.html" class="w3-bar-item w3-button ">
-        <img src="images/java_icon.png" style="vertical-align: middle">
-        <span style="">Java</span>
-    </a>
-    <a href="smart.html" class="w3-bar-item w3-button ">
-        <img src="images/android-alpha.png" style="vertical-align: middle">
-        <span style="">Android</span>
-    </a>
-    <a href="praktika.html" class="w3-bar-item w3-button w3-text-black w3-grey">
-        <img src="images/prac.png" style="vertical-align: middle">
-        <span style="">Praktika</span>
-    </a>
-    <a href="os.html" class="w3-bar-item w3-button ">
-        <img src="images/linux.png" style="vertical-align: middle">
-        <span style="">OS</span>
-    </a>
-    <a href="security.html" class="w3-bar-item w3-button ">
-        <img src="images/security.png" style="vertical-align: middle">
-        <span style="">Web saugumas</span>
-    </a>
-</div>
+
+
 <div class="inner">
+    <br/>
+    <h3 class="pavadinimas" style="text-align: center ;color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 25px; font-weight: 800; line-height: 25px; margin: 3px 0px 20px;">1-OJI PROGRAMAVIMO PRAKTIKA</h3>
+    <div class="w3-bar w3-border w3-white w3-large w3-text-grey">
+        <a href="java.html" class="w3-bar-item w3-button ">
+            <img src="images/java_icon.png" style="vertical-align: middle">
+            <span style="">Java</span>
+        </a>
+        <a href="smart.html" class="w3-bar-item w3-button ">
+            <img src="images/android-alpha.png" style="vertical-align: middle">
+            <span style="">Android</span>
+        </a>
+        <a href="praktika.html" class="w3-bar-item w3-button w3-text-black w3-grey">
+            <img src="images/prac.png" style="vertical-align: middle">
+            <span style="">Praktika</span>
+        </a>
+        <a href="os.html" class="w3-bar-item w3-button ">
+            <img src="images/linux.png" style="vertical-align: middle">
+            <span style="">OS</span>
+        </a>
+        <a href="security.html" class="w3-bar-item w3-button ">
+            <img src="images/security.png" style="vertical-align: middle">
+            <span style="">Web saugumas</span>
+        </a>
+    </div>
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
@@ -56,13 +64,15 @@
                     <li id="main"><a id="mainas" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Pratybos')">Praktinės
                         užduotys</a></li>
                     <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Testas')">Testas</a></li>
+
+                    <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Anketa')">Anketa</a></li>
+
+                    <li><a href="javascript:void(0)" class="tablinks"
                            onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
-                    <li><a target="_blank"
-                           href="https://goo.gl/forms/1h6oBrq2J0zFlxjn1"
-                           class="tablinks">Testas</a></li>
-                    <li><a target="_blank"
-                           href="https://goo.gl/forms/HiYU5y8iw7WkHckD3"
-                           class="tablinks">Anketa</a></li>
+
+
                 </ul>
                 <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
                 <div id="Rezultatai" class="tabcontent">
@@ -90,26 +100,41 @@
                         </a>
                     </ul>
                 </div>
+
+                <!-- TESTAS(TESTAS, ZINIU PATIKRINIMAS)-->
+                <div id="Testas" class="tabcontent">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdutpIsbnvCj1tZqH76MxdZTHe01V7l3DScayo7BTFLrUy1bA/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>    </div>
+                <!-- ANKETA(APKLAUSA, KURSO IVERTINIMAS)-->
+                <div id="Anketa" class="tabcontent">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPbeONXYZYX-kC_iFE4kcY6R8QEofm8_INNQOz9CER7xabpA/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
                 <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
                 <div id="Pratybos" class="tabcontent">
-                    <ul class="collection basic_collection">
-                        <li class="collection-item">
+                    <ul class="w3-ul w3-border">
+                        <li class="w3-grey"><span style="font-weight: bold">VERTINIMO KRITERIJAI</span></li>
+
+                        <li>
+                            Galutinis įvertinimas</b> (100%) = Testas (20%) + Praktinių užduočių vidurkis (80%). Visos užduotys yra privalomos!
+                        </li>
+                        <li class="w3-grey"><span style="font-weight: bold">PRAKTINĖS UŽDUOTYS</span></li>
+                        <li>
                             Užduotys yra atliekamos kompiuterinėse klasėse programavimo kalba <b>C/C++</b>.
                         </li>
-                        <li class="collection-item">
+                        <li>
                             Atliktą užduotį privalote patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">(<span class="nuoroda">http://eifbox.viko.lt</span>)</a> ir ją apsiginti paskaitos metu.
                             (užduotys talpinamos <u>zip</u> arba <u>rar</u> formatu iki 100mb).
                               <br/>Dokumento pavadinimas turi atrodyti pvz: <b>1 užduotis.zip, 2 užduotis.zip</b> ir t.t.
                         </li>
-                        <li class="collection-item">
+                        <li>
                             <span style="color:red"><b>PASTABA!</b></span> Per vieną dieną galite atsiskaityti nedaugiau 3 užduočių.
                         </li>
                     </ul>
-                    <ul id="tabs-swipe-demo" class="tabs white" style="border-bottom: 1px solid lightgrey">
-                        <li id="pia" class="tab col s3"><a id="pi16a" class="active" href="#test-swipe-1" style="font-size: 20pt; color:red;">PI16A</a></li>
-                        <li id="pib" class="tab col s3"><a id="pi16b" href="#test-swipe-2" style="font-size: 14pt">PI16B</a></li>
-                        <li id="pic" class="tab col s3"><a id="pi16c" href="#test-swipe-3" style="font-size: 14pt">PI16C</a>
-                        <li id="pid" class="tab col s3"><a id="pi16d" href="#test-swipe-4" style="font-size: 14pt">PI16D</a>
+                    <br/>
+                    <ul id="tabs-swipe-demo" class="tabs">
+                        <li id="pia" class="tab col s3"><a id="pi16a" class="active" href="#test-swipe-1" style="font-size: 14pt;">PI17A</a></li>
+                        <li id="pib" class="tab col s3"><a id="pi16b" href="#test-swipe-2" style="font-size: 14pt">PI17B</a></li>
+                        <li id="pic" class="tab col s3"><a id="pi16c" href="#test-swipe-3" style="font-size: 14pt">PI17C</a>
+                        <li id="pid" class="tab col s3"><a id="pi16d" href="#test-swipe-4" style="font-size: 14pt">PI17D</a>
                         <li id="pie" class="tab col s3"><a id="pi16e" href="#test-swipe-5" style="font-size: 14pt">PI17E</a></li>
                     </ul>
                     <div id="test-swipe-1" class="col s12"></div>
@@ -129,8 +154,7 @@
             </section>
 
             <aside id="sidebar">
-                <p class="pavadinimas"> <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 25px; margin: 15px 0 24px;">1-OJI PROGRAMAVIMO PRAKTIKA</h3></p>
-                <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
+              <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec" class="button">
                     <span>EIFBOX</span>
                     <small>Dokumentų talpykla</small>
                 </a>
@@ -147,7 +171,7 @@
                     <small>Programinė įranga</small>
                 </a>
                 <a target="_blank"
-                   href="https://goo.gl/forms/1h6oBrq2J0zFlxjn1"
+                   href="https://goo.gl/forms/HbyKcxM0xNBxPxOx2"
                    class="button">
                     <span>TESTAS</span>
                     <small>Žinių patrikrinimas</small>
@@ -164,9 +188,7 @@
     <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
 
-<script src="javascripts/jquery.min.js"></script>
-<script src="javascripts/materialize.min.js"></script>
-<script src="javascripts/moment.min.js"></script>
+
 <script src="javascripts/praktika/praktines_uzduotys.js"></script>
 <script src="javascripts/main.js"></script>
 

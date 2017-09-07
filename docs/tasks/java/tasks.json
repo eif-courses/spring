@@ -1,125 +1,106 @@
 {
     "0": {
         "head":"Objektiškai orientuotojo programavimo principai: klasės, modifikatoriai, konstruktoriai, metodai, baziniai duomenų tipai.",
-        "aim":"Sukurti konsolinę programą, kurios temą pasirenkate iš sąrašo (<a target='_blank' href='https://projecteuler.net/archives'>https://projecteuler.net/archives</a>). Užduotis yra sprendžiama ir realizuojama taikant objektiškai orientuotojo programavimo žinias. Žemiau yra pateikti minimalūs reikalavimai užduočiai atlikti: ",
-        "example":"",
-      "tasks":{"pirma":"Sukurti Java projektą naudojant šią programinę įrangą: <b>Netbeans, IntelliJ IDEA, Eclipse</b>.",
-                 "antra":"Sukurti programa pagal duota pseudokoda : http://blog.teamtreehouse.com/java-and-everyday-objects",
-                 "trecia":"Panaudoti šiuos modifikatorius: <b>public, private, protected, be modifikatoriaus",
-                 "ketvirta":"Sukurti keletą skirtingų <b>objektų (klasių), metodų, duomenų tipų</b> pagal pasirinktą tematiką skirtų užduočiai spręsti.",
-                 "penkta":"Sukurti keletą <b>prasmingų konstruktorių</b> su argumentais ir be jų.",
-                 "sesta":"Sukurti keletą <b>perkrautų metodų</b> (angl. Overloaded).",
-                 "septinta":"Suprasti kas yra <b>toString()</b> metodas ir ji panaudoti, bei sugebėti paaiškinti kam jis skirtas.",
-                 "astunta":"Duomenų įvedimas iš konsolės naudojant <b>Scanner</b> biblioteką (import java.util.Scanner). Suprasti kaip galite importuoti bet kokį kitą klasių rinkinį."
+        "aim":"Sukurti konsolinę programą laisvai pasirinkta tema (nemažiau 8 klasės) naudojant Maven arba Gradle projektų valdymo ir gamybos įrankį. Susipažinti su kodo versijavimu.",
+        "example":"<b>Pseudokodas.</b> Algoritmas aprašytas žodžiu. <a target='_blank' href='http://blog.teamtreehouse.com/java-and-everyday-objects'><span class='nuoroda'>(http://pavyzdys.lt)</span></a>. <b>UML diagrama.</b> Braižant galima naudoti bet kuriuos jums žinomus įrankius. Diagramos pavyzdį rasite čia:<a target='_blank' href='https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/class-diagram-for-online-shopping-system-UML/UML_class_diagram_shopping-800x621.PNG'> <span class='nuoroda'>(https://umldiagram.example).</span></a> Projektų valdymo ir automatizavimo įrankiai: <b>Maven</b> - (<a href='https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html'><span class='nuoroda'>https://maven.apache.org/</span></a>). <b>Gradle</b> - (<a href='https://docs.gradle.org/current/release-notes.html'><span class='nuoroda'>https://docs.gradle.org/</span></a>).",
+        "tasks":{"pirma":"Įsidiegti vieną iš siūlomų programavimo aplinkų IntelliJ IDEA, ECLIPSE arba Netbeans. Sukurti Maven arba Gradle projektą skirtą Java aplikacijai. Prijungti 3 laisvai pasirinktas bibliotekas (gradle ar maven) ir jas panaudoti projekte.",
+                 "antra":"Esamam projektui sukurti skriptą (gradle, maven), kuriame būtų vykdomos kelios iš eilės einančios užduotys (angl. tasks). Išsiaiškinti kas yra JAR formatas ir pasirinktinai prijungti 2 skirtingas bibliotekas.",
+                 "trecia":"Nubrėžti programos UML klasių diagramą ir aprašytį pagrindinį programos algoritmą pseudokodu.",
+                 "ketvirta":"Užsiregistruoti bet kurioje kodo versijavimo cloud aplinkų: pvz.: Github, Bitbucket, Docker ar kt. jums žinomą. Patalpinti pirmąjį projektą ir įvykdyti kelis skirtingus commit'us."
         }
     },
     "1": {
         "head":"Paveldėjimas, abstrakti klasė, interfeisas, enum, static raktinis žodis.",
-        "aim":"Užduoties tikslas sukurti Java programą (konsolinę arba su grafine vartotojo sąsaja), kurios temą sugalvojate jūs. Keletas temų, kurias galite atlikti: <b>Gėrimų aparatas, Bankomatas, Parduotuvė, Bankas, Viešbutis</b>. Galutinė aplikacija privalo pilnai funkcionuoti, pvz: bankomatas, gėrimų aparatas turi aptarnauti vartotoją (išduoti pinigus, paduoti gėrimą).Programa privalo tenkinti šiuos punktus: ",
-      "example":"",
-      "tasks":{"pirma":"Sukurti <b>nemažiau 6 skirtingas</b> Java klases, kurios tenkina kodo rašymo taisykles.",
-            "antra":"Sukurti bent vieną <b>interfeisą</b>, kuriame realizuoti bent vieną prasmingą metodą.",
-            "trecia":"Panaudoti raktinį žodį <b>static</b> ir sukurti: klasę, keletą metodų, laukų, konstantų.",
-            "ketvirta":"2-3 klasės turi <b>paveldėti</b> iš abstrakčios klasės ir įgyventi visus abstrakčius metodus.",
-            "penkta":"Panaudoti jūsų sukurtą <b>interfeisą</b> bent 2 skirtingose klasėse.",
-            "sesta":"Išsiaiškinti kas yra <b>kompozicija</b> ir bent vienoje iš klasių tai panaudoti.",
-            "septinta":"<span style='color:red'>Rekomendacija!</span> Nupiešti projektuojamos programos klasių diagramą (pvz: popieriaus lape)."
+        "aim":"Sukurti programą (konsolinę arba su GUI), kuri galėtų nustatyti ligos diagnozę iš esamų gydimo įstaigų duomenų bazių ir pateiktų rekomendacijas.",
+      "example":"Pavyzdžiui: Bendras kraujo tyrimas matuoja šiuos rodiklius (<span class='nuoroda'><a target='_blank' href='http://sosdiagnostika.lt/paslaugos/kraujo-tyrimai/bendrieji-kraujo-tyrimai/bendras-kraujo-tyrimas/'>diagnostika.lt/</a></span>). Ligos diagnozės priežąstis, rodiklių aprašymus ir kita informacija rasite internete. Vienas iš svetainių pavyzdžių anglų kalba: (<span class='nuoroda'><a href='http://www.mayoclinic.org/symptoms/high-hemoglobin-count/basics/definition/sym-20050862'>http://www.mayoclinic.org/symptoms/high-hemoglobin-count/</a></span>).",
+      "tasks":{"pirma":"Sukurti duomenų bazę ligos diagnozei nustatyti. Privalomi tyrimo duomenų parametrai: kodas, rodiklio trumpinys, aprašymas, normos ribos ir kt. jei reikalingi. Rodiklių skaičius nemažiau 10.",
+            "antra":"Sukurti algoritmą, kuris nuskaitytų paciento tyrimo rezultatus, nustatytų ligos diagnozę, pateiktų rekomendacijas ir tolimesnę gydimo eigą. Ligų sąrašas nemažiau 5 skirtingos ligos.",
+            "trecia":"Paciento tyrimo rezultatai gali būti realūs arba generuojami atsitiktinai. Juos privalote išsaugoti duomenų bazėje. Numatyti galimybę peržiūrėti rodiklius, ligų sąrašą ir aprašymą, pateikti visų pacientų diagnozes ir rekomendacijų sąrašą.",
+        "ketvirta": "Programoje privalote panaudoti: paveldėjimą, raktinį žodį static, interfeisą, abstrakčią klasę, kompoziciją, enum."
         }
     },
+
   "2": {
       "head":"Vidinės klasės, raktinis žodis final, vidiniai interfeisai.",
-      "aim":"Sugalvoti temą ir sukurti konsolinę programą, kurioje turi būti įgyvendinti žemiau pateikti punktai:",
-    "example":"",
-    "tasks":{"pirma":"Sukurti bent 3 prasmingas (member) <b>vidines klases</b> (pvz: klasė Kompiuteris ir jos vidinės klasės yra [Procesorius, Atmintis, KietasisDiskas]).",
-          "antra":"Sukurti klasę ir joje sukurti <b>vidinį interfeisą</b> (nested interface), kuris būtų protected.",
-          "trecia":"Sukurti interfeisą ir jame sukurti kitą vidinį interfeisą, kuriame realizuoti <b>default metodą</b> ir keletą <b>static metodų</b>.",
-          "ketvirta":"Sukurti klasę, kurioje realizuoti <b>static vidinę klasę</b> ir keletą statinių metodų.",
-          "penkta":"Sukurti klasę, joje sukurti dvi konstantas, kurios būtų inicijuojamos naudojant <b>konstruktorių</b> ir <b>static bloką</b>.",
-          "sesta":"Sukurti klasę, kurioje realizuoti <b>vidinę lokalią</b> ir <b>anoniminę klases</b>.",
-          "septinta":"Sukurti klasę, ir joje realizuoti <b>design pattern builder</b>.",
-          "astunta":"Išsiaiškinti kas yra <b>try{...} catch(){...} ir finnaly{...}</b> blokai, keliose iš savo klasių panaudoti šiuos blokus.",
-          "devinta":"<span style='color:red'>Pastaba!</span> Visos sukurtos klasės turi būti panaudotos ir jeigu reikia, sukurti papildomas klases programos įgyvendinimui."
+      "aim":"Sugalvoti realaus gyvenimo situaciją (temą) ir sukurti konsolinę programą, kurioje įgyvendinti žemiau pateiktus uždavinius.",
+    "example":"<b>Member klasės pavyzdys.</b> Kompiuteris ir jo vidinės klasės: [<i>Procesorius, Atmintis, CD-ROM,</i> ir t.t.). <br/><b>Builder pavyzdys</b>. (<a target='_blank' href='https://gist.github.com/eif-courses/2c47471d72b645ee76ef7e00a8598e41'><span class='nuoroda'>https://gist.github.com/eif-courses/builder</span></a>).<br/><b>Filtro pavyzdys</b>. <a target='_blank' href='https://www.javatpoint.com/java-8-stream-filter'><span class='nuoroda'>https://www.javatpoint.com/java-8-stream-filter</span></a>",
+    "tasks":{"pirma":"Sukurti prasmingas klases ir interfeisus: <i> kelias vidines klases (angl. Member class), vidinį interfeisą, static vidinę klasę, vidinę lokalią ir anoniminę klases.</i>",
+          "antra":"Realizuoti projektavimo šabloną (angl. Design pattern) Builder. Taip pat numatyti išimtis (angl. Exceptions) naudojant šiuos raktinius žodžius: <b>try, catch.</b>",
+          "trecia":"Sukurti keletą perkrautų metodų (angl. Overloaded). Panaudoti bazinius Object klasės metodus toString() ir hashCode().",
+          "ketvirta": "Sukurti du skirtingus metodus, kurių parametrai būtų lambda išraiškos ir predikatas (angl. Predicate). Sugalvoti savo unikalų filtrą naudojantis <b>java.util.stream.Collectors</b>"
       }
   },
   "3": {
       "head":"Parametrizuojami tipai (generics), anotacijos.",
-      "aim":"Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti punktai:",
-    "example":"",
-    "tasks":{"pirma":"Sukurti keletą klasių, kurios būtų išdėstytos bent <b>3 lygmenų medyje</b>.",
-          "antra":"Sukurti Interfeisą, kuriame panaudotumėte <b>@FunctionalInterface</b> anotaciją.",
-          "trecia":"Sukurti naują <b>duomenų struktūrą</b> naudojantis jau esamais generics interfeisais iš kolekcijų karkaso (collections framework).",
-          "ketvirta":"Sukurti generic klasę, kurioje būtų naudojami <b>3 parametrai </b>(K, V, S).",
-          "penkta":"Sukurti klasę kurioje būtų <b>5 skirtingi generics metodai</b>.",
-          "sesta":"Sukurti klases, kurios naudotų bendruosius tipus (wildcards: ?, ? <b>super</b> Tipas, ? <b>extends</b> Tipas). ",
-          "septinta":"Sukurti bent 6 skirtingų rūšių <b>savo anotacijas</b>. Tada sukurtoms  anotacijoms sugalvoti paskirtį ir aprašyti funkcijas. Anotacijas galite nuskaityti naudojantis reflection biblioteka. Visos anotacijos privalo būti panaudotos.",
-          "astunta":"Panaudoti <b>3 esamas (built-in) anotacijas </b> ir sugebėti paaiškinti kam jos skirtos. "
-      }
+      "aim":"Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti uždaviniai.",
+    "example":"Anotacijoms nuskaityti naudoti (angl. reflection) biblioteka (<span class='nuoroda'><a target='_blank' href='https://www.mkyong.com/java/java-custom-annotations-example/'>anotacijos_pvz</a></span>). Bibliotekos pavyzdys, kurioje yra naudojamos anotacijos: (<span class='nuoroda'><a href='https://projectlombok.org/'>bibliotekos_pvz</a></span>).",
+    "tasks":{"pirma":"Sukurti generic klasę, kurioje realizuoti 5 skirtingus prasmingus generic metodus. Tada sukurti papildomų klasių, kuriose panaudoti wildcards  <i>(?, ? super Tipas, ? extends Tipas)</i>.",
+      "antra":"Sukurti keletą skirtingų klasių/objektų ir skirtingų rūšiavimo filtrų (nemažiau 4) naudojantis šiais interfeisais <i>Comparable ir Comparator</i>. Pasirinktinai iš Collections klasės pasirinkti 5 skirtingus metodus ir juos panaudoti.",
+          "trecia":"Sukurti 6 skirtingų rūšių anotacijas. Sukurtoms anotacijoms sugalvoti paskirtį ir aprašyti prasmingus metodus. Šias anotacijas panaudoti savo projekte bei pademonstruoti jų veikimą.",
+          "ketvirta": "Prijungti ir panaudoti laisvai pasirinktą biblioteką, kurioje būtų naudojamos anotacijos."
+    }
   },
   "4": {
-      "head":"Spring karkasas REST API + H2 + JPA.",
-      "aim":"Sukurti REST API programą naudojant spring-boot, kurioje būtų naudojama H2 ar kita duomenų bazė bei JPA technologija, skirta susieti Java objektus su duomenų baze.",
-    "example":"",
-    "tasks":{"pirma":"Sukurti <b>spring-boot</b> REST API + H2 + JPA projektą, naudojant maven arba gradle įrankį.",
-          "antra":"Išsiaiškinti kas yra <b>@Entity, @Id, @GeneratedValue</b> anotacijos bei sukurti bent 5 skirtingus POJO skirtus aprašyti Entity.",
-          "trecia":"Prieš tai sukurtom POJO (klasėms) sukurti repozitorijas (<b>Spring Data Repositories</b>).",
-          "ketvirta":"Visos repozitorijos privalo turėti bent po <b>2 skirtingus metodus</b> skirtus paieškai.",
-          "penkta":"Sukurti bent vieną repozitoriją, kurioje būtų naudojamas <b>puslapiavimas</b>.",
-          "sesta":"Sukurtas repozitorijas <b>užpildyti testiniais duomenimis</b>, turėtų būti bent po 100 įrašų.",
-          "septinta":"Sukurtoms repozitorijoms sukurti sąryšius: <b>@OneToOne, @OneToMany, @ManyToOne, @ManyToMany</b>, jeigu reikia sukurti papildomų Entity.",
-          "astunta":"Sukurti klasę, kurioje būtų naudojama klasė <b>Validator</b> ir būtų apribojami bent 4 skirtingi laukai. Pavyzdžiui įvedamas vardas negali būti trumpesnis nei 3 simboliai.",
-          "devinta":"Sukurtas REST API privalo būti pasiektas iš išorės, išsiaiškinti kaip galite integruoti <b>Cross-Origin Resource Sharing </b>(CORS) , sukurti bet kokį testinį serverį, kuris naudotų kitą portą ir pademonstruoti savo API veikimą."
-      }
+    "head":"Java Swing ir AWT GUI elementai, Graphics, Grapics2d. Klaidų apdorojimo mechanizmas.",
+    "aim":"Sukurti programą laisvai pasirinkta tema su grafine vartotojo sąsaja, kurioje panaudoti skirtingus išdėstymo būdus, komponentus ir įvykius. ",
+    "example":"Kaip įsidiegti Java SE Runtime Environment (JRE) linux aplinkoje: (<a target='_blank' href='http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html'><span class='nuoroda'>how-to-install-oracle-java-8-in-debian.html</span></a>). Nemokama virtuali mašina skirta kitai operacinei sistemai įsidiegti: (<span class='nuoroda'><a href='https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0'>http://wmvare_player.com</a> </span>). Išdėstymo būdai JAVA informaciją rasite čia: (<span class='nuoroda'><a href='https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html'>https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html</a></span>).",
+    "tasks":{"pirma":"Sukurti grafinę sąsają savo programai. Panaudoti keletą skirtingų išdėstymo būdų (angl. layouts), valdiklių (angl. controls), įvykių (angl. Events).",
+      "antra":"Panaudoti Graphics, Graphics2D bibliotekas ir nupiešti grafines figūras. Panaudoti skirtingas gijas (angl. Threads) nupieštiems objektams valdyti.",
+      "trecia":"Sukurti <b>unchecked</b> ir <b>checked</b> tipo išimtis. Sukurti bent vieną <b>unikalų metodą</b>, kuris klasifikuotų pagal tam tikrą požymį pvz: klaidos kodą ir reaguotų skirtingai priklausomai nuo klaidos kodo.",
+      "ketvirta":"Sukurti savo programos JAR Executable failą ir jį paleisti skirtingose operacinėse pvz: Windows ir Unix OS arba Mac OSX ir kt. Jeigu reikia papildomai privalote susikonfigūruoti JAVA JRE kitoje operacinėje sistemoje."
+    }
   },
   "5": {
-      "head":"Spring-boot Web MVC aplikacija.",
-      "aim":"Tikslas sukurti web aplikaciją, kurioje naudotumėte išorinę duomenų bazę pvz: MySQL, MSSQL, PostgreSQL ar kitą jums žinomą.Galite modifikuoti penktoje užduotyje sukurtą REST API programą. Taip pat užduotyje turi būti numatyta autorizacija naudojant stormpath (<a href='https://stormpath.com/'>https://stormpath.com/</a>).",
-    "example":"",
-    "tasks":{"pirma":"Sukurti Spring-boot WEB MVC projektą, kuriame būtų bent 2 Entity (<b>naudoti JPA</b>), kurie turėtų sąryšį @OneToMany arba @ManyToMany ir 2 skirtingos repozitorijos (<b>CrudRepository</b>).",
-          "antra":"Sukonfigūruoti pasirinktą duomenų bazę <b>applications.properties</b> projekto dokumente.",
-          "trecia":"Repozitorijoms aprašyti pagrindines CRUD operacijas (create, delete, update, read) naudojant <b>Facade Pattern</b>.",
-          "ketvirta":"Sukurti keletą <b>@Controller'ių</b>, kurie būtų skirti atvaizduoti duomenims su numatytomis CRUD operacijomis (minimaliai turėtų būti aprašomos visos CRUD operacijos).",
-          "penkta":"Atvaizduoti duomenis naudojant šablonų variklį pasirinktinai (<b>Thymeleaf, Freemarker, Velocity</b>) ar bet kurį kitą.",
-          "sesta":"Web aplikacijoje numatyti <b>autorizaciją</b> naudojant <b>stormpath</b>.Taip pat privalote numatyti galimybę prisijungti naudojant socialinių tinklų paskyras: <b>Facebook</b> ir <b>Google</b>. "
-      }
+    "head":"Java FX, Web services APIs, Desktop application.",
+    "aim":"Sukurti aplikaciją su grafine vartotojo sąsaja (naudoti Java FX) laisvai pasirinkta tema. Privalote panaudoti bent vieną iš esamų programavimo interfeisų (APIs), juos rasite šiuo adresu (<span class='nuoroda'><a target='_blank' href='https://market.mashape.com/'>https://market.mashape.com/</a></span>).",
+    "example":"Unirest biblioteka: naudojant gradle dependencies dalyje pridėti šią eilutę -> <b>compile 'com.mashape.unirest:unirest-java:1.3.27'</b><br/>Java FX programų pavyzdžiai: (<a target='_blank' href='https://jaxenter.com/20-javafx-real-world-applications-123653.html'><span class='nuoroda'>https://jaxenter.com/20-javafx-real-world-applications-123653.html</span></a>).",
+    "tasks":{"pirma":"Sukurti aplikaciją pasirinkta tema naudojantis vienu ar keliais web serviso APIs, privalote sugalvoti realią programos paskirtį.",
+      "antra":"Duomenų nuskaitymui iš pasirinkto Web serviso API prijungti laisvai pasirinktą HTTP užklausoms skirtą biblioteką, pavyzdžiui (<span class='nuoroda'><a target='_blank' href='http://unirest.io/java'>unirest.io/</a></span>).",
+      "trecia":"Grafinės sąsajos langas turėtų būti išbaigtas panaudoti keli išdėstymo būdai, skirtingi valdikliai (angl. controls), įvykiai. Numatyti naudotojo instrukciją (angl. help).",
+      "ketvirta":"Sukurti 2 skirtingas programos temas (angl. themes) pvz. paspaudūs mygtuką būtų pakeičiamas fonas, tekstas, komponentų išdėstymas, dydis ir t.t..."
+    }
   },
-
   "6": {
-       "head":"Klaidų apdorojimo mechanizmas.",
-       "aim":"Tikslas sukurti <b>checked</b> (Exception) ir <b>unchecked</b> (RuntimeException) tipo išimtis.",
-    "example":"",
-    "tasks":{"pirma":"Sukurti klasę, kurioje įgyvendintumėte <b>checked</b> tipo išimtį. Klasė privalo turėti bent vieną <b>unikalų metodą</b>, kuris klasifikuotų pagal tam tikrą požymį pvz: klaidos kodą ir reaguotų skirtingai priklausomai nuo klaidos kodo.",
-            "antra":"Sukurti klasę, kurioje įgyvendintumėte <b>unchecked</b> tipo išimtį. Klasė privalo turėti bent vieną <b>unikalų metodą</b>.",
-            "trecia":"Aprašyti bent po vieną <b>testinį metodą</b> prieš tai realizuotoms checked ir uncheked tipo išimčių klasėms ir pademonstruoti kaip veikia."
-        }
+    "head":"Test Driven Development (TDD). Testavimas ir metodai taikant gerąją praktiką kuriant programas/sistemas. ",
+    "aim":"Sukurti programą laisvai pasirinkta tema, remiantis Test Driven Development (TDD) principais (testų skaičius nemažiau 50). Žemiau pateikti uždaviniai yra skirstomi į etapus, kuriuos privalote patalpinti kodo versijavimo sistemoje (pvz: Github, Bitbucket ar kt.) vadovaujantis eiliškumu I, II, III, IV.",
+    "example":"Test Driven Development pavyzdžius rasite čia: (<span class='nuoroda'><a target='_blank' href='https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/'>TDD_PVZ_1</a></span>) arba (<span class='nuoroda'><a href='https://www.guru99.com/test-driven-development.html'>TDD_PVZ_2</a></span>).",
+    "tasks":{"pirma":"<b>I etapas.</b> Sukurti maven arba gradle Java projektą, pasirinktinai prijungti vieną iš testavimo karkasų pvz: JUnit.",
+      "antra":"<b>II etapas.</b>  Sukurti nemažiau 50 skirtingų testų naudojantis pasirinktu karkasu pvz: JUnit. ",
+      "trecia":"<b>III etapas.</b>  Neveikiančius testus privalote pataisyti, kad jie veiktų. Papildomai sukurti trūkstamas klases, metodus ir t.t. (vadovautis TDD principais).",
+      "ketvirta":"<b>IV etapas. </b>Pertvarkyti kodą (angl. code refactoring) taip, kad programa būtų išbaigta ir paruošta naudojimui (angl. production). </b>  "
+    }
   },
   "7": {
-       "head":"Java 1.8 JDK versija. Pivotal Web Services (The Agile Platform for the Agile Team).",
-       "aim":"Tikslas susipažinti su Java 1.8 JDK jos galimybėmis, Lambda išraiškų taikymas. Taip pat Pivotal Web Services panaudojimas patalpinant savo projektą į cloud'ą.",
-    "example":"",
-    "tasks":{"pirma":"Pasinaudoti 5 ar 6 užduoties savo (ne kolegos) projektu ir sukurti <b>jar</b> ar <b>war</b> archyvą bei jį patalpinti į cloud:",
-            "antra":"Sukurti keletą funkcijų, kuriose panaudotumėte lambda expressions, bent vienoje iš funkcijų panaudoti <b>lambda</b> kaip funckijos parametrą.Taip pat vienoje iš funkcijų panaudoti predikatą (<b>Predicate</b>).",
-            "trecia":"Panaudoti <b>Stream</b> klasę, kurioje pritaikyti <b>parralel stream</b>, bei sugalvoti savo <b>unikalų filtrą</b> ir ji pritaikyti savo programoje."
-       }
+    "head":"Projektavimo šablonai (angl. design patterns).",
+    "aim":"Tikslas sukurti programą laisvai pasirinkta tema, kurioje panaudotumėte keletą skirtingų projektavimo šablonų.",
+    "example":"Projektavimo šablonai. (<span class='nuoroda'><a target='_blank' href='https://www.javatpoint.com/design-patterns-in-java'>https://www.javatpoint.com/design-patterns-in-java</span></a>).",
+    "tasks":{"pirma":"Realizuoti 3 objektų kūrimo projektavimo šablonus. (angl. Creational design pattern)",
+      "antra":"Realizuoti 2 srtruktūrinius  projektavimo šablonus (angl. Structural design pattern).",
+      "trecia":"Realizuoti 3 elgsenos projektavimo šablonus (angl. Behavioral (angl. Structural design pattern).",
+      "ketvirta":"Sukurti savo unikalų projektavimo šabloną, kuris priklausytų vienai iš trijų prieš tai pateiktų sričių: Creational, Structural, Behavioral."
+    }
   },
   "8": {
-      "head":"Projektavimo šablonai (angl. design patterns).",
-      "aim":"Tikslas sukurti programą, kurioje panaudotumėte keletą skirtingų projektavimo šablonų, žemiau rasite nurodymus.",
-    "example":"",
-    "tasks":{"pirma":"<b>Creational design pattern</b> - pasirinktinai realizuoti 3 projektavimo šablonus.",
-          "antra":"<b>Structural design pattern</b> - pasirinktinai realizuoti 2 projektavimo šablonus.",
-          "trecia":"<b>Behavioral design pattern</b> - pasirinktinai realizuoti 3 projektavimo šablonus."
+      "head":"Spring karkasas, spring-boot REST API.",
+      "aim":"Sukurti spring-boot programą laisvai pasirinkta tema naudojant maven arba gradle projektų valdymo įrankį.",
+    "example":"Spring karkaso pavyzdžiai. (<span class='nuoroda'><a target='_blank' href='https://spring.io/guides'>https://spring.io/guides</span></a>).",
+    "tasks":{"pirma":"Sukurti spring-boot maven arba gradle projektą naudojantis IntelliJ IDEA arba internete (<span class='nuoroda'><a target='_blank' href='https://start.spring.io/'>https://start.spring.io/</span></a>), pasirinkus šiuos dependencies JPA, Rest Repositories, H2.",
+          "antra":"Sukurti 5 skirtingus Entity ir atitinkamas repozitorijas (angl. Spring Data Repositories ). Repozitorijose aprašyti keletą skirtingų metodų skirtų duomenų paieškai. Vienoje iš repozitorijų panaudoti puslapiavimią.",
+          "trecia":"Sukurtoms repozitorijoms sukurti sąryšius: @OneToOne, @OneToMany, jeigu reikia sukurti papildomų Entity. Sukurtas repozitorijas užpildyti testiniais duomenimis, turėtų būti bent po 100 įrašų. Panaudoti klasę Validator.",
+          "ketvirta":"Sukurtas REST API privalo būti pasiektas ir iš išorės, išsiaiškinti kaip galite integruoti Cross-Origin Resource Sharing (CORS) , sukurti bet kokį testinį serverį, kuris naudotų kitą portą ir pademonstruoti savo API veikimą."
       }
   },
   "9": {
-      "head":"Altiktų praktinių užduočių viešas gynimas.",
-      "aim":"Užduoties tikslas trumpai apžvelgti visas atliktas užduotis bei papasokoti kaip sekėsi jas atliekant, kurios buvo per sunkios ar per lengvos, įdomios, neįdomios ir panašiai.Taip pat pateikti savo siūlymus jeigu jų turite (el. paštu: <a href='mailto:m.gzegozevskis@eif.viko.lt'>m.gzegozevskis@eif.viko.lt</a> ir žodžiu).Papasakoti apie įgytas žinias atliekant užduotis, sugebėti atsakyti į bet kokį klausimą iš atliktų užduočių.",
-    "example":"",
-    "tasks":{"pirma":"Norint gauti įvertinimą privalote užpildyti trumpą apklausą (formą) (1-2 min.).",
-          "antra":"<li><a id='anketaMain' href='#anketa'><div id='animated_div'>Apklausa</div><div id='anketa'></div></a></li>",
-          "trecia":"<a href='https://goo.gl/forms/Htu77dLPo0hQWfyH2'><b>Jeigu nematote formos ją rasite šiuo adresus:</b> https://goo.gl/forms/Htu77dLPo0hQWfyH2</a>"
+      "head":"Spring-boot Web MVC aplikacija.",
+      "aim":"Tikslas sukurti web aplikaciją, kurioje naudotumėte išorinę duomenų bazę pvz: MySQL, MSSQL, PostgreSQL ar kitą jums žinomą.Galite modifikuoti penktoje užduotyje sukurtą REST API programą. ",
+    "example":"Projektą patalpinti galite pvz. šiame debesyje. (<span class='nuoroda'><a target='_blank' href='http://run.pivotal.io/spring/'>http://run.pivotal.io/spring/</span></a>). <br/> Facebook kūrėjų zona. (<span class='nuoroda'><a target='_blank' href='https://developers.facebook.com'>https://developers.facebook.com</span></a>).<br/> Google kūrėjų zona. (<span class='nuoroda'><a target='_blank' href='https://developers.google.com/products/'>https://developers.google.com/products/</span></a>).",
+    "tasks":{"pirma":"Sukurti Spring-boot WEB MVC projektą, kuriame būtų bent 2 Entity (naudoti JPA API), kurie turėtų sąryšį @OneToMany arba @OneToOne ir 2 skirtingos repozitorijos (CrudRepository).",
+          "antra":"Repozitorijoms aprašyti pagrindines CRUD operacijas (create, delete, update, read) naudojant Facade Pattern. Sukurti keletą @Controller'ių, kurie būtų skirti atvaizduoti duomenims su numatytomis CRUD operacijomis (minimaliai turėtų būti aprašomos visos CRUD operacijos).",
+          "trecia":"Atvaizduoti duomenis naudojant šablonų variklį pasirinktinai (Thymeleaf, Freemarker, Velocity) ar bet kurį kitą.",
+          "ketvirta":"Web aplikacijoje prijungti laisvai pasirinktą autentifikacijos API. Numatyti prisijungimą naudojantis Facebook arba Google paskyra. Galutinį projektą patalpinti į debesį."
       }
-  }
 
+  }
 
 }
 

@@ -7,8 +7,8 @@ $.getJSON("tasks/praktika/tasksA.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#test-swipe-1").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "  +
-            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysA"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
+        $("#test-swipe-1").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "  +
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysA"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -18,7 +18,7 @@ $.getJSON("tasks/praktika/tasksA.json", function (data) {
         $.each(val.tasks, function (k, v) {
             $("#uzduotysA"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
-        $("#uzduotysA"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+        $("#uzduotysA"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
         i++;
     });
 });
@@ -32,8 +32,8 @@ $.getJSON("tasks/praktika/tasksB.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#test-swipe-2").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
-            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysB"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
+        $("#test-swipe-2").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysB"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -42,7 +42,7 @@ $.getJSON("tasks/praktika/tasksB.json", function (data) {
         $.each(val.tasks, function (k, v) {
             $("#uzduotysB"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
-        $("#uzduotysB"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+        $("#uzduotysB"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
         i++;
     });
 });
@@ -55,8 +55,8 @@ $.getJSON("tasks/praktika/tasksC.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#test-swipe-3").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
-            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysC"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
+        $("#test-swipe-3").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysC"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -66,7 +66,7 @@ $.getJSON("tasks/praktika/tasksC.json", function (data) {
         $.each(val.tasks, function (k, v) {
             $("#uzduotysC"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
-        $("#uzduotysC"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+        $("#uzduotysC"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
         i++;
     });
 });
@@ -80,8 +80,8 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#test-swipe-4").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
-            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysd"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
+        $("#test-swipe-4").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysd"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -92,7 +92,7 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
             $("#uzduotysd"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
 
-            $("#uzduotysd"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+            $("#uzduotysd"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
 
         i++;
     });
@@ -122,8 +122,8 @@ $.getJSON("tasks/praktika/tasksEN.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#test-swipe-5").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
-            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysEN"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
+        $("#test-swipe-5").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> " +
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotysEN"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
@@ -145,7 +145,7 @@ $.getJSON("tasks/praktika/tasksEN.json", function (data) {
             $("#uzduotysEN"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
         });
 
-        $("#uzduotysEN"+i).append("<li class='w3-padding-16'>"+"<span class='nuoroda'>Pavyzdys!<br/></span>"+"<span>"+ val.example + "</span></li>");
+        $("#uzduotysEN"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
         i++;
     });
 });

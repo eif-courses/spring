@@ -21,7 +21,7 @@ $.getJSON("tasks/os/tasks.json", function (data) {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");
         });
-        $("#Pratybos").append("<hr><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
+        $("#Pratybos").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> (" + m.format('YYYY-MM-DD') + " iki " + d.format('YYYY-MM-DD') + "). " +
             val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='operacines_sistemos"+i + "'>"+"<li class='w3-padding-16'>"+"<span class='nuoroda'>Tikslas!<br/></span>" +val.aim + "</li></ul></div>");
         $(".accordion").click(function () {
             this.classList.toggle("active");
@@ -52,10 +52,10 @@ $.getJSON("tasks/os/project.json", function (data) {
     var i = 0;
     $.each(data, function (key, val) {
 
-        $("#Projektas").append("<ul class='collection basic_collection' id" + "=eilesNr" + i + ">" +
-            '<li class="basic_h2_li"><h2 class="basic_h2">' + val.head + '</h2></li>');
+        $("#Projektas").append("<ul class='w3-ul w3-border' id" + "=eilesNr" + i + ">" +
+            '<li><span style="font-weight: bold">' + val.head + '</span></li>');
         $.each(val.tasks, function (k, v) {
-            $("#eilesNr" + i).append("<li class='collection-item'>" + v + "</li>");
+            $("#eilesNr" + i).append("<li>" + v + "</li>");
         });
         $("#Projektas").append('</ul>');
         i++;

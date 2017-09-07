@@ -9,6 +9,11 @@
     <meta name="author" content="Marius Gžegoževskis">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/materialize.min.js"></script>
+    <script src="javascripts/moment.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
@@ -18,29 +23,35 @@
 </head>
 <body>
 <div id="duom"></div>
-<div class="w3-bar w3-border w3-white w3-large w3-text-grey">
-    <a href="java.html" class="w3-bar-item w3-button ">
-        <img src="images/java_icon.png" style="vertical-align: middle">
-        <span style="">Java</span>
-    </a>
-    <a href="smart.html" class="w3-bar-item w3-button w3-text-black w3-grey">
-        <img src="images/android-alpha.png" style="vertical-align: middle">
-        <span style="">Android</span>
-    </a>
-    <a href="praktika.html" class="w3-bar-item w3-button "  >
-        <img src="images/prac.png" style="vertical-align: middle">
-        <span style="">Praktika</span>
-    </a>
-    <a href="os.html" class="w3-bar-item w3-button ">
-        <img src="images/linux.png" style="vertical-align: middle">
-        <span style="">OS</span>
-    </a>
-    <a href="security.html" class="w3-bar-item w3-button ">
-        <img src="images/security.png" style="vertical-align: middle">
-        <span style="">Web saugumas</span>
-    </a>
-</div>
+
+
 <div class="inner">
+    <br/>
+    <h3 class="pavadinimas" style="text-align: center ;color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 25px; font-weight: 800; line-height: 25px; margin: 3px 0px 20px;">PROGRAMAVIMAS IŠMANIESIEMS ĮRENGINIAMS I</h3>
+
+
+    <div class="w3-bar w3-border w3-white w3-large w3-text-grey">
+        <a href="java.html" class="w3-bar-item w3-button ">
+            <img src="images/java_icon.png" style="vertical-align: middle">
+            <span style="">Java</span>
+        </a>
+        <a href="smart.html" class="w3-bar-item w3-button w3-text-black w3-grey">
+            <img src="images/android-alpha.png" style="vertical-align: middle">
+            <span style="">Android</span>
+        </a>
+        <a href="praktika.html" class="w3-bar-item w3-button "  >
+            <img src="images/prac.png" style="vertical-align: middle">
+            <span style="">Praktika</span>
+        </a>
+        <a href="os.html" class="w3-bar-item w3-button ">
+            <img src="images/linux.png" style="vertical-align: middle">
+            <span style="">OS</span>
+        </a>
+        <a href="security.html" class="w3-bar-item w3-button ">
+            <img src="images/security.png" style="vertical-align: middle">
+            <span style="">Web saugumas</span>
+        </a>
+    </div>
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
@@ -50,7 +61,9 @@
                     <li><a id="proj" href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Projektas')">Projektas</a>
                     </li>
                     <li><a id="uzkrauti" href="javascript:void(0)" class="tablinks"
-                           onclick="openCity(event, 'Konspektai')">Paskaitų skaidrės</a></li>
+                           onclick="openCity(event, 'Konspektai')">Skaidrės</a></li>
+                    <li><a href="javascript:void(0)" class="tablinks"
+                           onclick="openCity(event, 'Testas')">Testas</a></li>
                     <li><a href="javascript:void(0)" class="tablinks"
                            onclick="openCity(event, 'Rezultatai')">Rezultatai</a></li>
                 </ul>
@@ -67,47 +80,41 @@
                 <!-- REZULTATAI(PRAKTINIU UZDUOCIU IVERTINIMAS)-->
                 <div id="Rezultatai" class="tabcontent">
                     <ul class="w3-ul w3-card-4">
-                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1RRPwlWfo3F1oEjjhXFBuWyn_QlscbtktiHHBLUENuAo/pubhtml">
+                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQMS1-1IDuN0RorXaEsKX1MHDcaU32lAG_nF-s7qMxZdHa2bgD2rqIAKcIb2kWTOTSYYfiCVhMf43w8/pubhtml?gid=1318532576&single=true">
                             <li class="w3-padding-16">
                                 <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
-                                <span class="w3-large">PI16A</span><br>
+                                <span class="w3-large">IR15A</span><br>
                                 <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
                             </li>
                         </a>
-                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1r20YWTMtOLTYLRdmChlWRtWgoZJYA1SzSsB-rns0ijs/pubhtml">
-                            <li class="w3-padding-16">
-                                <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
-                                <span class="w3-large">PI16B</span><br>
-                                <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
-                            </li>
-                        </a>
-                        <a target="_blank" href="https://docs.google.com/spreadsheets/d/1Ux2trFW7o5wMUk3Q7iE4yXaz5BqHitR9_uk9xzI5NyI/pubhtml">
-                            <li class="w3-padding-16 ">
-                                <img src="images/android-alpha.png" class="w3-left w3-circle w3-margin-right" style="width:50px">
-                                <span class="w3-large">PI16C</span><br>
-                                <span>Programavimo išmaniesiems įrenginiams I rezultatai</span>
-                            </li>
-                        </a>
+
                     </ul>
                 </div>
                 <!-- PROJEKTAS(SAVARANKISKAS PROJKEKTAS)-->
                 <div id="Projektas" class="tabcontent">
                 </div>
+
+                <!-- TESTAS(TESTAS, ZINIU PATIKRINIMAS)-->
+                <div id="Testas" class="tabcontent">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfw9wJhatV0GwKm-yr2P7iiUleE4vyy1itfscBiKUgSLhMXHg/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
                 <!-- PRAKTINES UZDUOTYS(PRAKTINES UZDUOTYS IR TERMINAI)-->
                 <div id="Pratybos" class="tabcontent">
-                    <ul class="collection basic_collection">
-                     <li class="collection-item">
-                            Atliekamos tik kompiuterinėse klasėse paskaitos metu.
-                            Kiekvieną pirmadienį bus skiriama nauja užduotis, kurią privalote atlikti iki penktadienio.
+                    <ul class="w3-ul w3-border">
+
+                        <li class="w3-grey"><span style="font-weight: bold">VERTINIMO KRITERIJAI</span></li>
+
+                        <li>
+                            Galutinis įvertinimas</b> (100%) = Testas (10%) + Praktinių užduočių vidurkis (50%) + Projektas (40%).
                         </li>
-                        <li class="collection-item">
-                            Atliktą <span style="color:red"><b><u>užduotį privalote pristatyti praktinio užsiėmimo metu, bei patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">Eifbox </a> dokumentų talpyklą iki nurodyto termino</u></b></span>
-                            (zip formatu, dokumento pavadinimas "užduoties" nr. pvz: <b>1 užduotis.zip, 2
-                            užduotis.zip</b>).
+                        <li class="w3-grey"><span style="font-weight: bold">PRAKTINĖS UŽDUOTYS</span></li>
+                        <li>
+                            Atliktą užduotį iki nurodyto termino privalote patalpinti į <a target="_blank" href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec">(<span class="nuoroda">http://eifbox.viko.lt</span>)</a> ir ją apsiginti paskaitos metu.
+                            (užduotys talpinamos <u>zip</u> arba <u>rar</u> formatu iki 100mb).
+                            <br/>Dokumento pavadinimas turi atrodyti pvz: <b>1 užduotis.zip, 2 užduotis.zip</b> ir t.t.
                         </li>
-                        <li class="collection-item">
-                            <span style="color:red"><i><b>PASTABA!</b></i></span> Jeigu užduotys nebus atliktos laiku
-                            įvertinimas bus dalijamas pusiau.
+                        <li>
+                            <span style="color:red"><b>ATSISKAITYMO TVARKA!</b></span> Visos užduotys yra privalomos. Užduotis privalote atlikti iki nurodyto termino laikantis eiliškumo (1,2,...,12). Jeigu vėluojate atsiskaityti užduotį už kiekvieną pavėluotą savaitę bus atimamas 1 balas.
                         </li>
                     </ul>
                 </div>
@@ -122,11 +129,7 @@
             </section>
 
             <aside id="sidebar">
-
-                <p class="pavadinimas"> <h3 style="color: midnightblue; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 25px; margin: 15px 0 24px;">PROGRAMAVIMAS IŠMANIESIEMS ĮRENGINIAMS I</h3></p>
-
-
-                <a target="_blank"
+              <a target="_blank"
                    href="https://script.google.com/macros/s/AKfycbyk2aU9GGcUl92lNER1QUT4yrDpRJdysAJXDF90Ppf2Q_rSSKw/exec"
                    class="button">
                     <span>EIFBOX</span>
@@ -135,14 +138,14 @@
                 </a>
 
                 <a target="_blank"
-                   href="https://github.com/eif-courses/Programavimas-Java/tree/master/PASKAIT%C5%B2%20KONSPEKTAI"
+                   href="https://github.com/eif-courses/Android/tree/master/Lecture%20notes"
                    class="button">
                     <span>TEORIJA</span>
                     <small>Teorinė medžiaga</small>
 
                 </a>
 
-                <a target="_blank" href="https://github.com/eif-courses/Programavimas-Java/tree/master/PAVYZD%C5%BDIAI"
+                <a target="_blank" href="https://github.com/eif-courses/Android/tree/master/Examples"
                    class="button">
                     <span>PAVYZDŽIAI</span>
                     <small>Programų pavyzdžiai</small>
@@ -157,7 +160,7 @@
                 </a>
 
                 <a target="_blank"
-                   href="https://goo.gl/forms/Htu77dLPo0hQWfyH2"
+                   href="https://goo.gl/forms/THAyyvjy5W4KmKUv2"
                    class="button">
                     <span>APKLAUSA</span>
                     <small>Kurso vertinimas</small>
@@ -178,9 +181,7 @@
             src="https://mylivechat.com/chatinline.aspx?hccid=68748878"></script>
 </div>
 
-<script src="javascripts/jquery.min.js"></script>
-<script src="javascripts/materialize.min.js"></script>
-<script src="javascripts/moment.min.js"></script>
+
 <script src="javascripts/smart/smart_tasks.js"></script>
 <script src="javascripts/main.js"></script>
 <script>
