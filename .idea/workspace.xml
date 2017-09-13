@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28fdee-cd6b-4b72-a9f2-f00124ab59a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/images/headeris.png" afterPath="$PROJECT_DIR$/docs/images/headeris.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/assets/css/main.css" afterPath="$PROJECT_DIR$/docs/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/java.html" afterPath="$PROJECT_DIR$/docs/java.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/smart.html" afterPath="$PROJECT_DIR$/docs/smart.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +18,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="-546">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/java.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/smart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="152" column="103" lean-forward="false" selection-start-line="152" selection-start-column="103" selection-end-line="152" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -52,6 +71,8 @@
         <option value="$PROJECT_DIR$/docs/assets/css/main.css" />
         <option value="$PROJECT_DIR$/docs/tasks/index2.html" />
         <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/docs/java.html" />
+        <option value="$PROJECT_DIR$/docs/smart.html" />
       </list>
     </option>
   </component>
@@ -61,7 +82,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="29" />
     <option name="y" value="-23" />
     <option name="width" value="1932" />
@@ -142,7 +163,9 @@
       <workItem from="1504809020014" duration="58000" />
       <workItem from="1504809903637" duration="2000" />
       <workItem from="1504949089179" duration="1162000" />
-      <workItem from="1504951586945" duration="3329000" />
+      <workItem from="1504951586945" duration="3620000" />
+      <workItem from="1505249843977" duration="10000" />
+      <workItem from="1505328187687" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Simple fix">
       <created>1504806852826</created>
@@ -172,17 +195,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504809068601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2qqqfd">
+      <created>1504954931347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504954931347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5385000" />
+    <option name="totallyTimeSpent" value="6124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="-23" width="1932" height="1056" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15572916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -210,7 +240,8 @@
     <MESSAGE value="Simple fix" />
     <MESSAGE value="22aweaweaw" />
     <MESSAGE value="2qqq" />
-    <option name="LAST_COMMIT_MESSAGE" value="2qqq" />
+    <MESSAGE value="2qqqfd" />
+    <option name="LAST_COMMIT_MESSAGE" value="2qqqfd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -225,11 +256,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/tasks/java/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="15" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -237,7 +283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="97" lean-forward="true" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -253,7 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="15" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -261,7 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -277,7 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="15" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -285,7 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -301,7 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="372" lean-forward="false" selection-start-line="5" selection-start-column="372" selection-end-line="5" selection-end-column="372" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -325,7 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="97" lean-forward="true" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -341,30 +380,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5480">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tasks/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/tasks/index2.html" />
     <entry file="file://$PROJECT_DIR$/docs/tasks/java/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="182" lean-forward="false" selection-start-line="5" selection-start-column="182" selection-end-line="5" selection-end-column="182" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="-546">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/smart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="152" column="103" lean-forward="false" selection-start-line="152" selection-start-column="103" selection-end-line="152" selection-end-column="103" />
           <folding />
         </state>
       </provider>
