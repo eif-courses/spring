@@ -104,6 +104,36 @@ $.getJSON("tasks/praktika/tasksD.json", function (data) {
 
 
 
+$.getJSON("tasks/praktika/tasksS.json", function (data) {
+    var i = 0;
+    $.each(data, function (key, val) {
+
+        $(".accordion").click(function () {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        });
+        $("#test-swipe-6").append("<br/><button class='accordion'><b>" + (i + 1) + " užduotis.</b> "+
+            val.head + "</button><div class='panel'>" +"<ul class='w3-ul' id='uzduotyss"+i + "'>"+"<li class='w3-padding-16'>"+"<li><span style='color: midnightblue; font-weight: bold;'>UŽDUOTIES TIKSLAS<br/></span>" +val.aim + "</li></li></ul></div>");
+        $(".accordion").click(function () {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        });
+
+        // Punktai
+        $.each(val.tasks, function (k, v) {
+            $("#uzduotyss"+i).append("<li class='w3-padding-16'>"+"<img src='images/tasks.png' class='w3-left w3-circle w3-margin-right' style='width:50px'><span>"+ v + "</span></li>");
+        });
+
+        $("#uzduotyss"+i).append("<li class='w3-padding-16'>"+"<span style='color: midnightblue; font-weight: bold'>PAPILDOMA INFORMACIJA<br/></span>"+"<span>"+ val.example + "</span><hr/></li>");
+
+        i++;
+    });
+});
+
+
+
+
+
 
 
 

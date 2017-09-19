@@ -1,0 +1,30 @@
+{
+  "0": {
+    "head":"Baziniai duomenų tipai, ciklai, sąlygos sakiniai, funkcijos.",
+    "aim":"Pasirinkti 2 skirtingus algoritmus iš (<a href='https://projecteuler.net/archives'>https://projecteuler.net/archives</a>) ir sukurti konsolinę programą, kurios rezultatą išvesti į ekraną. Taip pat nubraižyti pasirinktų algoritmų <b>blokines schemas</b>. Įrankį braižyti schemoms renkatės jūs, pvz: (<a href='http://draw.io'>http://draw.io</a>).",
+    "example":"Blokinės schemos:veiksmų kartojimas, veiksmų pasirinkimas (šakojimas), nuosekli veiksmų seka.<br/><img src='images/pavyzdziai_praktikos/blokine.png' align='left'/><img src='images/pavyzdziai_praktikos/blokine2_3.png' align='right'/>",
+    "tasks":{"pirma":"Taip pat privalote pateikti tarpinius skaičiavimus (išvesti į ekraną), kad būtų aišku kaip algoritmas veikia pažingsniui."
+    }
+  },
+  "1": {
+    "head":"Struktūros, dinaminė atmintis, rekursija, atsitiktinių skaičių generavimas.",
+    "aim":"Laisvai pasirinkta tema sukurti prasmingą dinaminę struktūrą, kurioje privalo būti keletas skirtingų laukų: skaitmeninio, simbolinio, teksto eilutės tipų. Taip pat bent vienas iš laukų privalo būti generuojamas atsitiktinai.",
+    "example":"Pavyzdys vienas iš naujų features.",
+    "tasks":{"pirma":"Papildyti programą taip, kad sukurtos struktūros duomenis galėtumėte užpildyti įvedant iš klaviatūros.",
+      "antra":"Sukurti 2 rekursyvias funkcijas paskaičiuojančias faktorialą ir sumą, <i>nenaudojant sąlygos sakinio if.</i>",
+      "trecia":"Sugalvoti <span style='color:red'>savo unikalią</span> rekursyvią funkciją. Visos klasikinės rekursyvios funkcijos aprašytosios literatūroje yra netinkamos."
+    }
+  },
+  "2": {
+    "head":"Galvosūkis, užduotis iššūkis, algebra.",
+    "aim":"Iš klaviatūros įvedame dviejų keturkampių viršūnių koordinates. Parašyti algoritmą, kuris nustato ar šie keturkampiai tarpusavyje kertasi? Pavyzdžiui pirmojo keturkampio viršūnės: A (x<sub>1</sub>, y<sub>1</sub>), B (x<sub>2</sub>, y<sub>2</sub>), C (x<sub>3</sub>, y<sub>3</sub>), D (x<sub>4</sub>, y<sub>4</sub>) ir antrojo keturkampio: E (x<sub>5</sub>, y<sub>5</sub>), F (x<sub>6</sub>, y<sub>6</sub>), G (x<sub>7</sub>, y<sub>7</sub>), H (x<sub>8</sub>, y<sub>8</sub>). Rezultatą išvesti į ekraną.",
+    "example":"<img src='images/figuros.PNG'/><br/><b>Keturkampių pavyzdžiai:</b> <i>trapecija, rombas, stačiakampis, kvadratas, lygiagretainis.</i>",
+    "tasks":{"pirma":"Surasti biblioteką, kurioje galėtumėte braižyti keturkampius, atkreipkite dėmesį jog keturkampių funkcijų naudoti negalite.",
+      "antra":"Surasti biblioteką, kurioje galėtumėte braižyti keturkampius, atkreipkite dėmesį jog keturkampių funkcijų naudoti negalite."
+  }
+  }
+
+
+}
+
+

@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 
 
-    var tab_color = 'red';
+    var tab_color = 'transparent';
     var tabs_background_color = 'transparent';
     var text_min_size = '14pt';
     var text_max_size = '14pt';
