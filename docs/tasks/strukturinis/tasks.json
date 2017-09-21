@@ -1,25 +1,24 @@
 {
   "0": {
-    "head":"Objektiškai orientuotojo programavimo principai: klasės, modifikatoriai, konstruktoriai, metodai, baziniai duomenų tipai.",
-    "aim":"Sukurti konsolinę programą laisvai pasirinkta tema (nemažiau 8 klasės) naudojant Maven arba Gradle projektų valdymo ir gamybos įrankį. Susipažinti su kodo versijavimu.",
+    "head":"Struktūrinio programavimo įvadas. Darbas su ASCII kodų lentele.",
+    "aim":"Laisvai pasirinkta tema sukurti algoritmą, kuriame panaudotumėte simbolius iš lentelės ASCII (angl. American Standard Code for Information Interchange).",
     "example":"<b>Pseudokodas.</b> Algoritmas aprašytas žodžiu. <a target='_blank' href='http://blog.teamtreehouse.com/java-and-everyday-objects'><span class='nuoroda'>(http://pavyzdys.lt)</span></a>. <b>UML diagrama.</b> Braižant galima naudoti bet kuriuos jums žinomus įrankius. Diagramos pavyzdį rasite čia:<a target='_blank' href='https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/class-diagram-for-online-shopping-system-UML/UML_class_diagram_shopping-800x621.PNG'> <span class='nuoroda'>(https://umldiagram.example).</span></a> Projektų valdymo ir automatizavimo įrankiai: <b>Maven</b> - (<a href='https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html'><span class='nuoroda'>https://maven.apache.org/</span></a>). <b>Gradle</b> - (<a href='https://docs.gradle.org/current/release-notes.html'><span class='nuoroda'>https://docs.gradle.org/</span></a>).",
-    "tasks":{"pirma":"Įsidiegti vieną iš siūlomų programavimo aplinkų IntelliJ IDEA, ECLIPSE arba Netbeans. Sukurti Maven arba Gradle projektą skirtą Java aplikacijai. Prijungti 3 laisvai pasirinktas bibliotekas (gradle ar maven) rasite čia: (<span class='nuoroda'><a target='_blank' href='https://mvnrepository.com/'>https://mvnrepository.com/</a></span>), jas panaudoti projekte.",
-      "antra":"Esamam projektui sukurti skriptą (gradle, maven), kuriame būtų vykdomos kelios iš eilės einančios užduotys (angl. tasks). Išsiaiškinti kas yra JAR formatas ir pasirinktinai prijungti 2 skirtingas bibliotekas.",
-      "trecia":"Nubrėžti programos UML klasių diagramą ir aprašytį pagrindinį programos algoritmą pseudokodu.",
-      "ketvirta":"Užsiregistruoti bet kurioje kodo versijavimo cloud aplinkų: pvz.: Github, Bitbucket, Docker ar kt. jums žinomą. Patalpinti pirmąjį projektą ir įvykdyti kelis skirtingus commit'us."
+    "tasks":{"pirma":"Aprašyti sugalvotą algoritmą pseudo kodu bei nubrėžti šio algoritmo blokinę schemą. ",
+      "antra":"Sukurti sveikojo tipo skaičių masyvą, kuriame išsaugotumėte reikšmes atitinkančias ASCII kodų lentelei.",
+      "trecia":"Išspausdinus masyvą į konsolę privalote gauti rezultatą jūsų vardas ir pavardė naudojant lotyniškus simbolius.",
+      "ketvirta":"Sukurti funkciją, kuri nupieštų paveikslėlį konsolėje arba tekstiniame faile sudarytą iš simbolių esančių ASCII kodų lentelėje."
     }
   },
   "1": {
-    "head":"Paveldėjimas, abstrakti klasė, interfeisas, enum, static raktinis žodis.",
-    "aim":"Sukurti programą (konsolinę arba su GUI), kuri galėtų nustatyti ligos diagnozę iš esamų gydimo įstaigų duomenų bazių ir pateiktų rekomendacijas.",
-    "example":"Pavyzdžiui: Bendras kraujo tyrimas matuoja šiuos rodiklius (<span class='nuoroda'><a target='_blank' href='http://sosdiagnostika.lt/paslaugos/kraujo-tyrimai/bendrieji-kraujo-tyrimai/bendras-kraujo-tyrimas/'>diagnostika.lt/</a></span>). Ligos diagnozės priežąstis, rodiklių aprašymus ir kita informacija rasite internete. Vienas iš svetainių pavyzdžių anglų kalba: (<span class='nuoroda'><a href='http://www.mayoclinic.org/symptoms/high-hemoglobin-count/basics/definition/sym-20050862'>http://www.mayoclinic.org/symptoms/high-hemoglobin-count/</a></span>).",
-    "tasks":{"pirma":"Sukurti duomenų bazę ligos diagnozei nustatyti. Privalomi tyrimo duomenų parametrai: kodas, rodiklio trumpinys, aprašymas, normos ribos ir kt. jei reikalingi. Rodiklių skaičius nemažiau 10.",
-      "antra":"Sukurti algoritmą, kuris nuskaitytų paciento tyrimo rezultatus, nustatytų ligos diagnozę, pateiktų rekomendacijas ir tolimesnę gydimo eigą. Ligų sąrašas nemažiau 5 skirtingos ligos.",
-      "trecia":"Paciento tyrimo rezultatai gali būti realūs arba generuojami atsitiktinai. Juos privalote išsaugoti duomenų bazėje. Numatyti galimybę peržiūrėti rodiklius, ligų sąrašą ir aprašymą, pateikti visų pacientų diagnozes ir rekomendacijų sąrašą.",
-      "ketvirta": "Programoje privalote panaudoti: paveldėjimą, raktinį žodį static, interfeisą, abstrakčią klasę, kompoziciją, enum."
+    "head":"Realaus gyvenimo algoritmas. Kūrybinė užduotis.",
+    "aim":"Tikslas sukurti unikalų realaus gyvenimo bet kokios situacijos algoritmą naudojantis šiuo pavyzdžių: (<span class='nuoroda'><a href='http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm'>http://people.cs.pitt.edu/cs4/</a></span>).",
+    "example":"informacija ruošiama....",
+    "tasks": {
+      "pirma": "Programa turi turėti atskirtas funkcijas ir numatytas išimtis. </i>Prieš tai pateikto pavyzdžio rinktis negalima</i>.",
+      "antra": "Vertinimas priklauso nuo idėjos originalumo ir algoritmo sudėtingumo.",
+      "trecia": "<span style='color:red'>Pastaba!</span> <i>Algoritmas nėra tik cout ar printf() funkcijų panaudojimas.</i>"
     }
   },
-
   "2": {
     "head":"Vidinės klasės, raktinis žodis final, vidiniai interfeisai.",
     "aim":"Sugalvoti realaus gyvenimo situaciją (temą) ir sukurti konsolinę programą, kurioje įgyvendinti žemiau pateiktus uždavinius.",
