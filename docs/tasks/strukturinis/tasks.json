@@ -20,23 +20,22 @@
     }
   },
   "2": {
-    "head":"Vidinės klasės, raktinis žodis final, vidiniai interfeisai.",
-    "aim":"Sugalvoti realaus gyvenimo situaciją (temą) ir sukurti konsolinę programą, kurioje įgyvendinti žemiau pateiktus uždavinius.",
-    "example":"<b>Member klasės pavyzdys.</b> Kompiuteris ir jo vidinės klasės: [<i>Procesorius, Atmintis, CD-ROM,</i> ir t.t.). <br/><b>Builder pavyzdys</b>. (<a target='_blank' href='https://gist.github.com/eif-courses/2c47471d72b645ee76ef7e00a8598e41'><span class='nuoroda'>https://gist.github.com/eif-courses/builder</span></a>).<br/><b>Filtro pavyzdys</b>. <a target='_blank' href='https://www.javatpoint.com/java-8-stream-filter'><span class='nuoroda'>https://www.javatpoint.com/java-8-stream-filter</span></a>",
-    "tasks":{"pirma":"Sukurti prasmingas klases ir interfeisus: <i> kelias vidines klases (angl. Member class), vidinį interfeisą, static vidinę klasę, vidinę lokalią ir anoniminę klases.</i>",
-      "antra":"Realizuoti projektavimo šabloną (angl. Design pattern) Builder. Taip pat numatyti išimtis (angl. Exceptions) naudojant šiuos raktinius žodžius: <b>try, catch.</b>",
-      "trecia":"Sukurti keletą perkrautų metodų (angl. Overloaded). Panaudoti bazinius Object klasės metodus toString() ir hashCode().",
-      "ketvirta": "Sukurti du skirtingus metodus, kurių parametrai būtų lambda išraiškos ir predikatas (angl. Predicate). Sugalvoti savo unikalų filtrą naudojantis <b>java.util.stream.Collectors</b>"
+    "head":"Rodyklės, sąlygos sakiniai: for, while, if ir dinaminė atmintis.",
+    "aim":"Laisvai pasirinkta tema arba pasirinkta iš duoto sąrašo: (<span class='nuoroda'><a target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vRM-1vmuSibkodS-RcZfVj_L9UE-fzoPiWWQZQVvMtW_O3gk9YhFBic5asOEBouAUidTH2dbZIyVZ7x/pub'>temų sąrašas</a></span>) sukurti unikalų algoritmą, kurio rezultatą išvesti į ekraną.",
+    "example":"",
+    "tasks":{"pirma":"Sukurti dinaminę struktūrą su šio tipo laukais pvz: int * pointer, char c, float sk, int [50], array, char name[50], visi laukai yra privalomi.",
+      "antra":"Sugalvoti 10 skirtingų funkcijų pvz: kurios grąžintų reikšmę, turėtų 2 parametrus, be parametrų, nieko negrąžintų ir kt. jas panaudoti konstruojant programos pagrindinį algoritmą.",
+      "trecia":"Panaudoti while, for, if, switch sakinius ir kelias laisvai pasirinktas funkcijas iš paskaitų metu išdėstytos teorijos.",
+      "ketvirta": "Paunaudoti šias funkcijas malloc(), calloc(), realloc() skirtas dinaminei atminčiai išskirti ir funkciją sizeof skirtą paskaičiuoti tipo dydžiui."
     }
   },
   "3": {
-    "head":"Parametrizuojami tipai (generics), anotacijos.",
-    "aim":"Sukurti programą laisvai pasirinkta tema, kurioje būtų įgyvendinti žemiau pateikti uždaviniai.",
-    "example":"Anotacijoms nuskaityti naudoti (angl. reflection) biblioteka (<span class='nuoroda'><a target='_blank' href='https://www.mkyong.com/java/java-custom-annotations-example/'>anotacijos_pvz</a></span>). Bibliotekos pavyzdys, kurioje yra naudojamos anotacijos: (<span class='nuoroda'><a href='https://projectlombok.org/'>bibliotekos_pvz</a></span>).",
-    "tasks":{"pirma":"Sukurti generic klasę, kurioje realizuoti 5 skirtingus prasmingus generic metodus. Tada sukurti papildomų klasių, kuriose panaudoti wildcards  <i>(?, ? super Tipas, ? extends Tipas)</i>.",
-      "antra":"Sukurti keletą skirtingų klasių/objektų ir skirtingų rūšiavimo filtrų (nemažiau 4) naudojantis šiais interfeisais <i>Comparable ir Comparator</i>. Pasirinktinai iš Collections klasės pasirinkti 5 skirtingus metodus ir juos panaudoti.",
-      "trecia":"Sukurti 6 skirtingų rūšių anotacijas. Sukurtoms anotacijoms sugalvoti paskirtį ir aprašyti prasmingus metodus. Šias anotacijas panaudoti savo projekte bei pademonstruoti jų veikimą.",
-      "ketvirta": "Prijungti ir panaudoti laisvai pasirinktą biblioteką, kurioje būtų naudojamos anotacijos."
+    "head":"Struktūros, dinaminė atmintis, rekursija, atsitiktinių skaičių generavimas.",
+    "aim":"Laisvai pasirinkta tema sukurti prasmingą dinaminę struktūrą, kurioje privalo būti keletas skirtingų laukų: skaitmeninio, simbolinio, teksto eilutės tipų. Taip pat bent vienas iš laukų privalo būti generuojamas atsitiktinai.",
+    "example":"informacija ruošiama....",
+    "tasks":{"pirma":"Papildyti programą taip, kad sukurtos struktūros duomenis galėtumėte užpildyti įvedant iš klaviatūros.",
+      "antra":"Sukurti 2 rekursyvias funkcijas paskaičiuojančias faktorialą ir sumą, <i>nenaudojant sąlygos sakinio if.</i>",
+      "trecia":"Sugalvoti <span style='color:red'>savo unikalią</span> rekursyvią funkciją. Visos klasikinės rekursyvios funkcijos aprašytosios literatūroje yra netinkamos."
     }
   }
 
