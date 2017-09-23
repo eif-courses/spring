@@ -1,41 +1,44 @@
 {
   "0": {
-    "head":"Struktūrinio programavimo įvadas. Darbas su ASCII kodų lentele.",
-    "aim":"Laisvai pasirinkta tema sukurti algoritmą, kuriame panaudotumėte simbolius iš lentelės ASCII (angl. American Standard Code for Information Interchange).",
-    "example":"<b>Pseudokodas.</b> Algoritmas aprašytas žodžiu. <a target='_blank' href='http://blog.teamtreehouse.com/java-and-everyday-objects'><span class='nuoroda'>(http://pavyzdys.lt)</span></a>. <b>UML diagrama.</b> Braižant galima naudoti bet kuriuos jums žinomus įrankius. Diagramos pavyzdį rasite čia:<a target='_blank' href='https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/class-diagram-for-online-shopping-system-UML/UML_class_diagram_shopping-800x621.PNG'> <span class='nuoroda'>(https://umldiagram.example).</span></a> Projektų valdymo ir automatizavimo įrankiai: <b>Maven</b> - (<a href='https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html'><span class='nuoroda'>https://maven.apache.org/</span></a>). <b>Gradle</b> - (<a href='https://docs.gradle.org/current/release-notes.html'><span class='nuoroda'>https://docs.gradle.org/</span></a>).",
+    "head":"Struktūrinio programavimo įvadas. Darbas su ASCII simbolių lentele.",
+    "aim":"Sukurti konsolinę C/C++ programą ir sugalvoti unikalų algoritmą, kuriame panaudoti žemiau pateiktas funkcijas esnačias 3 ir 4 punkte.",
+    "example":"<b>Pseudokodas.</b> Algoritmas aprašytas žodžiu. <a target='_blank' href='http://www.unf.edu/~broggio/cop2221/2221pseu.htm'><span class='nuoroda'>(http://pavyzdys.lt)</span></a>. <br/><b>Blokinių schemų pavyzdžiai: </b>veiksmų kartojimas, veiksmų pasirinkimas (šakojimas), nuosekli veiksmų seka.<br/><img src='images/pavyzdziai_praktikos/blokine.png' align='left'/><img src='images/pavyzdziai_praktikos/blokine2_3.png' align='right'/>",
     "tasks":{"pirma":"Aprašyti sugalvotą algoritmą pseudo kodu bei nubrėžti šio algoritmo blokinę schemą. ",
-      "antra":"Sukurti sveikojo tipo skaičių masyvą, kuriame išsaugotumėte reikšmes atitinkančias ASCII kodų lentelei.",
-      "trecia":"Išspausdinus masyvą į konsolę privalote gauti rezultatą jūsų vardas ir pavardė naudojant lotyniškus simbolius.",
-      "ketvirta":"Sukurti funkciją, kuri nupieštų paveikslėlį konsolėje arba tekstiniame faile sudarytą iš simbolių esančių ASCII kodų lentelėje."
+      "antra":"Sukurti sveikojo tipo skaičių masyvą <b>mano_vardas</b>, kuriame išsaugotumėte visus simbolius esančius ASCII kodų lentelėje.",
+      "trecia":"Sukurti funkciją, kuri išvestų jūsų vardą ir pavardę. Naudoti prieš tai sukurtą masyyvą <b>mano_vardas</b>.",
+      "ketvirta":"Sukurti funkciją, kuri nupieštų paveikslėlį (laisvai pasirinkta tema) konsolėje arba tekstiniame faile sudarytą iš simbolių esančių ASCII kodų lentelėje."
     }
   },
   "1": {
     "head":"Realaus gyvenimo algoritmas. Kūrybinė užduotis.",
-    "aim":"Tikslas sukurti unikalų realaus gyvenimo bet kokios situacijos algoritmą naudojantis šiuo pavyzdžių: (<span class='nuoroda'><a href='http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm'>http://people.cs.pitt.edu/cs4/</a></span>).",
-    "example":"informacija ruošiama....",
+    "aim":"Sukurti konsolinę programą C/C++ ir įgyvendinti unikalų realaus gyvenimo algoritmą naudojantis šiuo pavyzdžių: (<span class='nuoroda'><a target='_blank' href='http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm'>http://people.cs.pitt.edu/cs4/</a></span>).",
+    "example":"Realaus gyvenimo algoritmo pavyzdys. (<span class='nuoroda'><a target='_blank' href='http://people.cs.pitt.edu/~jmisurda/teaching/cs4/2064/cs0004-2064-algorithm.htm'>http://people.cs.pitt.edu/cs4/</a></span>).",
     "tasks": {
-      "pirma": "Programa turi turėti atskirtas funkcijas ir numatytas išimtis. </i>Prieš tai pateikto pavyzdžio rinktis negalima</i>.",
-      "antra": "Vertinimas priklauso nuo idėjos originalumo ir algoritmo sudėtingumo.",
-      "trecia": "<span style='color:red'>Pastaba!</span> <i>Algoritmas nėra tik cout ar printf() funkcijų panaudojimas.</i>"
+      "pirma": "Aprašyti sugalvotą algoritmą pseudo kodu bei nubrėžti šio algoritmo blokinę schemą.",
+      "antra": "Įvertinti ir realizuoti išimtis, kurios gali nulemti jūsų algortimo veikimą neteisingai.",
+      "trecia": "Realizuoti įvedimą iš klaviatūros ir priklausomai nuo pasirinkto punkto algortimo baigtis turi būti skirtinga.",
+      "ketvirta":"<span style='color:red'>Pastaba!</span> <i>Prieš tai pateikto pavyzdžio rinktis negalima. Temą privalote sugalvoti patys.</i>"
+
     }
   },
   "2": {
     "head":"Rodyklės, sąlygos sakiniai: for, while, if ir dinaminė atmintis.",
     "aim":"Laisvai pasirinkta tema arba pasirinkta iš duoto sąrašo: (<span class='nuoroda'><a target='_blank' href='https://docs.google.com/document/d/e/2PACX-1vRM-1vmuSibkodS-RcZfVj_L9UE-fzoPiWWQZQVvMtW_O3gk9YhFBic5asOEBouAUidTH2dbZIyVZ7x/pub'>temų sąrašas</a></span>) sukurti unikalų algoritmą, kurio rezultatą išvesti į ekraną.",
-    "example":"",
+    "example":"Dinaminės struktūros ir kitus pavyzdžius rasite čia: (<span class='nuoroda'><a target='_blank' href='https://github.com/eif-courses/C-C-/tree/master/Pavyzd%C5%BEiai'>https://github.com/eif-courses/</a></span>).",
     "tasks":{"pirma":"Sukurti dinaminę struktūrą su šio tipo laukais pvz: int * pointer, char c, float sk, int [50], array, char name[50], visi laukai yra privalomi.",
       "antra":"Sugalvoti 10 skirtingų funkcijų pvz: kurios grąžintų reikšmę, turėtų 2 parametrus, be parametrų, nieko negrąžintų ir kt. jas panaudoti konstruojant programos pagrindinį algoritmą.",
-      "trecia":"Panaudoti while, for, if, switch sakinius ir kelias laisvai pasirinktas funkcijas iš paskaitų metu išdėstytos teorijos.",
-      "ketvirta": "Paunaudoti šias funkcijas malloc(), calloc(), realloc() skirtas dinaminei atminčiai išskirti ir funkciją sizeof skirtą paskaičiuoti tipo dydžiui."
+      "trecia":"Panaudoti while, for, if, switch sakinius ir 3 laisvai pasirinktas funkcijas iš paskaitų metu išdėstytos teorijos.",
+      "ketvirta": "Paunaudoti šias funkcijas: malloc(), calloc(), realloc() skirtas dinaminei atminčiai išskirti ir funkciją sizeof skirtą paskaičiuoti tipo dydžiui."
     }
   },
   "3": {
-    "head":"Struktūros, dinaminė atmintis, rekursija, atsitiktinių skaičių generavimas.",
-    "aim":"Laisvai pasirinkta tema sukurti prasmingą dinaminę struktūrą, kurioje privalo būti keletas skirtingų laukų: skaitmeninio, simbolinio, teksto eilutės tipų. Taip pat bent vienas iš laukų privalo būti generuojamas atsitiktinai.",
-    "example":"informacija ruošiama....",
-    "tasks":{"pirma":"Papildyti programą taip, kad sukurtos struktūros duomenis galėtumėte užpildyti įvedant iš klaviatūros.",
-      "antra":"Sukurti 2 rekursyvias funkcijas paskaičiuojančias faktorialą ir sumą, <i>nenaudojant sąlygos sakinio if.</i>",
-      "trecia":"Sugalvoti <span style='color:red'>savo unikalią</span> rekursyvią funkciją. Visos klasikinės rekursyvios funkcijos aprašytosios literatūroje yra netinkamos."
+    "head":"Darbas su tekstiniais dokumentais.",
+    "aim":"Laisvai pasirinkta tema sugalvoti algoritmą, kuriame būtų naudojami tekstiniai dokumentai informacijai nuskaityti, įrašyti ir papildyti.",
+    "example":"<b>Darbas su failais. </b>(<span class='nuoroda'><a target='_blank' href=' https://www.programiz.com/c-programming/c-file-input-output'>https://www.programiz.com/c-programming/c-file-input-output</a></span>).",
+    "tasks":{"pirma":"Sukurti šias funkcijas skirtas: nuskaityti, įrašyti ir papildyti tekstinį dokumentą.",
+      "antra":"Priklausomai nuo sugalvotos temos sugalvoti dvi skirtingas funkcijas skirtas darbui su tekstiniais failais.",
+      "trecia":"Sukurti kelias skirtingas funkcijas skirtas HTML žymių kalbos elementų generavimui. pvz: table, h1, p ir t.t.",
+      "ketvirta": "Panaudoti sukurtas funkcijas skirtas HTML elementų generavimui ir jas išvesti į <b>index.html</b> failą. Rezultato peržiūra per interneto naršyklę."
     }
   }
 

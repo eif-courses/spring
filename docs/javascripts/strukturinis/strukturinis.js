@@ -55,8 +55,8 @@ $.getJSON("tasks/strukturinis/tasks.json", function (data) {
         var currentTask = $("#currentTask"+i);
 
         if(currentDate >= m.format('YYYY-MM-DD') && currentDate <= d.format('YYYY-MM-DD') ){
-            currentTask.css("border-left", 'solid 5px midnightblue');
-            currentTask.css("background-color", 'rgb(230, 234, 241)');
+          //  currentTask.css("border-left", 'solid 5px midnightblue');
+           // currentTask.css("background-color", 'rgb(230, 234, 241)');
         }
 
         var count = 0;
