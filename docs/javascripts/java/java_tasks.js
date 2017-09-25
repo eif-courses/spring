@@ -15,31 +15,53 @@ $.getJSON("tasks/java/tasks.json", function (data) {
         // Task deadline
         var m = moment(a);
         var d = moment(c);
-        if(i <= 6){
+        if(i <= 3){
+
             m.diff(b, 'days');
             m.add(7 * i, 'days');
 
             d.diff(b, 'days');
             d.add(7 * i, 'days'); // 0 1 2 3 4
         }
+        if(i === 4){
+            m.diff(b, 'days');
+            m.add(7 * i, 'days');
+
+            d.diff(b, 'days');
+            d.add(7 * i+7, 'days'); // 0 1 2 3 4
+        }
+        if(i === 5){
+            m.diff(b, 'days');
+            m.add(7 * i+7, 'days');
+
+            d.diff(b, 'days');
+            d.add(7 * i+14, 'days'); // 0 1 2 3 4
+        }
+        if(i === 6){
+            m.diff(b, 'days');
+            m.add(7 * i+ 14, 'days');
+
+            d.diff(b, 'days');
+            d.add(7 * i+21, 'days'); // 0 1 2 3 4
+        }
         // 3 paskutines uzduotys
         if(i === 7){
             m.diff(b, 'days');
-            m.add(7 * i, 'days');
+            m.add(7 * i+21, 'days');
             d.diff(b, 'days');
-            d.add(7 * i + 7, 'days'); // 0 1 2 3 4
+            d.add(7 * i + 21, 'days'); // 0 1 2 3 4
         }
         if(i === 8){
             m.diff(b, 'days');
-            m.add(7 * i + 7, 'days');
+            m.add(7 * i + 21, 'days');
             d.diff(b, 'days');
-            d.add(7 * i + 14, 'days'); // 0 1 2 3 4
+            d.add(7 * i + 28, 'days'); // 0 1 2 3 4
         }
         if(i === 9){
             m.diff(b, 'days');
-            m.add(7 * i + 14, 'days');
+            m.add(7 * i + 28, 'days');
             d.diff(b, 'days');
-            d.add(7 * i + 21, 'days'); // 0 1 2 3 4
+            d.add(7 * i + 35, 'days'); // 0 1 2 3 4
         }
         $(".accordion").click(function () {
             this.classList.toggle("active");
