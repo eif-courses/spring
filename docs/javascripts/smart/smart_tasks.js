@@ -41,18 +41,7 @@ $.getJSON("tasks/smart/tasks.json", function (data) {
             d.diff(b, 'days');
             d.add(7 * i + 21, 'days'); // 0 1 2 3 4
         }
-        if(i === 10){
-            m.diff(b, 'days');
-            m.add(7 * i + 21, 'days');
-            d.diff(b, 'days');
-            d.add(7 * i + 21, 'days'); // 0 1 2 3 4
-        }
-        if(i === 11){
-            m.diff(b, 'days');
-            m.add(7 * i + 28, 'days');
-            d.diff(b, 'days');
-            d.add(7 * i + 28, 'days'); // 0 1 2 3 4
-        }
+
         $(".accordion").click(function () {
             this.classList.toggle("active");
             this.nextElementSibling.classList.toggle("show");

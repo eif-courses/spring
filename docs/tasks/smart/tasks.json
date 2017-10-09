@@ -83,32 +83,14 @@
     "8": {
       "head":"Pagrindiniai išdėstymo būdai. Views and layouts. (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
       "aim":"IN PROGRESS..............................",
-       "example":"informacija ruošiama....",
-       "tasks":{"pirma":"IN PROGRESS..............................",
-          "antra":"IN PROGRESS..............................",
+       "example":"Activities, Fragmentai, Intentai, Notifications.",
+       "tasks":{"pirma":"Sensoriai ir kt. ",
+          "antra":"Standartiniai komponentai, controls..",
           "trecia":"IN PROGRESS.............................."
       }
   },
      "9": {
-      "head":"Sensoriai ir kt. (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
-      "aim":"IN PROGRESS..............................",
-       "example":"informacija ruošiama....",
-       "tasks":{"pirma":"IN PROGRESS..............................",
-          "antra":"IN PROGRESS..............................",
-          "trecia":"IN PROGRESS.............................."
-      }
-  },
-     "10": {
-      "head":"Standartiniai komponentai, controls. (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
-      "aim":"IN PROGRESS..............................",
-       "example":"informacija ruošiama....",
-       "tasks":{"pirma":"IN PROGRESS..............................",
-          "antra":"IN PROGRESS..............................",
-          "trecia":"IN PROGRESS.............................."
-      }
-  },
-     "11": {
-      "head":"Activities, Fragmentai, Intentai, Notifications. (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
+      "head":" (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
       "aim":"IN PROGRESS..............................",
        "example":"informacija ruošiama....",
        "tasks":{"pirma":"IN PROGRESS..............................",
