@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28fdee-cd6b-4b72-a9f2-f00124ab59a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-36x36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-180x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-310x310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-70x70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/wcls-logo-512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/style/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/sw-toolbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/beta_pwa/sw.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" afterPath="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/slides/security/slides.json" afterPath="$PROJECT_DIR$/docs/slides/security/slides.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/smart.html" afterPath="$PROJECT_DIR$/docs/smart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/tasks/smart/tasks.json" afterPath="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/htm_js.html" afterPath="$PROJECT_DIR$/docs/htm_js.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +53,8 @@
       <file leaf-file-name="java.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/java.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
-              <caret line="128" column="28" lean-forward="false" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+            <state relative-caret-position="2541">
+              <caret line="141" column="20" lean-forward="false" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,37 +62,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <file leaf-file-name="htm_js.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/htm_js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="112" column="59" lean-forward="false" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
+            <state relative-caret-position="420">
+              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strukturinis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/strukturinis.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2583">
-              <caret line="123" column="76" lean-forward="false" selection-start-line="123" selection-start-column="76" selection-end-line="123" selection-end-column="76" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security_taskas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/javascripts/security/security_taskas.js">
+      <file leaf-file-name="browserconfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1504806738386" expanded="true" signature="311:328" ph="..." />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +105,8 @@
       <file leaf-file-name="slides.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/slides/security/slides.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="52" column="87" lean-forward="true" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+            <state relative-caret-position="1092">
+              <caret line="52" column="87" lean-forward="false" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -80,8 +115,8 @@
       <file leaf-file-name="smart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/smart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+            <state relative-caret-position="2457">
+              <caret line="117" column="29" lean-forward="false" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -90,7 +125,7 @@
       <file leaf-file-name="tasks.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
+            <state relative-caret-position="1974">
               <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
               <folding />
             </state>
@@ -100,7 +135,7 @@
       <file leaf-file-name="java_tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/javascripts/java/java_tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="1050">
               <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <marker date="1506335006038" expanded="true" signature="2252:2291" ph="..." />
@@ -114,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart_tasks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smart_tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="1008">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <marker date="1507569547990" expanded="true" signature="1709:1748" ph="..." />
                 <marker date="1507569547990" expanded="true" signature="1810:1849" ph="..." />
@@ -173,12 +208,15 @@
         <option value="$PROJECT_DIR$/docs/tasks/strukturinis/tasks.json" />
         <option value="$PROJECT_DIR$/docs/javascripts/java/java_tasks.js" />
         <option value="$PROJECT_DIR$/docs/java.html" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/strukturinis.html" />
         <option value="$PROJECT_DIR$/docs/slides/security/slides.json" />
         <option value="$PROJECT_DIR$/docs/smart.html" />
         <option value="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
         <option value="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" />
+        <option value="$PROJECT_DIR$/docs/htm_js.html" />
+        <option value="$PROJECT_DIR$/docs/manifests/manifest.json" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/docs/beta_pwa/manifest.json" />
       </list>
     </option>
   </component>
@@ -226,27 +264,7 @@
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-              <item name="smart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="smart" type="462c0819:PsiDirectoryNode" />
+              <item name="beta_pwa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,14 +281,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\beta_pwa" />
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\manifests" />
       <recent name="C:\Users\Marius\WebstormProjects\spring\docs\tasks\strukturinis" />
       <recent name="C:\Users\Marius\WebstormProjects\spring\docs\javascripts\strukturinis" />
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\tasks" />
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\tasks\praktika" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,7 +353,9 @@
       <workItem from="1506604200964" duration="597000" />
       <workItem from="1506808829807" duration="1743000" />
       <workItem from="1506936716352" duration="619000" />
-      <workItem from="1507569362427" duration="218000" />
+      <workItem from="1507569362427" duration="315000" />
+      <workItem from="1507700156480" duration="335000" />
+      <workItem from="1507997383174" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="Simple fix">
       <created>1504806852826</created>
@@ -476,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506810563207</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2qqqfd">
+      <created>1507569587275</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507569587275</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40480000" />
+    <option name="totallyTimeSpent" value="42899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -540,42 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3297">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/smart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="152" column="103" lean-forward="false" selection-start-line="152" selection-start-column="103" selection-end-line="152" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/slides/java/slides.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3297">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/smart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3192">
@@ -837,31 +829,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="128" column="28" lean-forward="false" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2352">
-          <caret line="112" column="59" lean-forward="false" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/strukturinis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2583">
           <caret line="123" column="76" lean-forward="false" selection-start-line="123" selection-start-column="76" selection-end-line="123" selection-end-column="76" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,23 +852,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/slides/security/slides.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="52" column="87" lean-forward="true" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+        <state relative-caret-position="1092">
+          <caret line="52" column="87" lean-forward="false" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/smart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        <state relative-caret-position="2457">
+          <caret line="117" column="29" lean-forward="false" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
+        <state relative-caret-position="1974">
           <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
           <folding />
         </state>
@@ -902,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/javascripts/java/java_tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="1050">
           <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
           <folding>
             <marker date="1506335006038" expanded="true" signature="2252:2291" ph="..." />
@@ -917,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <marker date="1507569547990" expanded="true" signature="1709:1748" ph="..." />
             <marker date="1507569547990" expanded="true" signature="1810:1849" ph="..." />
@@ -927,6 +901,64 @@
             <marker date="1507569547990" expanded="true" signature="3818:3835" ph="..." />
             <marker date="1507569547990" expanded="true" signature="4084:4101" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="141" column="20" lean-forward="false" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/manifests/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/htm_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ServiceWorker/pwabuilder-sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
