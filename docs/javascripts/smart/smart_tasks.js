@@ -29,18 +29,7 @@ $.getJSON("tasks/smart/tasks.json", function (data) {
             d.diff(b, 'days');
             d.add(7 * i + 7, 'days'); // 0 1 2 3 4
         }
-        if(i === 8){
-            m.diff(b, 'days');
-            m.add(7 * i + 7, 'days');
-            d.diff(b, 'days');
-            d.add(7 * i + 14, 'days'); // 0 1 2 3 4
-        }
-        if(i === 9){
-            m.diff(b, 'days');
-            m.add(7 * i + 14, 'days');
-            d.diff(b, 'days');
-            d.add(7 * i + 21, 'days'); // 0 1 2 3 4
-        }
+
 
         $(".accordion").click(function () {
             this.classList.toggle("active");

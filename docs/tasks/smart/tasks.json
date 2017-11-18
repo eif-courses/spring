@@ -79,24 +79,7 @@
       "trecia":"Realizuoti 3 elgsenos projektavimo šablonus (angl. Behavioral (angl. Structural design pattern).",
       "ketvirta":"Sukurti savo unikalų projektavimo šabloną, kuris priklausytų vienai iš trijų prieš tai pateiktų sričių: Creational, Structural, Behavioral."
     }
-  },
-    "8": {
-      "head":"Pagrindiniai išdėstymo būdai. Views and layouts. (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
-      "aim":"IN PROGRESS..............................",
-       "example":"Activities, Fragmentai, Intentai, Notifications.",
-       "tasks":{"pirma":"Sensoriai ir kt. ",
-          "antra":"Standartiniai komponentai, controls..",
-          "trecia":"IN PROGRESS.............................."
-      }
-  },
-     "9": {
-      "head":" (<span style='color: red'>INFORMACIJA TIKSLINAMA</span>).",
-      "aim":"IN PROGRESS..............................",
-       "example":"informacija ruošiama....",
-       "tasks":{"pirma":"IN PROGRESS..............................",
-          "antra":"IN PROGRESS..............................",
-          "trecia":"IN PROGRESS.............................."
-      }
+
   }
 
 }

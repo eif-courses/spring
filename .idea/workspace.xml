@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28fdee-cd6b-4b72-a9f2-f00124ab59a1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-36x36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/android-icon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/apple-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-310x310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/ms-icon-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/icons/wcls-logo-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/style/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/sw-toolbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/beta_pwa/sw.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/beta_pwa/index.html" afterPath="$PROJECT_DIR$/docs/beta_pwa/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/htm_js.html" afterPath="$PROJECT_DIR$/docs/htm_js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" afterPath="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/smart.html" afterPath="$PROJECT_DIR$/docs/smart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/tasks/smart/tasks.json" afterPath="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +56,7 @@
       <file leaf-file-name="java.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/java.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2541">
+            <state relative-caret-position="2397">
               <caret line="141" column="20" lean-forward="false" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,8 +68,48 @@
       <file leaf-file-name="htm_js.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/htm_js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smart.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/smart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="116" column="206" lean-forward="true" selection-start-line="116" selection-start-column="206" selection-end-line="116" selection-end-column="206" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/security.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="praktika.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/praktika.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patterns.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/patterns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,70 +118,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="119">
               <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="browserconfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sw.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sw-toolbox.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw-toolbox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1347">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/beta_pwa/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,16 +128,26 @@
       <file leaf-file-name="smart_tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <marker date="1507569547990" expanded="true" signature="1709:1748" ph="..." />
-                <marker date="1507569547990" expanded="true" signature="1810:1849" ph="..." />
-                <marker date="1507569547990" expanded="true" signature="2470:2480" ph="..." />
-                <marker date="1507569547990" expanded="true" signature="2577:2615" ph="..." />
-                <marker date="1507569547990" expanded="true" signature="3818:3835" ph="..." />
-                <marker date="1507569547990" expanded="true" signature="4084:4101" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="1343:1382" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="1444:1483" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="2104:2114" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="2211:2249" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="3452:3469" ph="..." />
+                <marker date="1510997331448" expanded="true" signature="3718:3735" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="48" column="115" lean-forward="true" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,14 +196,14 @@
         <option value="$PROJECT_DIR$/docs/java.html" />
         <option value="$PROJECT_DIR$/docs/strukturinis.html" />
         <option value="$PROJECT_DIR$/docs/slides/security/slides.json" />
-        <option value="$PROJECT_DIR$/docs/smart.html" />
-        <option value="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
-        <option value="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" />
-        <option value="$PROJECT_DIR$/docs/htm_js.html" />
         <option value="$PROJECT_DIR$/docs/manifests/manifest.json" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/beta_pwa/manifest.json" />
         <option value="$PROJECT_DIR$/docs/beta_pwa/index.html" />
+        <option value="$PROJECT_DIR$/docs/htm_js.html" />
+        <option value="$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js" />
+        <option value="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
+        <option value="$PROJECT_DIR$/docs/smart.html" />
       </list>
     </option>
   </component>
@@ -210,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,11 +248,43 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="praktika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="smart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +369,11 @@
       <workItem from="1506936716352" duration="619000" />
       <workItem from="1507569362427" duration="315000" />
       <workItem from="1507700156480" duration="335000" />
-      <workItem from="1507997383174" duration="2404000" />
+      <workItem from="1507997383174" duration="2555000" />
+      <workItem from="1509228824238" duration="600000" />
+      <workItem from="1509389437754" duration="12000" />
+      <workItem from="1509389485734" duration="96000" />
+      <workItem from="1510997161477" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Simple fix">
       <created>1504806852826</created>
@@ -475,25 +536,35 @@
       <option name="project" value="LOCAL" />
       <updated>1507999832557</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2qqqfd">
+      <created>1508000075914</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508000075914</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43316000" />
+    <option name="totallyTimeSpent" value="45142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36065573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/patterns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/params.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -724,20 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/security.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/praktika.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -773,10 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2583">
           <caret line="123" column="76" lean-forward="false" selection-start-line="123" selection-start-column="76" selection-end-line="123" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1504806738386" expanded="true" signature="311:328" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,23 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="87" lean-forward="false" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/smart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
-          <caret line="117" column="29" lean-forward="false" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,35 +844,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <marker date="1506335006038" expanded="true" signature="2252:2291" ph="..." />
-            <marker date="1506335006038" expanded="true" signature="2353:2392" ph="..." />
-            <marker date="1506335006038" expanded="true" signature="3013:3023" ph="..." />
-            <marker date="1506335006038" expanded="true" signature="3120:3158" ph="..." />
-            <marker date="1506335006038" expanded="true" signature="4361:4378" ph="..." />
-            <marker date="1506335006038" expanded="true" signature="4627:4644" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1507569547990" expanded="true" signature="1709:1748" ph="..." />
-            <marker date="1507569547990" expanded="true" signature="1810:1849" ph="..." />
-            <marker date="1507569547990" expanded="true" signature="2470:2480" ph="..." />
-            <marker date="1507569547990" expanded="true" signature="2577:2615" ph="..." />
-            <marker date="1507569547990" expanded="true" signature="3818:3835" ph="..." />
-            <marker date="1507569547990" expanded="true" signature="4084:4101" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/java.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
+        <state relative-caret-position="2397">
           <caret line="141" column="20" lean-forward="false" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -854,23 +857,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/manifests/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/manifests/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/docs/ServiceWorker/pwabuilder-sw.js" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/README.md" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw-toolbox.js" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw.js" />
+    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/index.html" />
     <entry file="file://$PROJECT_DIR$/docs/htm_js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/ServiceWorker/pwabuilder-sw.js">
+    <entry file="file://$PROJECT_DIR$/docs/security.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/praktika.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/patterns.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -880,58 +899,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="119">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/icons/browserconfig.xml">
+    <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw-toolbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1347">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1510997331448" expanded="true" signature="1343:1382" ph="..." />
+            <marker date="1510997331448" expanded="true" signature="1444:1483" ph="..." />
+            <marker date="1510997331448" expanded="true" signature="2104:2114" ph="..." />
+            <marker date="1510997331448" expanded="true" signature="2211:2249" ph="..." />
+            <marker date="1510997331448" expanded="true" signature="3452:3469" ph="..." />
+            <marker date="1510997331448" expanded="true" signature="3718:3735" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/sw.js">
+    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="116">
+          <caret line="48" column="115" lean-forward="true" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/beta_pwa/index.html">
+    <entry file="file://$PROJECT_DIR$/docs/smart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="-564">
+          <caret line="116" column="206" lean-forward="true" selection-start-line="116" selection-start-column="206" selection-end-line="116" selection-end-column="206" />
           <folding />
         </state>
       </provider>
