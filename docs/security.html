@@ -115,40 +115,46 @@
                 <div id="Testas" class="tabcontent">
 <br/>
                     <p style="font-weight: bold">Web saugumo egzaminų tvarkaraštis</p>
-                        <table class="w3-table-all">
-                            <thead>
-                            <tr class="w3-red">
-                                <th>Grupė</th>
-                                <th>Data</th>
-                                <th>Laikas</th>
-                                <th>Vieta</th>
-                            </tr>
-                            </thead>
-                            <tr>
-                                <td>PI15B (<a style="color:blue" target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=UUqGQwxHFEOpOVe_McsROIvoJvCKyHVPvWo_cRWd6JtUNzk2OTJUSDNKN1lGWklLUVc0QVlUTVlYMC4u"> išankstinis</a> )</td>
-                                <td> 2017-12-19</td>
-                                <td>13:30</td>
-                                <td>205</td>
-                            </tr>
-                            <tr>
-                                <td>PI15B ( <a style="color:blue" target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=UUqGQwxHFEOpOVe_McsROIvoJvCKyHVPvWo_cRWd6JtUNzk2OTJUSDNKN1lGWklLUVc0QVlUTVlYMC4u"> išankstinis</a> )</td>
-                                <td>2017-12-22</td>
-                                <td>13:30</td>
-                                <td>301</td>
-                            </tr>
-                            <tr>
-                                <td>PI15B (<a style="color:blue" target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=UUqGQwxHFEOpOVe_McsROIvoJvCKyHVPvWo_cRWd6JtUQlQ1MlNQSkxFNldOSjM2RlRGVVJNOUkySC4u"> sesijos metu</a> )</td>
-                                <td>2018-01-08</td>
-                                <td>13:30</td>
-                                <td>203</td>
-                            </tr>
-                            <tr>
-                                <td>PI15S (<a style="color:blue" target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=UUqGQwxHFEOpOVe_McsROIvoJvCKyHVPvWo_cRWd6JtUNVQ2NkpXSFpQQk5RMTVZTFFDVjQwWUxJQy4u"> sesijos metu</a> )</td>
-                                <td>2018-01-11</td>
-                                <td>9:30</td>
-                                <td>104a</td>
-                            </tr>
-                        </table>
+
+                    <div id="Testas2"></div>
+                    <script>
+                        $.ajax({
+                            url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS4DZrXLZBvL1uzEQr3GAGkfO2oEVjUxcspxrtIlt7U-P-fnqakct25BpvVnW1MP94LHFbzVXDHNTsm/pub?output=csv',
+                            dataType: 'text',
+                        }).done(successFunction);
+                        function successFunction(data) {
+                            var allRows = data.split(/\r?\n|\r/);
+                            var table = '<table>';
+                            var linkas = '<a style=\" color:blue\" target=_blank href=';
+
+                            $("#Testas2").append("<table class=\"w3-table-all\">  <thead>\n" +
+                                "                            <tr class=\"w3-red\">\n" +
+                                "                                <th>Grupė</th>\n" +
+                                "                                <th>Egzamino testo nuoroda</th>\n" +
+                                "                            </tr>\n" +
+                                "                            </thead>");
+                            for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
+
+                                var rowCells = allRows[singleRow].split(',');
+                                $("#Testas2").append("<tr>");
+                                for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
+
+
+                                    if(rowCell % 2 == 0){
+                                        $("#Testas2").append('<td>'+rowCells[rowCell]+'</td>');
+                                    }
+                                    else {
+                                        $("#Testas2").append('<td>'+linkas+rowCells[rowCell]+'>'+'(Egzamino nuoroda)'+'</a></td>');
+                                    }
+
+
+                                }
+                                $("#Testas2").append("</tr>");
+                            }
+                            $("#Testas2").append("</table>");
+                        }
+                    </script>
+
                     <ul class="w3-ul">
                         <br/>
                         <li><p style="font-weight: bold">Web saugumo egzamino galimos temos</p></li>
@@ -162,6 +168,7 @@
                         <li>> Duota iliustracija atsakyti ar teisinga ši iliustracija ir ką ji vaizduoja.</li>
 
                     </ul>
+
 
                 </div>
                 <hr>
