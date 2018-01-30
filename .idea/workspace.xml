@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb28fdee-cd6b-4b72-a9f2-f00124ab59a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/javascripts/manup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/javascripts/pwabuilder-sw-register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/javascripts/pwabuilder-sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/offline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/security.html" afterPath="$PROJECT_DIR$/docs/security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,33 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="htm_js.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/htm_js.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/smart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="java.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/java.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3298">
+            <state relative-caret-position="0">
               <caret line="194" column="7" lean-forward="false" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/security.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,34 +62,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="security.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/security.html">
+      <file leaf-file-name="pwabuilder-sw.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/javascripts/pwabuilder-sw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="praktika.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/praktika.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patterns.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/patterns.html">
+      <file leaf-file-name="offline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/offline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pwabuilder-sw-register.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/javascripts/pwabuilder-sw-register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -99,26 +105,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smart_tasks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <marker date="1510997331448" expanded="true" signature="1343:1382" ph="..." />
-                <marker date="1510997331448" expanded="true" signature="1444:1483" ph="..." />
-                <marker date="1510997331448" expanded="true" signature="2104:2114" ph="..." />
-                <marker date="1510997331448" expanded="true" signature="2211:2249" ph="..." />
-                <marker date="1510997331448" expanded="true" signature="3452:3469" ph="..." />
-                <marker date="1510997331448" expanded="true" signature="3718:3735" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +117,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
               <caret line="48" column="115" lean-forward="false" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/javascripts/materialize.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,7 +176,6 @@
         <option value="$PROJECT_DIR$/docs/strukturinis.html" />
         <option value="$PROJECT_DIR$/docs/slides/security/slides.json" />
         <option value="$PROJECT_DIR$/docs/manifests/manifest.json" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/beta_pwa/manifest.json" />
         <option value="$PROJECT_DIR$/docs/beta_pwa/index.html" />
         <option value="$PROJECT_DIR$/docs/htm_js.html" />
@@ -185,6 +183,10 @@
         <option value="$PROJECT_DIR$/docs/tasks/smart/tasks.json" />
         <option value="$PROJECT_DIR$/docs/smart.html" />
         <option value="$PROJECT_DIR$/docs/security.html" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/docs/javascripts/manup.min.js" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/docs/offline.html" />
       </list>
     </option>
   </component>
@@ -195,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="841" />
-    <option name="y" value="166" />
+    <option name="x" value="297" />
+    <option name="y" value="163" />
     <option name="width" value="480" />
     <option name="height" value="515" />
   </component>
@@ -215,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,19 +233,19 @@
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,15 +256,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\javascripts" />
+      <recent name="C:\Users\Marius\WebstormProjects\spring" />
       <recent name="C:\Users\Marius\WebstormProjects\spring\docs\beta_pwa" />
       <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
       <recent name="C:\Users\Marius\WebstormProjects\spring\docs\manifests" />
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\tasks\strukturinis" />
-      <recent name="C:\Users\Marius\WebstormProjects\spring\docs\javascripts\strukturinis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marius\WebstormProjects\spring\docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,7 +348,9 @@
       <workItem from="1513935036408" duration="992000" />
       <workItem from="1514887228322" duration="160000" />
       <workItem from="1514897821816" duration="42000" />
-      <workItem from="1515017887493" duration="4193000" />
+      <workItem from="1515017887493" duration="4373000" />
+      <workItem from="1515130160506" duration="142000" />
+      <workItem from="1517320827626" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="Simple fix">
       <created>1504806852826</created>
@@ -545,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513935385766</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2qqqfd">
+      <created>1515022089355</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1515022089355</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57947000" />
+    <option name="totallyTimeSpent" value="59383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -562,7 +572,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3604651" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3604651" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -612,43 +622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="97" lean-forward="true" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3129">
-          <caret line="149" column="53" lean-forward="false" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tasks/java/tasks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3129">
-          <caret line="149" column="53" lean-forward="false" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/tasks/java/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -717,13 +690,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/javascripts/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/javascripts/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -867,14 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/javascripts/smart/smart_tasks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -890,10 +848,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="115" lean-forward="false" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/smart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="194" column="7" lean-forward="false" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/security.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -909,39 +903,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+    <entry file="file://$PROJECT_DIR$/docs/javascripts/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/smart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/java.html">
+    <entry file="file://$PROJECT_DIR$/docs/javascripts/manup.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="194" column="7" lean-forward="false" selection-start-line="194" selection-start-column="7" selection-end-line="194" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/security.html">
+    <entry file="file://$PROJECT_DIR$/docs/tasks/smart/tasks.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="127" column="59" lean-forward="false" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="816">
+          <caret line="48" column="115" lean-forward="false" selection-start-line="48" selection-start-column="115" selection-end-line="48" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/offline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/javascripts/pwabuilder-sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/javascripts/pwabuilder-sw-register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

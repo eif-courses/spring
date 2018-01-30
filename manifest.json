@@ -1,0 +1,25 @@
+{
+    "dir": "ltr",
+    "lang": "lt",
+    "name": "Programavimas kalba Java",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://eif-courses.github.io/spring",
+    "short_name": "Programavimas k",
+    "theme_color": "transparent",
+    "description": "Objektiškai orientuotasis programavimas kalba Java kursas, Vilniaus kolegija Elektronikos ir informatikos fakultetas",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/favicon.ico",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/images/favicon.ico",
+            "sizes": "16x16"
+        }
+    ]
+}
