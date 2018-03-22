@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+        <mapping-file>qqqqq/GyvunaEntity.xml</mapping-file>
+        <mapping-file>qqqqq/GyvunasEntity.xml</mapping-file>
+        <mapping-file>qqqqq/KambarysEntity.xml</mapping-file>
+        <mapping-file>qqqqq/SuoEntity.xml</mapping-file>
+        <class>qqqqq.GyvunaEntity</class>
+        <class>qqqqq.GyvunasEntity</class>
+        <class>qqqqq.KambarysEntity</class>
+        <class>qqqqq.SuoEntity</class>
+        <properties>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/test"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionUserName" value=""/>
+            <property name="openjpa.ConnectionPassword" value=""/>
+            <property name="openjpa.Log" value="DefaultLevel=TRACE, Tool=INFO"/>
+        </properties>
+    </persistence-unit>
+</persistence>

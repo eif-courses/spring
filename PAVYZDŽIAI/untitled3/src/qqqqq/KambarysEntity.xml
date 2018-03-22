@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="qqqqq.KambarysEntity">
+        <table name="kambarys" schema="test" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="perimetras">
+                <column name="perimetras" precision="11"/>
+            </basic>
+            <basic name="duruSkaicius">
+                <column name="duruSkaicius" precision="11"/>
+            </basic>
+            <many-to-one name="gyvunasBySpalva" optional="true" target-entity="qqqqq.GyvunasEntity">
+                <join-column name="spalva" referenced-column-name="id"/>
+            </many-to-one>
+            <one-to-one name="gyvunaById" optional="true" target-entity="qqqqq.GyvunaEntity">
+                <join-column name="id" referenced-column-name="id"/>
+            </one-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

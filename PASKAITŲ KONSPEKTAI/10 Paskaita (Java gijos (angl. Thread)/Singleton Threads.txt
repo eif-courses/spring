@@ -1,0 +1,1 @@
+http://www.newthinktank.com/2012/09/singleton-design-pattern-tutorial/

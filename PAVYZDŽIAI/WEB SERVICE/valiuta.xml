@@ -1,0 +1,618 @@
+<ExchangeRates>
+  <item>
+    <date>2014.10.14</date>
+    <currency>AED</currency>
+    <quantity>10</quantity>
+    <rate>7.4097</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>AFN</currency>
+    <quantity>100</quantity>
+    <rate>4.7448</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ALL</currency>
+    <quantity>100</quantity>
+    <rate>2.4708</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>AMD</currency>
+    <quantity>1000</quantity>
+    <rate>6.5995</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ARS</currency>
+    <quantity>10</quantity>
+    <rate>3.2131</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>AUD</currency>
+    <quantity>1</quantity>
+    <rate>2.3778</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>AZN</currency>
+    <quantity>1</quantity>
+    <rate>3.4748</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BAM</currency>
+    <quantity>1</quantity>
+    <rate>1.7701</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BDT</currency>
+    <quantity>100</quantity>
+    <rate>3.5138</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BGN</currency>
+    <quantity>1</quantity>
+    <rate>1.7655</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BHD</currency>
+    <quantity>1</quantity>
+    <rate>7.2188</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BYR</currency>
+    <quantity>10000</quantity>
+    <rate>2.5524</rate>
+    <unit>LTL per 10000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BOB</currency>
+    <quantity>10</quantity>
+    <rate>3.9387</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>BRL</currency>
+    <quantity>1</quantity>
+    <rate>1.1349</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>CAD</currency>
+    <quantity>1</quantity>
+    <rate>2.4325</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>CHF</currency>
+    <quantity>1</quantity>
+    <rate>2.8574</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>CLP</currency>
+    <quantity>1000</quantity>
+    <rate>4.5942</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>CNY</currency>
+    <quantity>10</quantity>
+    <rate>4.4531</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>COP</currency>
+    <quantity>1000</quantity>
+    <rate>1.3306</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>CZK</currency>
+    <quantity>10</quantity>
+    <rate>1.2555</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>DJF</currency>
+    <quantity>100</quantity>
+    <rate>1.5381</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>DKK</currency>
+    <quantity>10</quantity>
+    <rate>4.6386</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>DZD</currency>
+    <quantity>100</quantity>
+    <rate>3.2629</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>EGP</currency>
+    <quantity>10</quantity>
+    <rate>3.8065</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ETB</currency>
+    <quantity>10</quantity>
+    <rate>1.3605</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>EUR</currency>
+    <quantity>1</quantity>
+    <rate>3.4528</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>GBP</currency>
+    <quantity>1</quantity>
+    <rate>4.3885</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>GEL</currency>
+    <quantity>1</quantity>
+    <rate>1.5543</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>GNF</currency>
+    <quantity>10000</quantity>
+    <rate>3.8555</rate>
+    <unit>LTL per 10000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>HKD</currency>
+    <quantity>10</quantity>
+    <rate>3.5083</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>HRK</currency>
+    <quantity>10</quantity>
+    <rate>4.5114</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>HUF</currency>
+    <quantity>100</quantity>
+    <rate>1.1296</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>IDR</currency>
+    <quantity>10000</quantity>
+    <rate>2.2289</rate>
+    <unit>LTL per 10000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>YER</currency>
+    <quantity>100</quantity>
+    <rate>1.2654</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ILS</currency>
+    <quantity>10</quantity>
+    <rate>7.3192</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>INR</currency>
+    <quantity>100</quantity>
+    <rate>4.4495</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>IQD</currency>
+    <quantity>1000</quantity>
+    <rate>2.3372</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>IRR</currency>
+    <quantity>10000</quantity>
+    <rate>1.0263</rate>
+    <unit>LTL per 10000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ISK</currency>
+    <quantity>100</quantity>
+    <rate>2.2561</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>JOD</currency>
+    <quantity>1</quantity>
+    <rate>3.8398</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>JPY</currency>
+    <quantity>100</quantity>
+    <rate>2.5402</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>KES</currency>
+    <quantity>100</quantity>
+    <rate>3.0546</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>KGS</currency>
+    <quantity>100</quantity>
+    <rate>4.9743</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>KRW</currency>
+    <quantity>1000</quantity>
+    <rate>2.5418</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>KWD</currency>
+    <quantity>1</quantity>
+    <rate>9.4298</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>KZT</currency>
+    <quantity>100</quantity>
+    <rate>1.5008</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>LBP</currency>
+    <quantity>1000</quantity>
+    <rate>1.7988</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>LKR</currency>
+    <quantity>100</quantity>
+    <rate>2.0871</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MAD</currency>
+    <quantity>10</quantity>
+    <rate>3.1124</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MDL</currency>
+    <quantity>10</quantity>
+    <rate>1.8568</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MGA</currency>
+    <quantity>1000</quantity>
+    <rate>1.0069</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MYR</currency>
+    <quantity>10</quantity>
+    <rate>8.3640</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MKD</currency>
+    <quantity>100</quantity>
+    <rate>5.6018</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MNT</currency>
+    <quantity>1000</quantity>
+    <rate>1.4743</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MXN</currency>
+    <quantity>10</quantity>
+    <rate>2.0231</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>MZN</currency>
+    <quantity>100</quantity>
+    <rate>8.7064</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>NOK</currency>
+    <quantity>10</quantity>
+    <rate>4.1937</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>NZD</currency>
+    <quantity>1</quantity>
+    <rate>2.1351</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>PAB</currency>
+    <quantity>1</quantity>
+    <rate>2.7216</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>PEN</currency>
+    <quantity>10</quantity>
+    <rate>9.3623</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>PHP</currency>
+    <quantity>100</quantity>
+    <rate>6.0825</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>PKR</currency>
+    <quantity>100</quantity>
+    <rate>2.6479</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>PLN</currency>
+    <quantity>10</quantity>
+    <rate>8.2335</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>QAR</currency>
+    <quantity>10</quantity>
+    <rate>7.4735</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>RON</currency>
+    <quantity>10</quantity>
+    <rate>7.8363</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>RSD</currency>
+    <quantity>100</quantity>
+    <rate>2.8924</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>RUB</currency>
+    <quantity>100</quantity>
+    <rate>6.7579</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>SAR</currency>
+    <quantity>10</quantity>
+    <rate>7.2558</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>SEK</currency>
+    <quantity>10</quantity>
+    <rate>3.7793</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>SGD</currency>
+    <quantity>1</quantity>
+    <rate>2.1411</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>SYP</currency>
+    <quantity>100</quantity>
+    <rate>1.6852</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>THB</currency>
+    <quantity>100</quantity>
+    <rate>8.3910</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TJS</currency>
+    <quantity>10</quantity>
+    <rate>5.4261</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TMT</currency>
+    <quantity>10</quantity>
+    <rate>9.5496</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TND</currency>
+    <quantity>1</quantity>
+    <rate>1.5153</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TRY</currency>
+    <quantity>1</quantity>
+    <rate>1.1965</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TWD</currency>
+    <quantity>100</quantity>
+    <rate>8.9566</rate>
+    <unit>LTL per 100 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>TZS</currency>
+    <quantity>1000</quantity>
+    <rate>1.6133</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>UAH</currency>
+    <quantity>10</quantity>
+    <rate>2.1151</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>UYU</currency>
+    <quantity>10</quantity>
+    <rate>1.1145</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>USD</currency>
+    <quantity>1</quantity>
+    <rate>2.7285</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>UZS</currency>
+    <quantity>1000</quantity>
+    <rate>1.1477</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>VEF</currency>
+    <quantity>10</quantity>
+    <rate>4.3255</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>VND</currency>
+    <quantity>10000</quantity>
+    <rate>1.2826</rate>
+    <unit>LTL per 10000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>XAF</currency>
+    <quantity>1000</quantity>
+    <rate>5.2437</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>XDR</currency>
+    <quantity>1</quantity>
+    <rate>4.0557</rate>
+    <unit>LTL per 1 currency unit</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>XOF</currency>
+    <quantity>1000</quantity>
+    <rate>5.2644</rate>
+    <unit>LTL per 1000 currency units</unit>
+  </item>
+  <item>
+    <date>2014.10.14</date>
+    <currency>ZAR</currency>
+    <quantity>10</quantity>
+    <rate>2.4522</rate>
+    <unit>LTL per 10 currency units</unit>
+  </item>
+</ExchangeRates>

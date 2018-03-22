@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.FXMLDocumentController">
+    <children>
+      <TabPane layoutY="93.0" prefHeight="444.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <tabs>
+          <Tab text="Studentų sąrašas">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="565.0" prefWidth="809.0">
+                     <children>
+                        <ListView fx:id="sarasas" layoutX="14.0" layoutY="14.0" onMouseDragReleased="#handleButtonAction" prefHeight="328.0" prefWidth="401.0" />
+                        <PieChart fx:id="skritulineDiagrama" layoutX="499.0" layoutY="22.0" prefHeight="328.0" prefWidth="382.0" />
+                        <Button fx:id="mygtukas" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="402.0" text="Tikrinti egzamino rezultatus" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Komponentai">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="445.0" prefWidth="809.0">
+                     <children>
+                        <TextArea fx:id="tekstinisLaukelis" layoutX="14.0" layoutY="136.0" prefHeight="219.0" prefWidth="234.0" />
+                        <ImageView fitHeight="100.0" fitWidth="128.0" layoutX="125.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Users/Marius/Desktop/vilniaus-kolegija-logotipas.png" />
+                           </image>
+                        </ImageView>
+                        <CheckBox layoutX="155.0" layoutY="93.0" mnemonicParsing="false" text="CheckBox" />
+                        <ComboBox layoutX="14.0" layoutY="19.0" prefWidth="150.0" />
+                        <DatePicker fx:id="kalendorius" layoutX="192.0" layoutY="19.0" />
+                        <ProgressBar layoutX="14.0" layoutY="54.0" prefHeight="18.0" prefWidth="236.0" progress="0.0" />
+                        <ProgressIndicator layoutX="14.0" layoutY="81.0" progress="0.0" />
+                        <RadioButton layoutX="57.0" layoutY="93.0" mnemonicParsing="false" text="RadioButton" />
+                        <ToggleButton layoutX="448.0" layoutY="19.0" mnemonicParsing="false" text="ToggleButton" />
+                        <TextField layoutX="545.0" layoutY="19.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Nustatymai">
+              <content>
+                <AnchorPane fx:id="antraste" minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT">
+                     <children>
+                        <VBox fx:id="tabo_stilius" layoutX="814.0" prefHeight="194.0" prefWidth="193.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Accordion layoutX="100.0" layoutY="2000.0">
+                                <panes>
+                                  <TitledPane animated="false" text="Ekrano tema">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </TitledPane>
+                                  <TitledPane fx:id="nustatymuPanele" animated="false" prefHeight="187.0" prefWidth="202.0" text="Antraštės spalva">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="323.0" prefWidth="200.0">
+                                             <children>
+                                                <ColorPicker fx:id="palete" layoutX="13.0" layoutY="14.0" onAction="#pakeistiSpalva" prefHeight="25.0" prefWidth="174.0" />
+                                                <Rectangle fx:id="spalvosDaugiakampis" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="51.0" layoutX="14.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+                                             </children>
+                                          </AnchorPane>
+                                    </content>
+                                  </TitledPane>
+                                  <TitledPane animated="false" text="Ekrano raiška">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="144.0" prefWidth="200.0">
+                                             <children>
+                                                <RadioButton layoutX="135.0" layoutY="81.0" mnemonicParsing="false" text="4 x 3" />
+                                                <RadioButton layoutX="67.0" layoutY="74.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="53.0" text="16 x 9" />
+                                                <ComboBox layoutX="25.0" layoutY="23.0" prefWidth="150.0" promptText="Ekrano dydis" />
+                                                <Label layoutX="8.0" layoutY="81.0" text="Mastelis" />
+                                                <Line endX="100.0" layoutX="100.0" layoutY="68.0" startX="-100.0" />
+                                             </children>
+                                          </AnchorPane>
+                                    </content>
+                                  </TitledPane>
+                                </panes>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Accordion>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Pane fx:id="antraste" minHeight="-Infinity" minWidth="-Infinity" prefHeight="94.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fill="#4c4094" layoutX="110.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ELEKTRONIKOS IR INFORMATIKOS FAKULTETAS" wrappingWidth="662.13671875">
+               <font>
+                  <Font name="Calibri" size="32.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="71.0" fitWidth="69.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Marius/Desktop/vilniaus-kolegija-logotipas.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
+    <script>
+
+        $(function(){
+            $.getJSON('http://localhost:8080/api/courses/', function(data) {
+
+                var  text, i;
+                text = "<ul class='collection with-header'>"+'<li class="collection-header"><h4>KURSAI API</h4></li>';
+                for (i = 0; i < data._embedded.courses.length; i++) {
+                    text += "<li class='collection-item'>" + data._embedded.courses[i].title + "</li>";
+                    console.log(data._embedded.courses[i].title);
+                }
+                text += "</ul>";
+                document.getElementById("demo").innerHTML = text;
+
+            });
+        });
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+<div>
+    <p id="demo"></p>
+
+</div>
+</body>
+</html>

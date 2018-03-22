@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="548.0" prefWidth="863.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="stiliauskeitimasfx.FXMLDocumentController">
+    <children>
+      <Pane layoutY="4.0" prefHeight="83.0" prefWidth="473.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="85.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Norint pakeisti stilių spauskite f1 arba f2 kalvišus" wrappingWidth="621.35546875">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <TabPane layoutX="14.0" layoutY="83.0" prefHeight="414.0" prefWidth="709.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+        <tabs>
+          <Tab text="Pirmas tabas">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="456.0" prefWidth="823.0">
+                     <children>
+                        <ColorPicker layoutX="120.0" layoutY="60.0" prefHeight="25.0" prefWidth="172.0" />
+                        <DatePicker layoutX="119.0" layoutY="14.0" />
+                        <VBox layoutX="661.0" prefHeight="441.0" prefWidth="202.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <TitledPane animated="false" layoutX="269.0" layoutY="139.0" text="Edit shapes">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="40.0" layoutX="24.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="164.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="14.400000000000006" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="110.4" />
+                                          <Button layoutX="30.0" layoutY="14.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="152.0" text="Choose option" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="8.400000000000006" AnchorPane.topAnchor="4.400000000000006" />
+                                          <RadioButton layoutX="44.0" layoutY="82.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="112.0" text="Hide rectangle" AnchorPane.bottomAnchor="71.4" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="34.400000000000006" AnchorPane.topAnchor="82.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </TitledPane>
+                              <TitledPane animated="false" layoutX="505.0" layoutY="152.0" text="Edit text">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <PasswordField layoutX="26.0" layoutY="24.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                          <TextArea layoutX="26.0" layoutY="63.0" prefHeight="103.0" prefWidth="149.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </TitledPane>
+                           </children>
+                        </VBox>
+                        <Text layoutX="21.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasirinkite data" />
+                        <Text layoutX="16.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasirinkite spalva" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+    </children>
+</AnchorPane>

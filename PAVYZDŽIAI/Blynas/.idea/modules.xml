@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blynas.iml" filepath="$PROJECT_DIR$/.idea/modules/Blynas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blynas_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Blynas_main.iml" group="Blynas" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blynas_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Blynas_test.iml" group="Blynas" />
+    </modules>
+  </component>
+</project>

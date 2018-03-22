@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>ForumCinemas.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(128,128,128); font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+ForumCinemas.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">com.company; 
+ 
+</span><span class="s0">import </span><span class="s1">java.io.FileNotFoundException; 
+</span><span class="s0">import </span><span class="s1">java.util.ArrayList; 
+</span><span class="s0">import </span><span class="s1">java.util.List; 
+ 
+</span><span class="s2">/** 
+ * Created by Marius on 11/14/2015. 
+ */</span><span class="s1"> 
+</span><span class="s0">public class </span><span class="s1">ForumCinemas </span><span class="s0">extends </span><span class="s1">KinoTeatras{ 
+ 
+    </span><span class="s0">public </span><span class="s1">ForumCinemas(String pavadinimas) { 
+        </span><span class="s0">super</span><span class="s1">(pavadinimas); 
+    } 
+    @Override 
+    </span><span class="s0">protected </span><span class="s1">Filmas[] sudarytiFilmuSarasa(SavaitesDiena savaitesDiena, Filmas [] filmai) { 
+ 
+        </span><span class="s0">try </span><span class="s1">{ 
+            Tvarkarastis tvarkarastis = </span><span class="s0">new </span><span class="s1">Tvarkarastis(); 
+            tvarkarastis.filmuTvarkarastis(savaitesDiena, filmai); 
+        } </span><span class="s0">catch </span><span class="s1">(FileNotFoundException e) { 
+            e.printStackTrace(); 
+        } 
+        </span><span class="s0">return </span><span class="s1">filmai; 
+    } 
+ 
+ 
+ 
+} 
+</span></pre>
+</body>
+</html>

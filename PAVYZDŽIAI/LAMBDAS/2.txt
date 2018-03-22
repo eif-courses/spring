@@ -1,0 +1,32 @@
+#!/bin/bash
+
+read -p 'iveskite pirma faila: ' failas1
+
+f1=`wc -c < ${failas1}`
+
+read -p 'iveskite antra faila: ' failas2
+
+f2=`stat -c %s ${failas2}`
+
+echo 'f1 dydis:' `wc -c ${failas1}`
+
+echo 'f2 dydis:' `wc -c ${failas2}`
+
+if [ -x ${failas1} -a -x ${failas2} ]; then
+ 
+echo 'Nurodyti failai turi vykdymo (x) teise.'
+
+fi
+
+if [ "${f1}" -gt "${f2}" ] ; then
+
+echo -e "\x1B[01;93m ${failas1} \x1B[0m" 'Didesnis'
+
+elif [ "${f2}" -gt "${f1}" ] ; then
+
+echo -e http://math.hws.edu/javanotes/c10/s5.html
+http://www.journaldev.com/1663/java-generics-tutorial-example-class-interface-methods-wildcards-and-much-more
+
+http://www.javacodegeeks.com/2014/05/java-8-features-tutorial.html
+
+
